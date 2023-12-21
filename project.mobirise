@@ -15,7 +15,7 @@
         "mainFont": "Jost",
         "display1Font": "Jost",
         "display1Size": "2.5",
-        "display2Font": "Noto Sans Devanagari",
+        "display2Font": "Jost",
         "display2Size": "3",
         "display5Font": "Jost",
         "display5Size": "1.5",
@@ -54,7 +54,7 @@
       }
     ],
     "favicon": false,
-    "mbrsiteDomain": "efratshechternlp",
+    "mbrsiteDomain": "w1o6znmmyc",
     "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -90,12 +90,12 @@
     },
     "pwa-switcher": false,
     "gdpr": false,
-    "chatbutton": false
+    "chatbutton": {}
   },
   "pages": {
     "nlp.html": {
       "settings": {
-        "title": "Nlp",
+        "title": "בבאר שבע NLP טיפול רגשי בשיטת",
         "socialSharingUrl": "https://אפרתשכטר/מאמנת רגשית/מתמחה לנוער וילדים/NLP/NLP MASTER",
         "meta_descr": ""
       },
@@ -1183,12 +1183,12 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "אפרת שכטר",
+        "title": "בבאר שבע NLP אפרת שכטר | טיפול רגשי בשיטת",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "socialSharingUrl": "https//אפרת שכטר /אימון רגשי/טיפול רגשי/NLP/NLP MASTER"
+        "socialSharingUrl": "https//אפרת שכטר /אימון רגשי/טיפול רגשי/NLP/NLP MASTER/טיפול רגשי בבאר שבע"
       },
       "components": [
         {
@@ -2069,12 +2069,12 @@
             "id": 21139,
             "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2UhxAv5\"></div>"
           },
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": "chat",
-          "_params": {},
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "_name": "form02",
