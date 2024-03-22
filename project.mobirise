@@ -71,7 +71,7 @@
     "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "uniqCompNum": 264,
-    "versionPublish": "5.9.4",
+    "versionPublish": "5.9.13",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "publishChangesOnly": true,
@@ -89,7 +89,8 @@
     "cookiesAlert": false,
     "gdpr": false,
     "chatbutton": {},
-    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TJWNR94LXF\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-TJWNR94LXF');\n</script>"
+    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TJWNR94LXF\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-TJWNR94LXF');\n</script>",
+    "global_footer_custom": "<script src=\"https://cdn.enable.co.il/licenses/enable-L25197m6h825pgny-0324-57204/init.js\"></script>z"
   },
   "pages": {
     "nlp.html": {
