@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "אפרת שכטר",
-    "currentPage": "nlp.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -64,12 +64,12 @@
       }
     ],
     "favicon": false,
-    "mbrsiteDomain": "mwrua5eql8",
+    "mbrsiteDomain": "3kmvyajjsh",
     "imageResize": false,
     "robotsSwitcher": false,
-    "sitemapSwitcher": false,
+    "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": false,
+    "siteUrl": "https://efratshechternlp.com/",
     "uniqCompNum": 264,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
@@ -2395,7 +2395,7 @@
     },
     "workshops.html": {
       "settings": {
-        "title": "סדנאות",
+        "title": "סדנאות כישורים חברתיים|סדנאות חוסן",
         "order": "1"
       },
       "components": [
