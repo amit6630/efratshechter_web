@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "אפרת שכטר",
-    "currentPage": "workshops.html",
+    "currentPage": "nlp.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -64,7 +64,7 @@
       }
     ],
     "favicon": false,
-    "mbrsiteDomain": "xxd6urn7pz",
+    "mbrsiteDomain": "qq6hb1hh28",
     "imageResize": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
@@ -88,7 +88,22 @@
     "lazyLoad": true,
     "cookiesAlert": false,
     "gdpr": false,
-    "chatbutton": {},
+    "chatbutton": {
+      "phone": "+972534401616",
+      "message": "",
+      "size": "65px",
+      "backgroundColor": "#e5ddd5",
+      "position": "left",
+      "popupMessage": "הי👋\n\nמוזמנים לכתוב לי ונתאם לכם פגישה 🔥\n\n",
+      "showPopup": true,
+      "showOnIE": true,
+      "autoOpenTimeout": "5",
+      "headerColor": "#39847a",
+      "headerTitle": "👋 דברו איתי בווואצפ",
+      "placeholder": "לכתוב כאן",
+      "zIndex": 10,
+      "enabled": true
+    },
     "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TJWNR94LXF\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-TJWNR94LXF');\n</script>",
     "global_footer_custom": "<script src=\"https://cdn.enable.co.il/licenses/enable-L25197m6h825pgny-0324-57204/init.js\"></script>z"
   },
@@ -682,25 +697,6 @@
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {}
-        },
-        {
-          "alias": "eb-chats-widget",
-          "_isSecondary": true,
-          "_styles": {},
-          "_name": "eb-chats-widget",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"elb-widgets eb-chats-widget\" group=\"Chat\" once=\"chat\"><div style=\"max-width:600px;margin:0 auto;padding: 70px 0;\">    <div class=\"popupChatsPlaceholder\">        <style>            .popupChatsPlaceholder h2::after {content: \"\"; position: absolute; left: 0; bottom: 0; height: 100%; width: 100%;}        </style>        <h2>POPUP CHAT WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2>        <img src=\"../eb-chats-widget/assets/posts.jpg\">    </div></div></section>",
-          "_anchor": "eb-chats-widget-6t",
-          "_isUserblock": true,
-          "_cid": "tXnbkuEIts",
-          "safe": {
-            "id": 21139,
-            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2UhxAv5\"></div>"
-          },
-          "_protectedParams": [],
-          "_global": false,
-          "_once": "chat",
           "_params": {}
         },
         {
@@ -1944,26 +1940,6 @@
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "eb-chats-widget",
-          "_isSecondary": true,
-          "_styles": {},
-          "_name": "eb-chats-widget",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"elb-widgets eb-chats-widget\" group=\"Chat\" once=\"chat\"><div style=\"max-width:600px;margin:0 auto;padding: 70px 0;\">    <div class=\"popupChatsPlaceholder\">        <style>            .popupChatsPlaceholder h2::after {content: \"\"; position: absolute; left: 0; bottom: 0; height: 100%; width: 100%;}        </style>        <h2>POPUP CHAT WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2>        <img src=\"../eb-chats-widget/assets/posts.jpg\">    </div></div></section>",
-          "_cid": "tWJMBis7LW",
-          "_anchor": "eb-chats-widget-6p",
-          "safe": {
-            "id": 21139,
-            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2UhxAv5\"></div>"
-          },
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": false,
-          "_once": "chat",
           "_params": {}
         },
         {
