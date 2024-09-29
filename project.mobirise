@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "אפרת שכטר",
-    "currentPage": "nlp.html",
+    "currentPage": "workshops.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -64,16 +64,16 @@
       }
     ],
     "favicon": false,
-    "mbrsiteDomain": "u4bnclppgn",
+    "mbrsiteDomain": "7df6jedurg",
     "imageResize": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://efratshechternlp.com/",
-    "uniqCompNum": 267,
+    "uniqCompNum": 270,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nDisallow: /admin/\nDisallow: /private/\nAllow: /images/",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nDisallow: /admin/\nDisallow: /private/\nAllow: /images/\n",
     "publishChangesOnly": true,
     "usedWebp": false,
     "site_lang": "",
@@ -113,7 +113,7 @@
         "title": "טיפול רגשי לילדים | טיפול רגשי לבני נוער | טיפול רגשי פרטני | NLP לילדים ולנוער |נפש לילדים ולנוער | טיפול מותאם אישית | אפרת שכטר.",
         "socialSharingUrl": "https://אפרתשכטר/מאמנת רגשית/מתמחה לנוער וילדים/NLP/NLP MASTER",
         "meta_descr": "טיפול רגשי לילדים | טיפול רגשי לבני נוער | טיפול רגשי פרטני | NLP לילדים ולנוער | חוסן נפשי לילדים ולנוער | טיפול מותאם אישית | אפרת שכטר.\nבדף זה תוכלו ללמוד על הטיפול הרגשי הפרטני שאפרת שכטר \nמציעה לילדים ולנוער. הטיפול מותאם באופן אישי לכל ילד, ומסייע בהתמודדות עם אתגרים רגשיים כמו חרדה, חוסר ביטחון עצמי, קשיים חברתיים, ועיבוד רגשות מורכבים. באמצעות גישות וטכניקות NLP מתקדמות, אפרת מעניקה לילדים את הכלים הנדרשים לשיפור איכות חייהם, לחיזוק הביטחון העצמי, ולפיתוח יכולות התמודדות עם מצבים מאתגרים.\n\nהטיפול הרגשי הפרטני נבנה במטרה לתת מענה לצרכים האישיים של כל ילד או נער, והוא מתמקד בהבנה עמוקה של רגשותיהם ובמציאת דרכים להתמודד בצורה חיובית עם הקשיים שהם חווים. כל תהליך הטיפול מלווה בהדרכה צמודה, הקשבה ותמיכה, במטרה לעזור לילדים לבנות חוסן נפשי ולצמוח בצורה בריאה ובטוחה.\n\nאפרת שכטר דואגת לספק סביבה תומכת ואמפתית במהלך הטיפול, שבה הילדים יכולים להרגיש בטוחים ונינוחים לבטא את עצמם ולהתמודד עם הקשיים האישיים שלהם בצורה פתוחה ומקבלת.",
-        "order": "2"
+        "order": "3"
       },
       "components": [
         {
@@ -822,7 +822,7 @@
           },
           "_name": "menu1",
           "_sourceTheme": "realtym4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu1 realtym4_menu1 menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<select title=\"Widget Count\" name=\"widgetCount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\" selected>2</option>\n\t\t</select>\n\t\t<select title=\"Menu Align\" name=\"menuAlign\">\n\t\t\t<option value=\"left\">Left</option>\n\t\t\t<option value=\"center\" selected>Center</option>\n\t\t\t<option value=\"right\">Right</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n\t\t<input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Logo\" inline name=\"logoSize\" min=\"2\" max=\"8\" step=\"0.2\" value=\"4\" condition=\"showLogo\">\n\t\t<header>Colors</header>\n\t\t<input type=\"color\" title=\"Menu\" name=\"MenuColor\" value=\"#3b5abb\">\n\t\t<input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n\t\t<input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#ffffff\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n\t\t<div class=\"menu-content-top\">\n\t\t\t<div class=\"menu-logo\">\n\t\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t\t<a href=\"https://mobiri.se\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/transparent-background-3.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</span>\n\t\t\t\t\t<span mbr-if=\"showBrand\" mbr-theme-style=\"display-5\" mbr-buttons class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a href=\"https://mobiri.se\" class=\"brand-link mbr-black\" data-app-selector=\".brand-link\" data-app-placeholder=\"Type Text\">\n\t\t\t\t\t\t\tRealtyM4</a></span>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"menu-content-right\">\n\t\t\t\t<div class=\"info-widget\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-mobile\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">דברו איתי</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\"><a href=\"tel:+972 534401616\" class=\"text-success\">0534401616</a></p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 1\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-clock\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">ראשון עד חמישי<br></p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">פתוח:08:00-20:00</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 2\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mobi-mbri-letter mbr-iconfont\"></span>\n\t\t\t\t\t<div class=\"widget-content mbr-fonts-style\">\n\t\t\t\t\t\t<p class=\"widget-title\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">office@example.com</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">info@medical.com</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-lg btn-success-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; דברו איתי&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"menu-bottom\">\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown js-float-line\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">המלצות</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">סדנאות</a>\n\t\t\t\t\t\t<div class=\"dropdown-menu\">\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">New\n\t\t\t\t\t\t\t\tItem</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"> NLP מהו</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">אודות</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-887\"><a class=\"mbr-black text-white dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">מי אני<br></a><a class=\"mbr-black text-white show dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">למה אצלי</a><a class=\"mbr-black text-white show dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">שאלות נפוצות</a></div>\n\t\t\t\t\t</li></ul>\n\t\t\t</div>\n\t\t\t<button class=\"navbar-toggler \" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t</div>\n\t</nav>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu1 realtym4_menu1 menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<select title=\"Widget Count\" name=\"widgetCount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\" selected>2</option>\n\t\t</select>\n\t\t<select title=\"Menu Align\" name=\"menuAlign\">\n\t\t\t<option value=\"left\">Left</option>\n\t\t\t<option value=\"center\" selected>Center</option>\n\t\t\t<option value=\"right\">Right</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n\t\t<input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Logo\" inline name=\"logoSize\" min=\"2\" max=\"8\" step=\"0.2\" value=\"4\" condition=\"showLogo\">\n\t\t<header>Colors</header>\n\t\t<input type=\"color\" title=\"Menu\" name=\"MenuColor\" value=\"#3b5abb\">\n\t\t<input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n\t\t<input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#ffffff\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n\t\t<div class=\"menu-content-top\">\n\t\t\t<div class=\"menu-logo\">\n\t\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t\t<a href=\"https://mobiri.se\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/transparent-background-3.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</span>\n\t\t\t\t\t<span mbr-if=\"showBrand\" mbr-theme-style=\"display-5\" mbr-buttons class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a href=\"https://mobiri.se\" class=\"brand-link mbr-black\" data-app-selector=\".brand-link\" data-app-placeholder=\"Type Text\">\n\t\t\t\t\t\t\tRealtyM4</a></span>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"menu-content-right\">\n\t\t\t\t<div class=\"info-widget\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-mobile\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">דברו איתי</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\"><a href=\"tel:+972 534401616\" class=\"text-success\">0534401616</a></p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 1\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-clock\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">ראשון עד חמישי<br></p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">פתוח:08:00-20:00</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 2\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mobi-mbri-letter mbr-iconfont\"></span>\n\t\t\t\t\t<div class=\"widget-content mbr-fonts-style\">\n\t\t\t\t\t\t<p class=\"widget-title\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">office@example.com</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">info@medical.com</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-lg btn-success-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; דברו איתי&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"menu-bottom\">\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown js-float-line\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white text-primary\" href=\"nlp.html#testimonials02-4u\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">המלצות</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown open\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle show\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" aria-expanded=\"true\">סדנאות</a>\n\t\t\t\t\t\t<div class=\"dropdown-menu show\" data-bs-popper=\"none\">\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item text-primary\" href=\"workshops.html#anews1-73\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">סדנת כישורים חברתיים</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item text-primary\" href=\"workshops.html#anews1-73\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">סדנת הכנה לכיתה א</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item text-primary\" href=\"workshops.html#footer01-7b\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">סדנת חוסן</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white text-primary\" href=\"nlp.html#header2-6c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"> NLP מהו</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">אודות</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-887\"><a class=\"mbr-black text-white dropdown-item text-primary\" href=\"index.html#team03-4i\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">מי אני<br></a><a class=\"mbr-black text-white show dropdown-item text-primary\" href=\"index.html#features1-65\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">למה אצלי</a><a class=\"mbr-black text-white show dropdown-item text-primary\" href=\"nlp.html#content6-6l\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">שאלות נפוצות</a></div>\n\t\t\t\t\t</li></ul>\n\t\t\t</div>\n\t\t\t<button class=\"navbar-toggler \" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t</div>\n\t</nav>\n</section>",
           "_cid": "unjb8ivj5F",
           "_anchor": "menu1-7d",
           "_protectedParams": [],
@@ -2030,7 +2030,7 @@
           },
           "_name": "menu1",
           "_sourceTheme": "realtym4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu1 realtym4_menu1 menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<select title=\"Widget Count\" name=\"widgetCount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\" selected>2</option>\n\t\t</select>\n\t\t<select title=\"Menu Align\" name=\"menuAlign\">\n\t\t\t<option value=\"left\">Left</option>\n\t\t\t<option value=\"center\" selected>Center</option>\n\t\t\t<option value=\"right\">Right</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n\t\t<input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Logo\" inline name=\"logoSize\" min=\"2\" max=\"8\" step=\"0.2\" value=\"4\" condition=\"showLogo\">\n\t\t<header>Colors</header>\n\t\t<input type=\"color\" title=\"Menu\" name=\"MenuColor\" value=\"#3b5abb\">\n\t\t<input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n\t\t<input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#ffffff\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n\t\t<div class=\"menu-content-top\">\n\t\t\t<div class=\"menu-logo\">\n\t\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t\t<a href=\"https://mobiri.se\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/transparent-background-3.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</span>\n\t\t\t\t\t<span mbr-if=\"showBrand\" mbr-theme-style=\"display-5\" mbr-buttons class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a href=\"https://mobiri.se\" class=\"brand-link mbr-black\" data-app-selector=\".brand-link\" data-app-placeholder=\"Type Text\">\n\t\t\t\t\t\t\tRealtyM4</a></span>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"menu-content-right\">\n\t\t\t\t<div class=\"info-widget\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-mobile\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">דברו איתי</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\"><a href=\"tel:+972 534401616\" class=\"text-success\">0534401616</a></p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 1\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-clock\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">ראשון עד חמישי<br></p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">פתוח:08:00-20:00</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 2\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mobi-mbri-letter mbr-iconfont\"></span>\n\t\t\t\t\t<div class=\"widget-content mbr-fonts-style\">\n\t\t\t\t\t\t<p class=\"widget-title\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">office@example.com</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">info@medical.com</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-lg btn-success-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; דברו איתי&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"menu-bottom\">\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown js-float-line\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">המלצות</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">סדנאות</a>\n\t\t\t\t\t\t<div class=\"dropdown-menu\">\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">New\n\t\t\t\t\t\t\t\tItem</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"> NLP מהו</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">אודות</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-887\"><a class=\"mbr-black text-white dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">מי אני<br></a><a class=\"mbr-black text-white show dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">למה אצלי</a><a class=\"mbr-black text-white show dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">שאלות נפוצות</a></div>\n\t\t\t\t\t</li></ul>\n\t\t\t</div>\n\t\t\t<button class=\"navbar-toggler \" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t</div>\n\t</nav>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu1 realtym4_menu1 menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<select title=\"Widget Count\" name=\"widgetCount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\" selected>2</option>\n\t\t</select>\n\t\t<select title=\"Menu Align\" name=\"menuAlign\">\n\t\t\t<option value=\"left\">Left</option>\n\t\t\t<option value=\"center\" selected>Center</option>\n\t\t\t<option value=\"right\">Right</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n\t\t<input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Logo\" inline name=\"logoSize\" min=\"2\" max=\"8\" step=\"0.2\" value=\"4\" condition=\"showLogo\">\n\t\t<header>Colors</header>\n\t\t<input type=\"color\" title=\"Menu\" name=\"MenuColor\" value=\"#3b5abb\">\n\t\t<input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n\t\t<input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#ffffff\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n\t\t<div class=\"menu-content-top\">\n\t\t\t<div class=\"menu-logo\">\n\t\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t\t<a href=\"https://mobiri.se\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/transparent-background-3.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</span>\n\t\t\t\t\t<span mbr-if=\"showBrand\" mbr-theme-style=\"display-5\" mbr-buttons class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a href=\"https://mobiri.se\" class=\"brand-link mbr-black\" data-app-selector=\".brand-link\" data-app-placeholder=\"Type Text\">\n\t\t\t\t\t\t\tRealtyM4</a></span>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"menu-content-right\">\n\t\t\t\t<div class=\"info-widget\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-mobile\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">דברו איתי</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\"><a href=\"tel:+972 534401616\" class=\"text-success\">0534401616</a></p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 1\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-clock\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">ראשון עד חמישי<br></p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">פתוח:08:00-20:00</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 2\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mobi-mbri-letter mbr-iconfont\"></span>\n\t\t\t\t\t<div class=\"widget-content mbr-fonts-style\">\n\t\t\t\t\t\t<p class=\"widget-title\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">office@example.com</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">info@medical.com</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-lg btn-success-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; דברו איתי&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"menu-bottom\">\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown js-float-line\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white text-primary\" href=\"nlp.html#testimonials02-4u\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">המלצות</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown open\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle show\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" aria-expanded=\"true\">סדנאות</a>\n\t\t\t\t\t\t<div class=\"dropdown-menu show\" data-bs-popper=\"none\">\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item text-primary\" href=\"workshops.html#anews1-73\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">סדנת כישורים חברתיים</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item text-primary\" href=\"workshops.html#anews1-73\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">סדנת הכנה לכיתה א</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item text-primary\" href=\"workshops.html#footer01-7b\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">סדנת חוסן</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white text-primary\" href=\"nlp.html#header2-6c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"> NLP מהו</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">אודות</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-887\"><a class=\"mbr-black text-white dropdown-item text-primary\" href=\"index.html#team03-4i\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">מי אני<br></a><a class=\"mbr-black text-white show dropdown-item text-primary\" href=\"index.html#features1-65\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">למה אצלי</a><a class=\"mbr-black text-white show dropdown-item text-primary\" href=\"nlp.html#content6-6l\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">שאלות נפוצות</a></div>\n\t\t\t\t\t</li></ul>\n\t\t\t</div>\n\t\t\t<button class=\"navbar-toggler \" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t</div>\n\t</nav>\n</section>",
           "_cid": "unjb8ivj5F",
           "_anchor": "menu1-7d",
           "_protectedParams": [],
@@ -2041,7 +2041,7 @@
         {
           "_name": "header01",
           "_sourceTheme": "flexm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header01 flexm5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"12\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"color\" title=\"Title Secondary Color\" value=\"#1b386e\" name=\"title\" condition=\"showTitle\">\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\">\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<input type=\"checkbox\" title=\"Clients\" name=\"showClients\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/flexm5/components/_images/background1.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/flexm5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#F2F2F2\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12\">\n\t\t\t\t<div class=\"content-wrapper\">\n\t\t\t\t\t<div class=\"clients-wrapper\" mbr-if=\"showClients\">\n\t\t\t\t\t\t<div class=\"clients-wrap\">\n\t\t\t\t\t\t\t<div class=\"item features-image\">\n\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t<div class=\"item-img\">\n\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/transparent-background-3.png\" alt=\"Mobirise Website Builder\" title>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title, .mbr-section-btn, .clients-wrapper\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b><span><b>אפרת שכטר</b></span><br>nlp טיפול רגשי בשיטת&nbsp;</b></h1>\n\t\t\t\t\t<div class=\"text-wrapper\">\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .text-wrapper\"></p>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"index.html#form02-48\" data-app-placeholder=\"Type Text\">אני רוצה לעשות שינוי</a></div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header01 flexm5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"12\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"color\" title=\"Title Secondary Color\" value=\"#1b386e\" name=\"title\" condition=\"showTitle\">\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\">\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<input type=\"checkbox\" title=\"Clients\" name=\"showClients\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/flexm5/components/_images/background1.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/flexm5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#F2F2F2\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12\">\n\t\t\t\t<div class=\"content-wrapper\">\n\t\t\t\t\t<div class=\"clients-wrapper\" mbr-if=\"showClients\">\n\t\t\t\t\t\t<div class=\"clients-wrap\">\n\t\t\t\t\t\t\t<div class=\"item features-image\">\n\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t<div class=\"item-img\">\n\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/transparent-background-3.png\" alt=\"Mobirise Website Builder\" title>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title, .mbr-section-btn, .clients-wrapper\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b><span><b>אפרת שכטר</b></span><br></b><b>טיפול רגשי בשיטת&nbsp;</b><br><b>nlp</b></h1>\n\t\t\t\t\t<div class=\"text-wrapper\">\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .text-wrapper\"></p>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"index.html#form02-48\" data-app-placeholder=\"Type Text\">אני רוצה לעשות שינוי</a></div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 1rem)",
@@ -2733,7 +2733,7 @@
     "workshops.html": {
       "settings": {
         "title": "סדנאות ילדים | סדנת כישורים חברתיים | סדנת חוסן | סדנת הכנה לכיתה א' | פיתוח אישי לילדים | חוסן נפשי לילדים | אפרת שכטר",
-        "order": "1",
+        "order": "2",
         "meta_descr": "סדנאות ילדים | סדנת כישורים חברתיים | סדנת חוסן | סדנת הכנה לכיתה א' | פיתוח אישי לילדים | חוסן נפשי לילדים | אפרת שכטר.\nבדף זה תוכלו להכיר את מגוון הסדנאות שמציעה אפרת שכטר, המיועדות לילדים ולנוער. הסדנאות נבנו במטרה לסייע בפיתוח כישורים חברתיים, חיזוק החוסן הנפשי, והכנה רגשית לקראת שלבים חשובים בחיים. כל סדנה מתוכננת בקפידה כדי להעניק לילדים את הכלים והביטחון הנדרשים להתמודדות עם אתגרי היום-יום ולהצלחה בחיים.\n\nבין הסדנאות המוצעות תוכלו למצוא:\n\nסדנת כישורים חברתיים: סדנה המסייעת לילדים ולנוער לפתח ולשפר את יכולות התקשורת והאינטראקציה החברתית, כך שיוכלו ליצור קשרים חיוביים ומשמעותיים עם בני גילם.\nסדנת חוסן: סדנה ייחודית הממוקדת בחיזוק החוסן הנפשי, המספקת כלים להתמודדות עם לחצים ושינויים, ומכינה את הילדים לקראת אתגרים בסביבה הביתית והחברתית.\nסדנת הכנה לכיתה א': סדנה שמטרתה להכין את הילדים מבחינה רגשית ומנטלית למעבר לכיתה א', ולתת להם את הכלים הדרושים להצלחה ולהתמודדות עם תחילת דרכם בבית הספר.\nכל סדנה מועברת בגישה מקצועית, תומכת ומותאמת אישית לצרכים הייחודיים של כל ילד, עם דגש על יצירת סביבה תומכת ובטוחה. הסדנאות מיועדות להעצים את הילדים ולסייע להם להתמודד בצורה חיובית עם אתגרי החיים, ולהפוך אותם לבעלי ביטחון עצמי וכישורים חברתיים בריאים."
       },
       "components": [
@@ -3443,7 +3443,7 @@
           },
           "_name": "menu1",
           "_sourceTheme": "realtym4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu1 realtym4_menu1 menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<select title=\"Widget Count\" name=\"widgetCount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\" selected>2</option>\n\t\t</select>\n\t\t<select title=\"Menu Align\" name=\"menuAlign\">\n\t\t\t<option value=\"left\">Left</option>\n\t\t\t<option value=\"center\" selected>Center</option>\n\t\t\t<option value=\"right\">Right</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n\t\t<input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Logo\" inline name=\"logoSize\" min=\"2\" max=\"8\" step=\"0.2\" value=\"4\" condition=\"showLogo\">\n\t\t<header>Colors</header>\n\t\t<input type=\"color\" title=\"Menu\" name=\"MenuColor\" value=\"#3b5abb\">\n\t\t<input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n\t\t<input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#ffffff\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n\t\t<div class=\"menu-content-top\">\n\t\t\t<div class=\"menu-logo\">\n\t\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t\t<a href=\"https://mobiri.se\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/transparent-background-3.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</span>\n\t\t\t\t\t<span mbr-if=\"showBrand\" mbr-theme-style=\"display-5\" mbr-buttons class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a href=\"https://mobiri.se\" class=\"brand-link mbr-black\" data-app-selector=\".brand-link\" data-app-placeholder=\"Type Text\">\n\t\t\t\t\t\t\tRealtyM4</a></span>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"menu-content-right\">\n\t\t\t\t<div class=\"info-widget\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-mobile\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">דברו איתי</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\"><a href=\"tel:+972 534401616\" class=\"text-success\">0534401616</a></p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 1\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-clock\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">ראשון עד חמישי<br></p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">פתוח:08:00-20:00</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 2\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mobi-mbri-letter mbr-iconfont\"></span>\n\t\t\t\t\t<div class=\"widget-content mbr-fonts-style\">\n\t\t\t\t\t\t<p class=\"widget-title\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">office@example.com</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">info@medical.com</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-lg btn-success-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; דברו איתי&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"menu-bottom\">\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown js-float-line\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">המלצות</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">סדנאות</a>\n\t\t\t\t\t\t<div class=\"dropdown-menu\">\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">New\n\t\t\t\t\t\t\t\tItem</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"> NLP מהו</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">אודות</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-887\"><a class=\"mbr-black text-white dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">מי אני<br></a><a class=\"mbr-black text-white show dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">למה אצלי</a><a class=\"mbr-black text-white show dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">שאלות נפוצות</a></div>\n\t\t\t\t\t</li></ul>\n\t\t\t</div>\n\t\t\t<button class=\"navbar-toggler \" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t</div>\n\t</nav>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu1 realtym4_menu1 menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<select title=\"Widget Count\" name=\"widgetCount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\" selected>2</option>\n\t\t</select>\n\t\t<select title=\"Menu Align\" name=\"menuAlign\">\n\t\t\t<option value=\"left\">Left</option>\n\t\t\t<option value=\"center\" selected>Center</option>\n\t\t\t<option value=\"right\">Right</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n\t\t<input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Logo\" inline name=\"logoSize\" min=\"2\" max=\"8\" step=\"0.2\" value=\"4\" condition=\"showLogo\">\n\t\t<header>Colors</header>\n\t\t<input type=\"color\" title=\"Menu\" name=\"MenuColor\" value=\"#3b5abb\">\n\t\t<input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n\t\t<input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#ffffff\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n\t\t<div class=\"menu-content-top\">\n\t\t\t<div class=\"menu-logo\">\n\t\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t\t<a href=\"https://mobiri.se\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/transparent-background-3.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</span>\n\t\t\t\t\t<span mbr-if=\"showBrand\" mbr-theme-style=\"display-5\" mbr-buttons class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a href=\"https://mobiri.se\" class=\"brand-link mbr-black\" data-app-selector=\".brand-link\" data-app-placeholder=\"Type Text\">\n\t\t\t\t\t\t\tRealtyM4</a></span>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"menu-content-right\">\n\t\t\t\t<div class=\"info-widget\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-mobile\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">דברו איתי</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\"><a href=\"tel:+972 534401616\" class=\"text-success\">0534401616</a></p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 1\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-clock\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">ראשון עד חמישי<br></p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">פתוח:08:00-20:00</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 2\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mobi-mbri-letter mbr-iconfont\"></span>\n\t\t\t\t\t<div class=\"widget-content mbr-fonts-style\">\n\t\t\t\t\t\t<p class=\"widget-title\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">office@example.com</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">info@medical.com</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-lg btn-success-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; דברו איתי&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"menu-bottom\">\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown js-float-line\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white text-primary\" href=\"nlp.html#testimonials02-4u\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">המלצות</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle show\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" aria-expanded=\"true\">סדנאות</a>\n\t\t\t\t\t\t<div class=\"dropdown-menu show\" data-bs-popper=\"none\">\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item text-primary\" href=\"workshops.html#anews1-73\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">סדנת כישורים חברתיים</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item text-primary\" href=\"workshops.html#anews1-73\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">סדנת הכנה לכיתה א</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item text-primary\" href=\"workshops.html#footer01-7b\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">סדנת חוסן</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white text-primary\" href=\"nlp.html#header2-6c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"> NLP מהו</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">אודות</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-887\"><a class=\"mbr-black text-white dropdown-item text-primary\" href=\"index.html#team03-4i\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">מי אני<br></a><a class=\"mbr-black text-white show dropdown-item text-primary\" href=\"index.html#features1-65\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">למה אצלי</a><a class=\"mbr-black text-white show dropdown-item text-primary\" href=\"nlp.html#content6-6l\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">שאלות נפוצות</a></div>\n\t\t\t\t\t</li></ul>\n\t\t\t</div>\n\t\t\t<button class=\"navbar-toggler \" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t</div>\n\t</nav>\n</section>",
           "_cid": "unjb8ivj5F",
           "_anchor": "menu1-7d",
           "_protectedParams": [],
@@ -3562,7 +3562,7 @@
         {
           "_name": "anews1",
           "_sourceTheme": "lodgem5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"news1 lodgem5\" group=\"News\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <select title=\"Count\" name=\"countItem\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#45494E\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12\">\n                <div class=\"main-container\">\n                    <div class=\"center-line\"></div>\n                    <div class=\"history-item history-item-first\">\n                        <div class=\"item-circle\"></div>\n                        <div class=\"img-container\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@PROJECT_PATH@/assets/images/whatsapp-2024-06-05-12.47.52-87eedfbc.jpg\" alt>\n                            </div>\n                        </div>\n                        <div class=\"text-container\">\n                            <div class=\"text-wrapper\" mbr-if=\"showTitle || showText || showButtons\">\n                                <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                    1284 - 1705\n                                </h4>\n                                <h4 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">סדנת כישורים חברתיים</h4>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>NLPסדנת שיפור מיומנויות חברתיות נבנתה באמצעות כלים מעולם ה&nbsp; &nbsp;בכדי להעצים את הילדים ובני הנוער, על מנת שיוכל ליצור קשרים חברתיים מתמשכים בקלות וללא מאמץ<br>הסדנה מועברת באופן חוויתי כמו: יצירה דימיון ומשחק,</b><b><br>:במהלך הסדנה נטפל במגוון נושאים&nbsp;<br>&nbsp;איך להתמודד בסיטואציות חברתיות שונות ומאתגרות<br>&nbsp;איך לשמור על נושא בשיחה וליזום שיחה/ איך להשתלב בשיחה<br>&nbsp;איך לנהל סכסוכים ולהתמודד עם רגשות לא נעימים שמופיעים בסיטואציות חברתיות<br>&nbsp;איך לפתח תקשורת עם הסביבה בדגש על תקשורת חיובית<br><br>למי הסדנה מתאימה<br>לילדים/ות בני 5-11, (בחלוקה לקבוצות גיל) שרוצים לשפר את המיומנויות החברתיות והתקשורת בינם לבין חברים. לילדים/ות המתמודדים עם קשיים חברתיים ורגשיים כגון: ילדים חסרי בטחון / ביישנים/תוקפנים שמעוניינים ללמוד ליצור קשרים <br>חברתיים , או ילדים עם הפרעת קשב וריכוז או ילדים עם קשיי ויסות<br><br>לפרטים אודות מועדי סדנאות קרובות יש לפנות לנייד <a href=\"https://wa.me/972 0534401616\" class=\"text-black\">0534401616</a></b><br></p>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"index.html#form02-48\" data-app-placeholder=\"Type Text\">תשאירו פרטים</a></div>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"history-item history-item-reverse\" mbr-if=\"countItem >1\">\n                        <div class=\"item-circle\"></div>\n                        <div class=\"text-container\">\n                            <div class=\"text-wrapper\" mbr-if=\"showTitle || showText || showButtons\">\n                                <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                    1705 - 1864\n                                </h4>\n                                <h4 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                    סדנה לכיתה הכנה לכיתה א</h4>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>הכנה לכיתה א' משמעותה חיזוק מיומנויות למידה בשלב מוקדם ופיתוח חוסן רגשי לנוכח השינויים שחלים עם המעבר : מעבר מפעילות משחקית לפעילות למידה מלאה של הילד/ה שהגיע/ה לבשלות<br>פתאום סדר היום של הילד משתנה ובמהלך יום למידה והקשבה&nbsp; &nbsp;<br>.ממושכת למורה, עליו להיות במצב של ישיבה מול שולחן במשך שעות<br>&nbsp;המעבר למסגרת הבית ספר הוא משמעותי מאוד וכרוך במסוגלות של הילד להתרכז ולבצע משימות. זה נכון לומר שילד מגיע לבשלות למידה בסביבות גיל 5-7, אך מאחר ומדובר בתהליך שהוא בעיקרו פיזיולוגי <br>&nbsp;ואישי, יש בפן הלימודי שוני מילד לילד , אך בפן הרגשי ילדים זקוקים פעמים רבות לתיווך בין המעבר מגן למסגרת בית ספר וכאן <br>ההכנה שלנו נכנסת לתמונה<br><br>:נושאים שיועברו בסדנה<br>בסדנת הכנה לכיתה א' אנו נתמקד בבשלות מנטלית, דחיית סיפוקים, התמודדות עם אתגרים, קבלת סמכות, הבעת רגשות, עבודה קבוצתית עצמאות, תקשורת ועוד שיתרמו לילד מאד בכניסתו <br>לשנת הלימודים הראשונה\n<br>&nbsp;<br>לפרטים אודות מועדי סדנאות קרובות יש לפנות לנייד <a href=\"https://wa.me/972 0534401616\" class=\"text-black text-primary\">0534401616</a></b><br></p>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"index.html#form02-48\" data-app-placeholder=\"Type Text\">\n                                        תשאירו פרטים\n                                    </a></div>\n                            </div>\n                        </div>\n                        <div class=\"img-container\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@PROJECT_PATH@/assets/images/hand-drawn-student-characters-23.jpeg\" alt=\"אפרת שכטר\">\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"history-item\" mbr-if=\"countItem >2\">\n                        <div class=\"item-circle\"></div>\n                        <div class=\"img-container\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@PROJECT_PATH@/assets/images/37399ba3-4deb-4fab-97d7-4c5a679ea005.jpg\" alt=\"אפרת שכטר\">\n                            </div>\n                        </div>\n                        <div class=\"text-container\">\n                            <div class=\"text-wrapper\" mbr-if=\"showTitle || showText || showButtons\">\n                                <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                                <h4 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">סדנת חוסן</h4>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>סדנת חוסן נבנתה על מנת לספק כלים להתמודדות בצורה חיובית עם אתגרים, לשלוט במצבים לחוצים, להתאושש מפגיעות,  ולהמשיך הלאה למרות האתגרים הרגשיים השונים. פיתוח יכולת של תקשורת חיובית וחיזוק החוסן האישי באמצעות המשאבים הפנימיים. מטרת הסדנה היא חיזוק החוסן של הילדים והקניית מיומנויות בהתמודדות עם מצבי שיגרה וחירום. הסדנה מועברת דרך חוויה של משחק, מוסיקה דמיון מודרך NLPוכלים טיפולים מעולם ה&nbsp;<br>:נושאים שיועברו בסדנה<br>&nbsp;לימוד ויישום של כלים להתמודדות עם לחץ ואתגרים בחיי היום יום<br>&nbsp;טכניקות להפחתת לחץ/חרדה - תאוריה ותרגול באמצעות מיינדפולנס NLPוכלים מעולם ה<br>&nbsp;חיזוק השפה החיובית וחיזוק הביטחון העצמי&nbsp;<br><br>?למי הסדנה מתאימה<br>&nbsp;סדנת חוסן מתאימה לגילאי 7-18 לפי קבוצות גיל , ומתאימה לילדים ובני נוער שחווים אתגרים רגשיים וחברתיים. לילדים ובני נוער שמעוניינים לחזק את הביטחון/דימוי העצמי שלהם. לילדים ובני נוער שרוצים ללמוד לשלוט ברגשות קשים כמו: פחדים ,חרדות ,והתקפי זעם<br><br>&nbsp;לפרטים אודות מועדי סדנאות קרובות יש לפנות לנייד&nbsp;&nbsp;<a href=\"https://wa.me/972 0534401616\" class=\"text-black\">0534401616&nbsp;</a></b><br></p>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"index.html#form02-48\" data-app-placeholder=\"Type Text\">\n                                        תשאירו פרטים\n                                    </a></div>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"history-item history-item-reverse\" mbr-if=\"countItem >3\">\n                        <div class=\"item-circle\"></div>\n                        <div class=\"text-container\">\n                            <div class=\"text-wrapper\" mbr-if=\"showTitle || showText || showButtons\">\n                                <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                    1705 - 1864\n                                </h4>\n                                <h4 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                    Maecas volutpat\n                                </h4>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                                    Rutrum quisque non tellus orci ac auctor augue mauris. Duis at tellus at urna\n                                    condimentum mattis pellentesque id nibh. At volutpat diam ut venenatis tellus in.\n                                    Nunc congue nisi vitae suscipit.\n                                </p>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                        Read more\n                                    </a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"img-container\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@ADDONS_PATH@/lodgem5/components/_images/gallery/gallery12.jpg\" alt=\"Mobirise Website Builder\">\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"history-item\" mbr-if=\"countItem >4\">\n                        <div class=\"item-circle\"></div>\n                        <div class=\"img-container\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@ADDONS_PATH@/lodgem5/components/_images/gallery/gallery13.jpg\" alt=\"Mobirise Website Builder\">\n                            </div>\n                        </div>\n                        <div class=\"text-container\">\n                            <div class=\"text-wrapper\" mbr-if=\"showTitle || showText || showButtons\">\n                                <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                    1284 - 1705\n                                </h4>\n                                <h4 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                    Pharetra diam\n                                </h4>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                                    Pellentesque sit amet porttitor eget dolor morbi non. Non diam phasellus vestibulum lorem\n                                    sed risus ultricies tristique nulla. Faucibus a pellentesque sit amet.\n                                    Massa sapien faucibus et molestie ac feugiat sed lectus vestibulum.\n                                </p>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                        Read more\n                                    </a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"news1 lodgem5\" group=\"News\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <select title=\"Count\" name=\"countItem\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#45494E\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12\">\n                <div class=\"main-container\">\n                    <div class=\"center-line\"></div>\n                    <div class=\"history-item history-item-first\">\n                        <div class=\"item-circle\"></div>\n                        <div class=\"img-container\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@PROJECT_PATH@/assets/images/whatsapp-2024-06-05-12.47.52-87eedfbc.jpg\" alt>\n                            </div>\n                        </div>\n                        <div class=\"text-container\">\n                            <div class=\"text-wrapper\" mbr-if=\"showTitle || showText || showButtons\">\n                                <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                    1284 - 1705\n                                </h4>\n                                <h4 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">סדנת כישורים חברתיים</h4>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>NLPסדנת שיפור מיומנויות חברתיות נבנתה באמצעות כלים מעולם ה&nbsp; &nbsp;בכדי להעצים את הילדים ובני הנוער, על מנת שיוכל ליצור קשרים חברתיים מתמשכים בקלות וללא מאמץ<br>הסדנה מועברת באופן חוויתי כמו: יצירה דימיון ומשחק,</b><b><br>:במהלך הסדנה נטפל במגוון נושאים&nbsp;<br>&nbsp;איך להתמודד בסיטואציות חברתיות שונות ומאתגרות<br>&nbsp;איך לשמור על נושא בשיחה וליזום שיחה/ איך להשתלב בשיחה<br>&nbsp;איך לנהל סכסוכים ולהתמודד עם רגשות לא נעימים שמופיעים בסיטואציות חברתיות<br>&nbsp;איך לפתח תקשורת עם הסביבה בדגש על תקשורת חיובית<br><br>למי הסדנה מתאימה<br>לילדים/ות בני 5-11, (בחלוקה לקבוצות גיל) שרוצים לשפר את המיומנויות החברתיות והתקשורת בינם לבין חברים. לילדים/ות המתמודדים עם קשיים חברתיים ורגשיים כגון: ילדים חסרי בטחון / ביישנים/תוקפנים שמעוניינים ללמוד ליצור קשרים <br>חברתיים , או ילדים עם הפרעת קשב וריכוז או ילדים עם קשיי ויסות<br><br>לפרטים אודות מועדי סדנאות קרובות יש לפנות לנייד <a href=\"https://wa.me/972 0534401616\" class=\"text-black\">0534401616</a></b><br></p>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"harshama.html#form02-7h\" data-app-placeholder=\"Type Text\">תשאירו פרטים</a></div>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"history-item history-item-reverse\" mbr-if=\"countItem >1\">\n                        <div class=\"item-circle\"></div>\n                        <div class=\"text-container\">\n                            <div class=\"text-wrapper\" mbr-if=\"showTitle || showText || showButtons\">\n                                <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                    1705 - 1864\n                                </h4>\n                                <h4 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                    סדנת הכנה לכיתה א</h4>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>הכנה לכיתה א' משמעותה חיזוק מיומנויות למידה בשלב מוקדם ופיתוח חוסן רגשי לנוכח השינויים שחלים עם המעבר : מעבר מפעילות משחקית לפעילות למידה מלאה של הילד/ה שהגיע/ה לבשלות<br>פתאום סדר היום של הילד משתנה ובמהלך יום למידה והקשבה&nbsp; &nbsp;<br>.ממושכת למורה, עליו להיות במצב של ישיבה מול שולחן במשך שעות<br>&nbsp;המעבר למסגרת הבית ספר הוא משמעותי מאוד וכרוך במסוגלות של הילד להתרכז ולבצע משימות. זה נכון לומר שילד מגיע לבשלות למידה בסביבות גיל 5-7, אך מאחר ומדובר בתהליך שהוא בעיקרו פיזיולוגי <br>&nbsp;ואישי, יש בפן הלימודי שוני מילד לילד , אך בפן הרגשי ילדים זקוקים פעמים רבות לתיווך בין המעבר מגן למסגרת בית ספר וכאן <br>ההכנה שלנו נכנסת לתמונה<br><br>:נושאים שיועברו בסדנה<br>בסדנת הכנה לכיתה א' אנו נתמקד בבשלות מנטלית, דחיית סיפוקים, התמודדות עם אתגרים, קבלת סמכות, הבעת רגשות, עבודה קבוצתית עצמאות, תקשורת ועוד שיתרמו לילד מאד בכניסתו <br>לשנת הלימודים הראשונה\n<br>&nbsp;<br>לפרטים אודות מועדי סדנאות קרובות יש לפנות לנייד <a href=\"https://wa.me/972 0534401616\" class=\"text-black text-primary\">0534401616</a></b><br></p>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"index.html#form02-48\" data-app-placeholder=\"Type Text\">\n                                        תשאירו פרטים\n                                    </a></div>\n                            </div>\n                        </div>\n                        <div class=\"img-container\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@PROJECT_PATH@/assets/images/hand-drawn-student-characters-23.jpeg\" alt=\"אפרת שכטר\">\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"history-item\" mbr-if=\"countItem >2\">\n                        <div class=\"item-circle\"></div>\n                        <div class=\"img-container\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@PROJECT_PATH@/assets/images/37399ba3-4deb-4fab-97d7-4c5a679ea005.jpg\" alt=\"אפרת שכטר\">\n                            </div>\n                        </div>\n                        <div class=\"text-container\">\n                            <div class=\"text-wrapper\" mbr-if=\"showTitle || showText || showButtons\">\n                                <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                                <h4 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">סדנת חוסן</h4>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>סדנת חוסן נבנתה על מנת לספק כלים להתמודדות בצורה חיובית עם אתגרים, לשלוט במצבים לחוצים, להתאושש מפגיעות,  ולהמשיך הלאה למרות האתגרים הרגשיים השונים. פיתוח יכולת של תקשורת חיובית וחיזוק החוסן האישי באמצעות המשאבים הפנימיים. מטרת הסדנה היא חיזוק החוסן של הילדים והקניית מיומנויות בהתמודדות עם מצבי שיגרה וחירום. הסדנה מועברת דרך חוויה של משחק, מוסיקה דמיון מודרך NLPוכלים טיפולים מעולם ה&nbsp;<br>:נושאים שיועברו בסדנה<br>&nbsp;לימוד ויישום של כלים להתמודדות עם לחץ ואתגרים בחיי היום יום<br>&nbsp;טכניקות להפחתת לחץ/חרדה - תאוריה ותרגול באמצעות מיינדפולנס NLPוכלים מעולם ה<br>&nbsp;חיזוק השפה החיובית וחיזוק הביטחון העצמי&nbsp;<br><br>?למי הסדנה מתאימה<br>&nbsp;סדנת חוסן מתאימה לגילאי 7-18 לפי קבוצות גיל , ומתאימה לילדים ובני נוער שחווים אתגרים רגשיים וחברתיים. לילדים ובני נוער שמעוניינים לחזק את הביטחון/דימוי העצמי שלהם. לילדים ובני נוער שרוצים ללמוד לשלוט ברגשות קשים כמו: פחדים ,חרדות ,והתקפי זעם<br><br>&nbsp;לפרטים אודות מועדי סדנאות קרובות יש לפנות לנייד&nbsp;&nbsp;<a href=\"https://wa.me/972 0534401616\" class=\"text-black\">0534401616&nbsp;</a></b><br></p>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"index.html#form02-48\" data-app-placeholder=\"Type Text\">\n                                        תשאירו פרטים\n                                    </a></div>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"history-item history-item-reverse\" mbr-if=\"countItem >3\">\n                        <div class=\"item-circle\"></div>\n                        <div class=\"text-container\">\n                            <div class=\"text-wrapper\" mbr-if=\"showTitle || showText || showButtons\">\n                                <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                    1705 - 1864\n                                </h4>\n                                <h4 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                    Maecas volutpat\n                                </h4>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                                    Rutrum quisque non tellus orci ac auctor augue mauris. Duis at tellus at urna\n                                    condimentum mattis pellentesque id nibh. At volutpat diam ut venenatis tellus in.\n                                    Nunc congue nisi vitae suscipit.\n                                </p>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                        Read more\n                                    </a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"img-container\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@ADDONS_PATH@/lodgem5/components/_images/gallery/gallery12.jpg\" alt=\"Mobirise Website Builder\">\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"history-item\" mbr-if=\"countItem >4\">\n                        <div class=\"item-circle\"></div>\n                        <div class=\"img-container\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@ADDONS_PATH@/lodgem5/components/_images/gallery/gallery13.jpg\" alt=\"Mobirise Website Builder\">\n                            </div>\n                        </div>\n                        <div class=\"text-container\">\n                            <div class=\"text-wrapper\" mbr-if=\"showTitle || showText || showButtons\">\n                                <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                    1284 - 1705\n                                </h4>\n                                <h4 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                    Pharetra diam\n                                </h4>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                                    Pellentesque sit amet porttitor eget dolor morbi non. Non diam phasellus vestibulum lorem\n                                    sed risus ultricies tristique nulla. Faucibus a pellentesque sit amet.\n                                    Massa sapien faucibus et molestie ac feugiat sed lectus vestibulum.\n                                </p>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                        Read more\n                                    </a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -3790,6 +3790,848 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
+        }
+      ]
+    },
+    "harshama.html": {
+      "settings": {
+        "title": "הרשמה לסדנת כישורים חברתיים",
+        "order": "1",
+        "meta_descr": "טיפול רגשי לילדים | NLP | סדנאות כישורים חברתיים | סדנת חוסן | סדנת הכנה לכיתה א' | פיתוח אישי לילדים | חוסן נפשי לילדים | טיפול מותאם אישית | אפרת שכטר\nברוכים הבאים לאתר של אפרת שכטר, מומחית ל-NLP וטיפול רגשי לילדים ונוער. אפרת מציעה מגוון רחב של שירותים המיועדים לסייע לילדיכם בהתמודדות עם אתגרים רגשיים, פיתוח כישורים חברתיים, וחיזוק הביטחון והחוסן הנפשי. המטרה היא להעניק להם כלים מעשיים ומותאמים אישית, שיאפשרו להם לצמוח ולהתפתח בסביבה תומכת ובטוחה.\n\nטיפול רגשי פרטני: אפרת מתמחה בטיפול רגשי פרטני לילדים ונוער, המסייע בהתמודדות עם קשיים רגשיים, חרדות, חוסר ביטחון, ומצבים מאתגרים נוספים. כל טיפול מותאם לצרכים האישיים של הילד או הנער, ומשתמש בטכניקות NLP כדי לעזור להם להבין את רגשותיהם ולמצוא דרכים להתמודד בצורה חיובית ומחזקת.\n\nסדנאות לפיתוח כישורים חברתיים וחוסן נפשי: אפרת מציעה סדנאות מיוחדות לילדים ולנוער, המיועדות לפתח כישורים חברתיים ולהכין אותם לחיים הבוגרים. בין הסדנאות ניתן למצוא:\n\nסדנת כישורים חברתיים: סדנה שמטרתה לסייע לילדים ולנוער לפתח יכולות חברתיות, כגון תקשורת בינאישית, יצירת קשרים חיוביים, ושיתוף פעולה עם בני גילם.\nסדנת חוסן: סדנה זו מתמקדת בחיזוק החוסן הנפשי של הילדים, כדי שיוכלו להתמודד עם מצבי לחץ ושינויים בסביבה שלהם בצורה בריאה וחיובית.\nסדנת הכנה לכיתה א': סדנה ייחודית המיועדת להכין את הילדים מבחינה רגשית ומנטלית למעבר לכיתה א', עם דגש על פיתוח ביטחון עצמי וכלים להצלחה בסביבה הלימודית.\nגישה מקצועית ותומכת: כל השירותים והסדנאות שמציעה אפרת שכטר מתבצעים בגישה מקצועית ותומכת, עם דגש על יצירת סביבה בטוחה ומבינה עבור כל ילד וילדה. אפרת מתייחסת לכל ילד כאל ייחודי, ודואגת להתאים את התהליך לצרכים האישיים שלהם, כדי להבטיח תוצאות מיטביות ושינוי משמעותי.\n\nליווי אישי ומותאם לצרכים: אפרת מלווה את הילדים ואת ההורים בתהליך, תוך שמירה על קשר רציף ומתן מענה לכל צורך שעולה במהלך הדרך. המטרה היא לאפשר לכל ילד להרגיש בטוח, מובן ותומך, ולספק להם כלים להתמודד עם אתגרי החיים בצורה חיובית ומחזקת.\n\nבאתר תוכלו למצוא מידע נוסף על כל אחד מהשירותים המוצעים, ולהכיר לעומק את השיטות והגישות שאפרת משתמשת בהן, יחד עם עדויות של הורים מרוצים שחוו שיפור משמעותי אצל ילדיהם."
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar": {
+              "padding": "0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "50px"
+            },
+            ".navbar-fixed-top": {
+              "padding-top": "0"
+            },
+            ".navbar-collapse": {
+              "-ms-flex-preferred-size": "auto",
+              "-webkit-flex-basis": "auto",
+              "flex-basis": "auto"
+            },
+            ".dropdown-item": {
+              "padding": "0"
+            },
+            ".dropdown-menu": {
+              "border": "0px solid lightgray",
+              "background": "@MenuColor !important"
+            },
+            ".menu-content-top": {
+              "max-width": "1250px",
+              "display": "none",
+              "padding": "0 2rem",
+              "margin": "auto",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "space-between",
+              "justify-content": "space-between",
+              "overflow": "hidden",
+              "transition": "min-height 0.25s ease-in-out",
+              "@media screen and (max-width: 991px)": {
+                "display": "block",
+                ".menu-content-right": {
+                  "display": "none"
+                },
+                ".navbar-brand": {
+                  "position": "absolute",
+                  "left": "0",
+                  "top": "0",
+                  "z-index": "1000",
+                  "margin": "0"
+                }
+              }
+            },
+            "nav.opened": {
+              ".menu-content-top": {
+                "display": "none"
+              }
+            },
+            ".menu-bottom": {
+              "margin": "auto",
+              "width": "100%",
+              "background": "@MenuColor",
+              "display": "flex",
+              "padding": "0 2rem",
+              "position": "relative",
+              "& when (@menuAlign = 'center')": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              },
+              "& when (@menuAlign = 'right')": {
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end"
+              }
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "top": "-0.2em",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "padding": "0.5rem 0 !important",
+                "margin": "0 0.5rem !important"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "MobiriseIcons !important",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "1rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "-webkit-transform": "scale(0, 1)",
+              "transform": "scale(0, 1)",
+              "-webkit-transition": "all 0.25s ease-in-out",
+              "-moz-transition": "all 0.25s ease-in-out",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".content-text": {
+              "margin-bottom": "0"
+            },
+            ".navbar-nav": {
+              "position": "relative",
+              "min-height": "49px",
+              "-ms-flex-direction": "row",
+              "-webkit-flex-direction": "row",
+              "flex-direction": "row",
+              "@media (min-width: 992px)": {
+                ".main-menu-animated-line": {
+                  "position": "absolute",
+                  "left": "0",
+                  "width": "0",
+                  "height": "0",
+                  "z-index": "100",
+                  "border-top": "4px solid @primaryColor",
+                  "-webkit-transition": "width 0.4s, left 0.6s cubic-bezier(0.19, 0.65, 0.02, 0.93)",
+                  "-moz-transition": "width 0.4s, left 0.6s cubic-bezier(0.19, 0.65, 0.02, 0.93)",
+                  "transition": "width 0.4s, left 0.6s cubic-bezier(0.19, 0.65, 0.02, 0.93)",
+                  "&.bottom": {
+                    "bottom": "0"
+                  }
+                }
+              },
+              ".nav-item span": {
+                "padding-right": "0"
+              },
+              ".nav-item a": {
+                "margin": "0 1.3rem !important"
+              }
+            },
+            ".display-4 > .mbr-iconfont": {
+              "font-size": "1.43em"
+            },
+            ".display-4 > .btn > .mbr-iconfont": {
+              "font-size": "1.43em"
+            },
+            ".nav-dropdown .dropdown-item": {
+              "font-weight": "400"
+            },
+            ".navbar-buttons.mbr-section-btn": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".nav-dropdown .link": {
+              "font-weight": "400"
+            },
+            ".menu .navbar-brand .logo-text-part": {
+              "vertical-align": "top"
+            },
+            ".content-right-side": {
+              "text-align": "center"
+            },
+            ".content-right-side .content-link": {
+              "span": {
+                "vertical-align": "middle",
+                "padding-right": "1rem"
+              }
+            },
+            ".widget-icon": {
+              "display": "inline-block",
+              "padding-right": "1rem",
+              "font-size": "1.65rem"
+            },
+            ".info-widget": {
+              "padding-left": "2rem",
+              "padding-top": "0.5rem",
+              "padding-right": "3rem",
+              "border-left": "1px solid #e0e0e0"
+            },
+            ".menu-content-right": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              ".info-widget:last-child": {
+                "padding-right": "0"
+              },
+              ".info-widget:first-child": {
+                "padding-left": "0",
+                "border-left": "none"
+              }
+            },
+            ".widget-content": {
+              "display": "inline-block",
+              "vertical-align": "top",
+              "text-align": "left",
+              ".widget-title": {
+                "font-weight": "600",
+                "margin-bottom": "7px"
+              },
+              ".widget-text": {
+                "margin-bottom": "0"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".navbar .menu-content-top": {
+                "display": "flex",
+                "min-height": "83px",
+                "height": "100%"
+              },
+              ".content-right-side": {
+                "text-align": "right",
+                "-webkit-flex-wrap": "nowrap",
+                "flex-wrap": "nowrap",
+                "display": "flex",
+                "-webkit-align-items": "center",
+                "align-items": "center"
+              },
+              ".menu-content-top": {
+                "border-bottom": "0px solid #e0e0e0"
+              },
+              ".navbar": {
+                "display": "block",
+                "padding": "0",
+                ".menu-logo": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center"
+                },
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo) and (@logoSize > 3.7)": {
+                  "max-height": "~'calc(100vh - @{logoSize}rem - 4.5rem)'"
+                },
+                "&:not(.navbar-short) .navbar-collapse when not (@showLogo), (@logoSize < 3.8)": {
+                  "max-height": "~'calc(100vh - 8rem)'"
+                }
+              },
+              ".navbar.navbar-toggleable-sm .navbar-collapse .navbar-nav .nav-item": {
+                "-webkit-align-self": "initial",
+                "align-self": "auto",
+                "display": "flex",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                "z-index": "101",
+                "min-height": "49px"
+              },
+              ".dropdown-item:hover:before": {
+                "-webkit-transform": "scale(1, 1)",
+                "transform": "scale(1, 1)",
+                "width": "16px"
+              },
+              ".navbar-toggler": {
+                "display": "none"
+              },
+              ".navbar-collapse": {
+                "& when (@menuAlign = 'center')": {
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                },
+                "& when (@menuAlign = 'right')": {
+                  "-webkit-justify-content": "flex-end",
+                  "justify-content": "flex-end"
+                },
+                "& when (@menuAlign = 'left')": {
+                  "-webkit-justify-content": "flex-start",
+                  "justify-content": "flex-start"
+                }
+              }
+            },
+            ".navbar-short .menu-content-top": {
+              "height": "0",
+              "min-height": "0",
+              "border": "none"
+            },
+            ".btn": {
+              "display": "inline-flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.2em"
+              }
+            },
+            ".menu-logo": {
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "3rem",
+                "padding": "0",
+                "height": "100%",
+                "transition": "padding 0.2s",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "-webkit-flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": "0.3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex",
+                    "width": "auto"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "width": "auto",
+              ".navbar-nav": {
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "position": "absolute",
+                "@media (max-width: 991px)": {
+                  "overflow": "hidden"
+                },
+                "min-width": "5rem",
+                "padding-top": "0.5rem",
+                "padding-bottom": "0.5rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "-webkit-transition": "all 0.25s ease-in-out",
+                  "-moz-transition": "all 0.25s ease-in-out",
+                  "transition": "all 0.25s ease-in-out",
+                  "&::after": {
+                    "right": "-0.5rem"
+                  },
+                  "&:hover": {
+                    ".mbr-iconfont:before": {
+                      "-webkit-transform": "scale(0, 1)",
+                      "transform": "scale(0, 1)"
+                    }
+                  },
+                  ".mbr-iconfont": {
+                    "margin-left": "5rem",
+                    "padding-right": "1rem",
+                    "font-size": "inherit",
+                    "&:before": {
+                      "display": "inline-block",
+                      "-webkit-transform": "scale(1, 1)",
+                      "transform": "scale(1, 1)",
+                      "-webkit-transition": "all 0.25s ease-in-out",
+                      "-moz-transition": "all 0.25s ease-in-out",
+                      "transition": "all 0.25s ease-in-out"
+                    }
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "-webkit-transform": "translateY(100%)",
+                "transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "50px",
+              "transition": "all 0.2s",
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important",
+                  "width": "auto"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "margin": "1rem 0",
+              "-webkit-align-self": "center",
+              "align-self": "flex-end",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing, &.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "display": "flex",
+                    "-webkit-justify-content": "center",
+                    "justify-content": "center",
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "2rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 992px)": {
+                ".dropdown .dropdown-menu": {
+                  "overflow": "hidden"
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "2rem !important",
+                "margin-top": "4rem"
+              },
+              ".navbar-toggleable-sm": {
+                "-webkit-flex-direction": "column",
+                "flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": "0.5s",
+                  "transition-property": "opacity, padding, height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle='dropdown-submenu']::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": "2rem",
+                  "vertical-align": "middle",
+                  "content": "''",
+                  "border-top": "0.3em solid",
+                  "border-right": "0.3em solid transparent",
+                  "border-left": "0.3em solid transparent"
+                }
+              },
+              ".menu-bottom": {
+                "-webkit-flex-direction": "column-reverse",
+                "flex-direction": "column-reverse",
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-collapse": {
+                "padding-bottom": "1rem",
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing, &.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "display": "flex",
+                    "-webkit-justify-content": "center",
+                    "justify-content": "center",
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".menu-bottom": {
+                "-webkit-flex-direction": "column-reverse",
+                "flex-direction": "column-reverse",
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              },
+              "img": {
+                "height": "2.2rem !important"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important",
+                "margin-top": "0.5rem"
+              },
+              ".navbar-toggleable-sm": {
+                "-webkit-flex-direction": "column",
+                "flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": "0.5s",
+                  "transition-property": "opacity, padding, height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle='dropdown-submenu']::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": "2em",
+                  "vertical-align": "middle",
+                  "content": "''",
+                  "border-top": "0.3em solid",
+                  "border-right": "0.3em solid transparent",
+                  "border-left": "0.3em solid transparent"
+                }
+              },
+              ".navbar-buttons.mbr-section-btn": {
+                "width": "100%"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar-dropdown": {
+              "-webkit-flex-wrap": "nowrap",
+              "flex-wrap": "nowrap"
+            },
+            ".nav-link:focus": {
+              "outline": "none"
+            },
+            ".navbar-toggler": {
+              "position": "relative"
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background": "@MenuColor",
+              "color": "initial"
+            },
+            ".widget-title, .widget-icon": {
+              "text-align": "center"
+            },
+            ".widget-text": {
+              "text-align": "center"
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "realtym4",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu1 realtym4_menu1 menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<select title=\"Widget Count\" name=\"widgetCount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\" selected>2</option>\n\t\t</select>\n\t\t<select title=\"Menu Align\" name=\"menuAlign\">\n\t\t\t<option value=\"left\">Left</option>\n\t\t\t<option value=\"center\" selected>Center</option>\n\t\t\t<option value=\"right\">Right</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n\t\t<input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Logo\" inline name=\"logoSize\" min=\"2\" max=\"8\" step=\"0.2\" value=\"4\" condition=\"showLogo\">\n\t\t<header>Colors</header>\n\t\t<input type=\"color\" title=\"Menu\" name=\"MenuColor\" value=\"#3b5abb\">\n\t\t<input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n\t\t<input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#ffffff\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n\t\t<div class=\"menu-content-top\">\n\t\t\t<div class=\"menu-logo\">\n\t\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t\t<a href=\"https://mobiri.se\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/transparent-background-3.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</span>\n\t\t\t\t\t<span mbr-if=\"showBrand\" mbr-theme-style=\"display-5\" mbr-buttons class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a href=\"https://mobiri.se\" class=\"brand-link mbr-black\" data-app-selector=\".brand-link\" data-app-placeholder=\"Type Text\">\n\t\t\t\t\t\t\tRealtyM4</a></span>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"menu-content-right\">\n\t\t\t\t<div class=\"info-widget\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-mobile\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">דברו איתי</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\"><a href=\"tel:+972 534401616\" class=\"text-success\">0534401616</a></p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 1\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mbr-iconfont mobi-mbri-clock\" style=\"color: rgb(59, 90, 187);\"></span>\n\t\t\t\t\t<div class=\"widget-content\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t<p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">ראשון עד חמישי<br></p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">פתוח:08:00-20:00</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-widget\" mbr-if=\"widgetCount > 2\">\n\t\t\t\t\t<span mbr-icon class=\"widget-icon mobi-mbri-letter mbr-iconfont\"></span>\n\t\t\t\t\t<div class=\"widget-content mbr-fonts-style\">\n\t\t\t\t\t\t<p class=\"widget-title\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">office@example.com</p>\n\t\t\t\t\t\t<p class=\"widget-text mbr-fonts-style\" data-app-selector=\".widget-text\" mbr-theme-style=\"display-4\">info@medical.com</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-lg btn-success-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; דברו איתי&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"menu-bottom\">\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown js-float-line\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white text-primary\" href=\"nlp.html#testimonials02-4u\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">המלצות</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle show\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" aria-expanded=\"true\">סדנאות</a>\n\t\t\t\t\t\t<div class=\"dropdown-menu show\" data-bs-popper=\"none\">\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item text-primary\" href=\"workshops.html#anews1-73\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">סדנת כישורים חברתיים</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item text-primary\" href=\"workshops.html#anews1-73\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">סדנת הכנה לכיתה א</a>\n\t\t\t\t\t\t\t<a class=\"mbr-black text-white dropdown-item text-primary\" href=\"workshops.html#footer01-7b\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">סדנת חוסן</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white text-primary\" href=\"nlp.html#header2-6c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"> NLP מהו</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link mbr-black text-white dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">אודות</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-887\"><a class=\"mbr-black text-white dropdown-item text-primary\" href=\"index.html#team03-4i\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">מי אני<br></a><a class=\"mbr-black text-white show dropdown-item text-primary\" href=\"index.html#features1-65\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">למה אצלי</a><a class=\"mbr-black text-white show dropdown-item text-primary\" href=\"nlp.html#content6-6l\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">שאלות נפוצות</a></div>\n\t\t\t\t\t</li></ul>\n\t\t\t</div>\n\t\t\t<button class=\"navbar-toggler \" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t</div>\n\t</nav>\n</section>",
+          "_cid": "unjb8ivj5F",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-7f"
+        },
+        {
+          "_name": "form02",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            ".mbr-overlay": {
+              "background-color": "@overlayColor",
+              "opacity": "@overlayOpacity"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "form": {
+              ".mbr-section-btn": {
+                "text-align": "right",
+                "width": "100%",
+                ".btn": {
+                  "display": "inline-flex",
+                  "@media (max-width: 991px)": {
+                    "width": "100%"
+                  }
+                }
+              }
+            },
+            ".content-head": {
+              "max-width": "800px"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form5\" group=\"Forms\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 content-head\">\n                <div class=\"mbr-section-head mb-5\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>להרשמה לסדנת כישורים חברתיים</b></h3>\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style align-conter mb-0 mt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>מלא עכשיו את הפרטים בטופס וניצור איתך קשר בהקדם<br>או שלחו הודעה<br><a href=\"tel:+972 534401616\" class=\"text-black\"><b>0534401616</b></a></b></h4>\n                </div>\n            </div>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div mbr-form class=\"col-lg-8 mx-auto mbr-form\">\n<!--Formbuilder Form-->\n<form action=\"efratshechternlp@gmail.com\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">הפרטיים הועברו בהצלחה</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"> יש תקלה... נסה שוב </div>\n</div>\n<div class=\"dragArea row\">\n<div class=\"col-md col-sm-12 form-group mb-3\" data-for=\"name\">\n<input type=\"text\" name=\"name\" placeholder=\"שם מלא\" style=\"text-align:right;\" data-form-field=\"name\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div class=\"col-12 form-group mb-3\" data-for=\"phone\">\n<input type=\"tel\" name=\"phone\" placeholder=\"מספר טלפון\" style=\"text-align:right;\" data-form-field=\"phone\" mbr-theme-style=\"display-7\" class=\"form-control \" value>\n</div>\n<div data-for=\"select\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<select name=\"select\" data-form-field=\"select\" mbr-theme-style=\"display-7\" class=\"form-control form-select\">\n<option style=\"text-align:right;\" value=\"סדנאת כישורים חברתיים\"> סדנאת כישורים חברתיים</option>\n<option style=\"text-align:right;\" value=\"06/11/2024\">06/11/2024</option>\n<option style=\"text-align:right;\" value=\"05/12/2024\">05/12/2024</option>\n<option style=\"text-align:right;\" value=\"06/01/2025\">06/01/2025</option>\n</select>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"w-100 w-100 w-100 w-100 btn btn-success\">&nbsp;שלח&nbsp;</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "form02-7h",
+          "_isUserblock": true,
+          "_cid": "upMGKO4ZJq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "footer01",
+          "_sourceTheme": "beveragem5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "svg": {
+              "width": "100%",
+              "position": "absolute",
+              "left": "0",
+              "top": "-48px",
+              "height": "50px",
+              "transform-origin": "bottom",
+              "animation": "1.5s ease-in-out infinite alternate svg2",
+              ".st0": {
+                "fill": "@bg-value"
+              },
+              "@media (max-width: 992px)": {
+                "width": "1000px"
+              }
+            },
+            "@keyframes svg2": {
+              "from": {
+                "transform": "scaleX(1) scaleY(1.1) rotate(0deg)"
+              },
+              "to": {
+                "transform": "scaleX(1) scaleY(1.6) rotate(0deg)"
+              }
+            },
+            ".list": {
+              "list-style": "none",
+              "padding-left": "0",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "margin-bottom": "0rem"
+              },
+              "color": "#ffffff",
+              "text-align": "right"
+            },
+            "@media (max-width: 767px)": {
+              ".row": {
+                "text-align": "center"
+              }
+            },
+            "@media (max-width: 991px)": {
+              "div > *:last-child": {
+                "margin-top": "0 !important"
+              }
+            },
+            ".copyright": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "right",
+              "color": "#f3f4ef"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" global once=\"footers\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Color\" value=\"#1b386e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <svg version=\"1.1\" id=\"Ebene_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 1600 40\" style=\"enable-background:new 0 0 1600 40;\" preserveAspectRatio=\"none\">\n        <style type=\"text/css\">\n            .st0 {\n                fill: #1A449A;\n            }\n        </style>\n        <path class=\"st0\" d=\"M-1,15.7c200.1,0,200.7,13.8,400.9,13.8C600,29.5,600.4,9.3,800.5,9.3S998.8,36.8,1199,36.8\n\ts201.9-21.1,402-21.1v24.1L-1,40V15.7z\"></path>\n    </svg>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-12 col-md-4 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><a href=\"workshops.html#header03-74\" class=\"text-primary\" style=\"font-weight: bold;\"><b>סדנאות</b></a><br><a href=\"workshops.html#anews1-73\" class=\"text-primary\" style>סדנת מיומנויות חברתיות</a></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><span style=\"font-size: 1.2rem;\"><a href=\"workshops.html#anews1-73\" class=\"text-primary\">סדנה לכיתה הכנה לכיתה א</a></span></li><li class=\"mbr-text item-wrap\"><span style=\"font-size: 1.2rem;\"><b><a href=\"workshops.html#footer01-71\" class=\"text-primary\">סדנת חוסן</a><br></b></span><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-3 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><p><b><a href=\"nlp.html#header2-6c\" class=\"text-primary\"></a><a href=\"nlp.html#header2-6c\" class=\"text-primary\">NLP</a></b><br></p></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article><p><span style=\"font-size: 1.2rem;\"><a href=\"nlp.html#content6-6l\" class=\"text-primary\">שאלות נפוצות</a></span></p><p><a href=\"nlp.html#testimonials02-4u\" class=\"text-primary\" style=\"font-size: 1.2rem;\">המלצות</a></p><p>\n</p></ul>\n            </div>\n            <div class=\"col-12 col-md-3 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><a href=\"index.html#form02-48\" class=\"text-primary\"><b>צרו קשר</b></a></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article><p><a href=\"index.html#form02-48\" class=\"text-primary\" style=\"font-size: 1.2rem;\">השאירו פרטים</a></p><p><a href=\"index.html#map1-6m\" class=\"text-primary\">מיקום הטיפול</a></p></ul>\n            </div>\n            <div class=\"col-12 col-md-2 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle align-right mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <a href=\"index.html#team03-4i\" class=\"text-primary\"><b>אודות</b></a>\n                </h5>\n                <ul class=\"list align-right mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"index.html#features1-65\" class=\"text-primary\">למה אצלי</a></li><li class=\"mbr-text item-wrap\"><a href=\"index.html#map1-6m\" class=\"text-primary\" style=\"font-size: 1.2rem;\">מיקום הטיפול</a><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 mt-4\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style copyright align-center\" mbr-theme-style=\"display-4\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">האתר נבנה על ידי -עמית שכטר,<a href=\"tel:+972 537155757\" class=\"text-white\">053-715-5757</a><br><a href=\"tel:+972 537155757\" class=\"text-white\"><br></a></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "u3Ur9Dx6Be",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer01-7g"
         }
       ]
     }
