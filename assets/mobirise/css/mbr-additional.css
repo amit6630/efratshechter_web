@@ -1416,6 +1416,9 @@ a {
   color: #1b386e;
   text-align: center;
 }
+.cid-tOcEBTK0K7 img {
+  filter: drop-shadow(10px 7px 10px black) drop-shadow(10px 7px 10px #b7a284);
+}
 .cid-tRUMaoSBSl {
   border-top: 3px solid #ffffff;
   border-bottom: 3px solid #ffffff;
@@ -4089,6 +4092,7 @@ a {
   }
 }
 .cid-u1Vk9MtOoe .image-wrapper img {
+  filter: drop-shadow(10px 7px 10px black) drop-shadow(10px 7px 10px #b7a284);
   width: 100%;
   object-fit: cover;
 }
