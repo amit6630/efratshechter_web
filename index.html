@@ -1,751 +1,874 @@
 <!DOCTYPE html>
-<html  >
+<html lang="he" dir="rtl" data-motion="home" data-custom-boot>
 <head>
-  
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:image:src" content="https//אפרת שכטר /אימון רגשי/טיפול רגשי/NLP/NLP MASTER/טיפול רגשי בבאר שבע">
-  <meta property="og:image" content="https//אפרת שכטר /אימון רגשי/טיפול רגשי/NLP/NLP MASTER/טיפול רגשי בבאר שבע">
-  <meta name="twitter:title" content="אפרת שכטר | טיפול רגשי בשיטת NLP בבאר שבע |טיפול רגשי|טיפול NLP | באר שבע|סדנאות חברתיות וחוסן|">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/mbr-section-btn.png-1-266x177.png" type="image/x-icon">
-  <meta name="description" content="טיפול רגשי לילדים | NLP | סדנאות כישורים חברתיים | סדנת חוסן | סדנת הכנה לכיתה א' | פיתוח אישי לילדים | חוסן נפשי לילדים | טיפול מותאם אישית | אפרת שכטר
-ברוכים הבאים לאתר של אפרת שכטר, מומחית ל-NLP וטיפול רגשי לילדים ונוער. אפרת מציעה מגוון רחב של שירותים המיועדים לסייע לילדיכם בהתמודדות עם אתגרים רגשיים, פיתוח כישורים חברתיים, וחיזוק הביטחון והחוסן הנפשי. המטרה היא להעניק להם כלים מעשיים ומותאמים אישית, שיאפשרו להם לצמוח ולהתפתח בסביבה תומכת ובטוחה.
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f4eb">
+  <!-- favicon: the logo's head mark, cropped from logo/transparent-background-1.png by npm run images -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-טיפול רגשי פרטני: אפרת מתמחה בטיפול רגשי פרטני לילדים ונוער, המסייע בהתמודדות עם קשיים רגשיים, חרדות, חוסר ביטחון, ומצבים מאתגרים נוספים. כל טיפול מותאם לצרכים האישיים של הילד או הנער, ומשתמש בטכניקות NLP כדי לעזור להם להבין את רגשותיהם ולמצוא דרכים להתמודד בצורה חיובית ומחזקת.
+  <!-- Before first paint. Keep in sync with applyEnvClasses() in src/js/page.js.
+       Reveal targets are hidden only while motion is allowed; if the page script never
+       boots (blocked/failed JS), content is shown again after 4s. -->
+  <script>
+    (function () {
+      var h = document.documentElement;
+      h.classList.add('js');
+      // a skipped page transition (e.g. into the 404 page) rejects these promises on both
+      // the outgoing (pageswap) and incoming (pagereveal) page: not an error
+      var quiet = function (e) {
+        var vt = e.viewTransition;
+        if (vt) [vt.ready, vt.finished, vt.updateCallbackDone].forEach(function (p) { if (p) p.catch(function () {}); });
+      };
+      window.addEventListener('pageswap', quiet);
+      window.addEventListener('pagereveal', quiet);
+      // accessibility menu preferences (src/js/ui/a11y.js), applied before first paint
+      try {
+        var a = JSON.parse(localStorage.getItem('es-a11y') || '{}') || {}, z = [1, 1.1, 1.2, 1.35, 1.5][a.zoom || 0] || 1;
+        ['contrast', 'gray', 'links', 'headings', 'font', 'spacing', 'motion', 'cursor'].forEach(function (k) { if (a[k]) h.classList.add('a11y-' + k); });
+        if (z !== 1) { h.classList.add('a11y-zoom'); h.style.setProperty('--a11y-zoom', z); }
+      } catch (e) {}
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && !h.classList.contains('a11y-motion')) {
+        h.classList.add('motion-ok');
+        setTimeout(function () { if (!h.dataset.motionBooted) h.classList.remove('motion-ok'); }, 4000);
+      }
+    })();
+  </script>
+
 
-סדנאות לפיתוח כישורים חברתיים וחוסן נפשי: אפרת מציעה סדנאות מיוחדות לילדים ולנוער, המיועדות לפתח כישורים חברתיים ולהכין אותם לחיים הבוגרים. בין הסדנאות ניתן למצוא:
-
-סדנת כישורים חברתיים: סדנה שמטרתה לסייע לילדים ולנוער לפתח יכולות חברתיות, כגון תקשורת בינאישית, יצירת קשרים חיוביים, ושיתוף פעולה עם בני גילם.
-סדנת חוסן: סדנה זו מתמקדת בחיזוק החוסן הנפשי של הילדים, כדי שיוכלו להתמודד עם מצבי לחץ ושינויים בסביבה שלהם בצורה בריאה וחיובית.
-סדנת הכנה לכיתה א': סדנה ייחודית המיועדת להכין את הילדים מבחינה רגשית ומנטלית למעבר לכיתה א', עם דגש על פיתוח ביטחון עצמי וכלים להצלחה בסביבה הלימודית.
-גישה מקצועית ותומכת: כל השירותים והסדנאות שמציעה אפרת שכטר מתבצעים בגישה מקצועית ותומכת, עם דגש על יצירת סביבה בטוחה ומבינה עבור כל ילד וילדה. אפרת מתייחסת לכל ילד כאל ייחודי, ודואגת להתאים את התהליך לצרכים האישיים שלהם, כדי להבטיח תוצאות מיטביות ושינוי משמעותי.
-
-ליווי אישי ומותאם לצרכים: אפרת מלווה את הילדים ואת ההורים בתהליך, תוך שמירה על קשר רציף ומתן מענה לכל צורך שעולה במהלך הדרך. המטרה היא לאפשר לכל ילד להרגיש בטוח, מובן ותומך, ולספק להם כלים להתמודד עם אתגרי החיים בצורה חיובית ומחזקת.
-
-באתר תוכלו למצוא מידע נוסף על כל אחד מהשירותים המוצעים, ולהכיר לעומק את השיטות והגישות שאפרת משתמשת בהן, יחד עם עדויות של הורים מרוצים שחוו שיפור משמעותי אצל ילדיהם.">
-  
-  
-  <title>אפרת שכטר | טיפול רגשי בשיטת NLP בבאר שבע |טיפול רגשי|טיפול NLP | באר שבע|סדנאות חברתיות וחוסן|</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/parallax/jarallax.css">
-  <link rel="stylesheet" href="assets/animatecss/animate.css">
-  <link rel="stylesheet" href="assets/chatbutton/floating-wpp.css">
-    <link rel="stylesheet" href="assets/popup-overlay-plugin/style.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
-  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
-  <link rel="stylesheet" href="assets/datepicker/jquery.datetimepicker.min.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="stylesheet" href="assets/recaptcha.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=AlxhWC"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=AlxhWC" type="text/css">
-
-  
-  
-  
-
+  <link rel="preload" as="image" href="./assets/obj-growth-600-K-9o9kYm.webp" imagesrcset="./assets/obj-growth-600-K-9o9kYm.webp 600w, ./assets/obj-growth-1200-D191C2BH.webp 1200w" imagesizes="(max-width: 1023px) 70vw, 560px" fetchpriority="high">
+  <!-- Structured data: approved facts only (conten.txt §1, §3, §4). No address beyond the
+       city, no ratings or reviews. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "url": "https://efratshechternlp.com/",
+    "image": "https://efratshechternlp.com/og-image.jpg",
+    "name": "אפרת שכטר – NLP, טיפול רגשי והנחיית סדנאות לילדים ובני נוער",
+    "telephone": "+972-53-440-1616",
+    "email": "efratshechternlp@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "באר שבע", "addressCountry": "IL" },
+    "areaServed": [
+      { "@type": "City", "name": "באר שבע" },
+      { "@type": "City", "name": "עומר" },
+      { "@type": "City", "name": "להבים" },
+      { "@type": "City", "name": "מיתר" },
+      { "@type": "AdministrativeArea", "name": "מועצה אזורית בני שמעון" }
+    ],
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "09:00", "closes": "19:00" }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "טיפול רגשי פרטני וסדנאות",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "טיפול רגשי פרטני (NLP לילדים ולנוער)" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "סדנת כישורים חברתיים (NLP)" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "סדנת חוסן נפשי" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "סדנת הכנה לכיתה א'" } }
+      ]
+    }
+  }
+  </script>
+  <title>טיפול רגשי ו-NLP לילדים ונוער בבאר שבע והדרום | אפרת שכטר</title>
+  <meta name="description" content="אפרת שכטר – NLP, טיפול רגשי והנחיית סדנאות לילדים ובני נוער. טיפול רגשי פרטני, סדנת כישורים חברתיים, סדנת חוסן נפשי וסדנת הכנה לכיתה א'. באר שבע.">
+  <script type="module" crossorigin src="./assets/index-CW-G4Uzw.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/preload-helper-krx2PB7c.js">
+  <link rel="modulepreload" crossorigin href="./assets/page-Krht_IaS.js">
+  <link rel="stylesheet" crossorigin href="./assets/page-Bcar75VH.css">
+  <link rel="stylesheet" crossorigin href="./assets/index-DweYwBo-.css">
+  <link rel="canonical" href="https://efratshechternlp.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="he_IL">
+  <meta property="og:site_name" content="אפרת שכטר">
+  <meta property="og:title" content="טיפול רגשי ו-NLP לילדים ונוער בבאר שבע והדרום | אפרת שכטר">
+  <meta property="og:description" content="אפרת שכטר – NLP, טיפול רגשי והנחיית סדנאות לילדים ובני נוער. טיפול רגשי פרטני, סדנת כישורים חברתיים, סדנת חוסן נפשי וסדנת הכנה לכיתה א'. באר שבע.">
+  <meta property="og:url" content="https://efratshechternlp.com/">
+  <meta property="og:image" content="https://efratshechternlp.com/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="אפרת שכטר – טיפול רגשי ואימון NLP לילדים ונוער בבאר שבע">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://efratshechternlp.com/og-image.jpg">
 </head>
-<body>
+<body class="page-home">
+    <a class="skip-link" href="#main">דלג לתוכן הראשי</a>
 
-<!-- Analytics -->
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TJWNR94LXF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-TJWNR94LXF');
-</script>
-<!-- /Analytics -->
-
-
-  
-  <section data-bs-version="5.1" class="menu menu1 stackm5 cid-v9gdudaWLH" once="menu" id="menu01-93">
-    
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-        <div class="container-fluid">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="index.html">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="לוגו אפרת שכטר" style="height: 6.9rem;" loading="lazy" class="lazyload" data-src="assets/images/mbr-section-btn.png-1-266x177.png">
-                    </a>
-                </span>
-                
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-<ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
-        <a class="nav-link link text-info display-4" href="nlp.html#testimonials02-4u">
-            המלצות
-        </a>
-    </li>
-
-    <li class="nav-item dropdown">
-        <a class="nav-link link text-info dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" aria-expanded="false">
-            סדנאות
-        </a>
-        <div class="dropdown-menu">
-            <a class="text-info dropdown-item display-4" href="workshops.html#anews1-73">סדנת כישורים חברתיים</a>
-            <a class="text-info dropdown-item display-4" href="workshops.html#anews1-73">סדנת הכנה לכיתה א</a>
-            <a class="text-info dropdown-item display-4" href="workshops.html#footer01-7b">סדנת חוסן</a>
-        </div>
-    </li>
-
-    <li class="nav-item">
-        <a class="nav-link link text-info display-4" href="nlp.html#header2-6c">
-            NLP מהו
-        </a>
-    </li>
-
-    <li class="nav-item"><a class="nav-link link text-info show text-primary display-4" href="nlp.html#list01-90">שאלות נפוצות</a></li><li class="nav-item"><a class="nav-link link text-info text-primary display-4" href="about.html#header2-98">
-            אודות
-        </a></li></ul>
-                <div class="icons-menu">
-                    <a class="iconfont-wrapper" href="#" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-facebook socicon"></span>
-                    </a>
-                    <a class="iconfont-wrapper" href="https://www.tiktok.com/@userefratshecnlpkids" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-tiktok socicon"></span>
-                    </a>
-                    <a class="iconfont-wrapper" href="https://www.instagram.com/efrat_shechternlp/" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-instagram socicon"></span>
-                    </a>
-                    
-                </div>
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-black display-4" href="contact.html#form02-9c">צרו קשר</a></div>
-            </div>
-        </div>
-    </nav>
-</section>
-
-<section data-bs-version="5.1" class="header1 vibem5 cid-v9fbaUVFYG mbr-fullscreen mbr-parallax-background" id="header1-8i">
-
-    
-
-    
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);">
-    </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="title-wrapper">
-                    
-                    
-                    
-                    <div class="logo-wrap">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" loading="lazy" class="lazyload" data-src="assets/images/transparent-background-3.png">
-                    </div>
-                    <div class="title-wrap">
-                        <h2 class="mbr-section-subtitle mbr-fonts-style display-5"><strong>המרחב לצמיחה רגשית וחברתית</strong></h2>
-                        <h1 class="mbr-section-title mbr-fonts-style display-2"><div><strong>טיפול רגשי • סדנאות חברתיות •&nbsp; הרצאות</strong></div></h1>
-                    </div>
-                    <p class="mbr-text mbr-fonts-style display-7"><strong>
-                        גישה מקצועית שמייצרת שינוי רגשי
-                    </strong></p>
-                    <div class="mbr-section-btn"><a class="btn btn-success display-7" href="contact.html#form02-9c">לתיאום שיחת התאמה</a></div>
-                    
-                    
-                    
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="header2 solutionm4_header2 cid-v9fEmK9uwU" id="efratshechter">
-    
-    
-
-    
-  <div class="container">
-    <div class="row align-items-center">
-
-      <!-- ===== תוכן ===== -->
-<div class="col-lg-7 col-md-12">
-
-        <div class="content-card">
-
-          <h1 class="mbr-section-title mbr-fonts-style display-1">
-            <strong>אפרת שכטר</strong>
-          </h1>
-
-<p class="mbr-text mbr-fonts-style display-7 rtl-text">
-לאורך חיי התמודדתי עם אתגרים ומשברים משמעותיים, שדרשו ממני לפתח חוסן פנימי,
-חשיבה חיובית והתמדה. הדרך האישית שעברתי, יחד עם ההכשרה המקצועית שצברתי,
-הובילה אותי למקום שבו אני נמצאת היום – מטפלת ומנחת תהליכים רגשיים וחברתיים
-לילדים ובני נוער
-    <span class="rtl-dot">.</span>
-
-</p>
-<p class="mbr-text mbr-fonts-style display-7 rtl-text">NLP אני מאסטר 
-ומומחית בהפרעות קשב וריכוז, עם ניסיון בליווי ילדים ובני נוער המתמודדים עם קשיים רגשיים, חברתיים והתנהגותיים. בעבודתי אני משלבת כלים טיפוליים מדויקים, הבנה עמוקה של עולמם הפנימי וראייה מערכתית של המשפחה כולה</p>
-            <span class="rtl-dot">.</span>
-
-<p class="mbr-text mbr-fonts-style display-7 rtl-text">
-<strong>
-הייעוד שלי הוא להעניק לילדים כלים לחיים מאוזנים, בטוחים ושמחים יותר,
-ולהורים – שקט נפשי בידיעה שילדיהם נמצאים בידיים מקצועיות וקשובות</strong></p>
-<span class="rtl-dot">.</span>
-
-<div class="mbr-section-btn"><a class="btn btn-success" href="about.html#header2-98">אודות אפרת שכטר</a></div>
-
-        </div>
-      </div>
-
-        <div class="col-lg-5 col-md-12 mt-4 mt-lg-0">
-        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="אפרת שכטר טיפול רגשי בבאר שבע" loading="lazy" class="lazyload" data-src="assets/images/0dc760b8-fcf2-407a-b1eb-b17251006c66.png-3-1256x1884.png">
-      </div>
-
+    <!-- =====================================================
+       BRAND INTRO / MOTION SPLASH (homepage, first visit per session).
+       A full brand-colour screen (no logo, owner request 2026-10-04): the name rises, the thread draws —
+       then the screen opens upward onto the hero. Pure CSS timeline (src/css/components/
+       splash.css), ~2.4s total, never blocks reading for longer.
+       Skipped (removed before paint) under reduced motion, without motion support, or
+       when already seen this session. Decorative: aria-hidden; the page beneath stays
+       fully accessible. Text is the approved name + identity line (UI-008).
+       ===================================================== -->
+  <div class="splash" data-splash aria-hidden="true">
+    <div class="splash__glow"></div>
+    <div class="splash__inner">
+      <span class="splash__name"><span>אפרת שכטר</span></span>
+      <svg class="splash__thread" viewBox="0 0 240 20" fill="none" focusable="false">
+        <path d="M238 8 C 180 18, 120 2, 60 12 S 10 14, 2 10" pathLength="1"/>
+      </svg>
+      <span class="splash__role"><span>NLP · טיפול רגשי · באר שבע</span></span>
     </div>
   </div>
-</section>
+  <script>
+    (function () {
+      var el = document.querySelector('[data-splash]');
+      var seen = false;
+      try { seen = sessionStorage.getItem('efrat-splash') === '1'; sessionStorage.setItem('efrat-splash', '1'); } catch (e) {}
+      if (seen || !document.documentElement.classList.contains('motion-ok')) { el.remove(); return; }
+      document.documentElement.classList.add('has-splash');
+      setTimeout(function () { el.remove(); document.documentElement.classList.remove('has-splash'); }, 3200);
+    })();
+  </script>
 
-<section data-bs-version="5.1" class="features05 tradem5 cid-v9fZr0K5C6" id="features05-8y">
-    
+    <!-- =====================================================
+       HEADER & NAVIGATION (structure only — final art direction comes with the homepage)
+       Logo at inline-start (right in RTL), primary nav, contact CTA at inline-end.
+       Hides on scroll down / returns on scroll up (src/js/ui/header.js).
+       Active page: aria-current="page" set by src/js/ui/header.js + magenta thread segment.
+       Below 1024px the inline nav is replaced by the mobile dialog (src/js/ui/mobile-nav.js).
+       Labels: functional UI copy (content-approval.md UI-002).
+       ===================================================== -->
+  <header class="site-header" data-site-header data-header-tone="dark">
+    <div class="site-header__inner container">
+      <a class="site-header__brand" href="index.html" aria-label="אפרת שכטר — דף הבית">
+        <img class="site-header__logo site-header__logo--flat" src="./assets/logo-flat-240-CGmpBmLG.webp"
+             srcset="./assets/logo-flat-240-CGmpBmLG.webp 240w, ./assets/logo-flat-480-Djt_Bkuy.webp 480w"
+             sizes="80px" width="240" height="198" alt="">
+        <img class="site-header__logo site-header__logo--3d" src="./assets/logo-3d-320-B-pEPhUU.webp"
+             srcset="./assets/logo-3d-320-B-pEPhUU.webp 320w, ./assets/logo-3d-640-DD_PvjOa.webp 640w"
+             sizes="80px" width="320" height="265" alt="">
+      </a>
 
-    
-    
+      <nav class="site-nav" aria-label="ניווט ראשי">
+        <ul class="site-nav__list" role="list">
+          <li><a class="site-nav__link" href="about.html">אודות</a></li>
+          <li><a class="site-nav__link" href="emotional-therapy.html">טיפול רגשי</a></li>
+          <li><a class="site-nav__link" href="nlp.html">NLP</a></li>
+          <li><a class="site-nav__link" href="workshops.html">סדנאות</a></li>
+          <li><a class="site-nav__link" href="blog.html">בלוג</a></li>
+          <li><a class="site-nav__link" href="faq.html">שאלות נפוצות</a></li>
+        </ul>
+      </nav>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="title-wrapper">
-                    <h2 class="mbr-section-title mbr-fonts-style gradient-title display-2"><strong>כל מה שאתם צריכים • במקום אחד</strong></h2>
-                </div>
-            </div>
-        </div>
-        <div class="row items-wrap">
-            <div class="item features-without-image col-12 col-lg-4 active">
-                <div class="item-wrapper">
-                    <div class="card-box">
-                        <h4 class="item-title mbr-fonts-style display-5"><strong>? NLP מה זה</strong></h4>
-                        <div class="text-wrapper">
-                            <p class="item-text mbr-fonts-style rtl-text display-4">האנלפי הוא כלי טיפולי שמאפשר להבין איך מחשבות, רגשות ודפוסי התנהגות משפיעים על חיינו. באמצעות שיטות עדינות ומעשיות ניתן ליצור שינוי רגשי, לחזק ביטחון עצמי, 
-להתמודד עם פחדים וחסמים, ולפתח כלים להתמודדות טובה יותר עם אתגרי היום-יום<span class="rtl-dot">.</span>
+      <a class="site-header__cta" href="contact.html">צור קשר</a>
 
-                            </p>
-                            <div class="mbr-section-btn"><a class="btn btn-secondary display-4" href="nlp.html">
-                                    מידע נוסף
-                                </a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item features-without-image col-12 col-lg-4">
-                <div class="item-wrapper">
-                    <div class="card-box">
-                        <h4 class="item-title mbr-fonts-style display-5"><strong>טיפול רגשי פרטני</strong></h4>
-                        <div class="text-wrapper">
-                            <p class="item-text mbr-fonts-style rtl-text display-4">טיפול רגשי אישי המותאם לצרכים הייחודיים של כל ילד או מתבגר<br>התהליך מתקיים בסביבה בטוחה ותומכת, ומשלב כלים מעולם האנלפי הדמיון מודרך ויצירת קשר רגשי – במטרה לחזק ביטחון, לווסת רגשות <br>ולהתמודד עם קשיים רגשיים וחברתיים<span class="rtl-dot">.</span>
-                                
-</p>
-                            <div class="mbr-section-btn"><a class="btn btn-secondary display-4" href="index.html#form02-7j">
-                                    מידע נוסף
-                                </a></div>
-                        </div>
-                    </div>
-                </div>
-            </div><div class="item features-without-image col-12 col-lg-4">
-                <div class="item-wrapper">
-                    <div class="card-box">
-                        <h4 class="item-title mbr-fonts-style display-5">
-                            <strong>סדנאות</strong></h4>
-                        <div class="text-wrapper">
-                            <p class="item-text mbr-fonts-style rtl-text display-4">סדנאות קבוצתיות לילדים ולמתבגרים המעניקות כלים רגשיים וחברתיים דרך חוויה, שיח ותרגול מעשי הקבוצה מאפשרת תחושת שייכות, חיזוק כישורים חברתיים, פיתוח מודעות עצמית והתמודדות עם אתגרים בצורה בטוחה ומכילה<span class="rtl-dot">.</span>
+      <button class="site-header__menu" type="button" data-menu-open aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M3.5 8h17" pathLength="1"/><path d="M3.5 16h17" pathLength="1"/></svg>
 
-                            </p>
-                            <div class="mbr-section-btn"><a class="btn btn-secondary display-4" href="workshops.html#header03-77">
-                                    מידע נוסף
-                                </a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="features04 syncm5 cid-v9j9J8w7d8" id="features04-9j">
-    
-
-    
-    
-
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-11">
-                <div class="content-wrapper">
-                    <div class="row items-wrapper justify-content-center">
-              <h1 class="mbr-section-title mbr-fonts-style gradient-title mbr-white mb-3 display-2"><strong>עבודה טיפולית מבוססת תהליך</strong></h1>
-                        <div class="col-12 col-lg-3 item features-without-image active">
-                            <div class="item-wrapper">
-                                <div class="icon-wrapper">
-                                    <div class="icon-wrap card-wrap">
-<span class="card-wrap card-icons mbr-iconfont mobi-mbri-briefcase mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
-
-                                    </div>
-                                </div>
-                                <h4 class="item-title mbr-fonts-style display-5">מקצועיות בלי התפשרות</h4>
-                                <div class="text-wrap">
-                                    <p class="item-text mbr-fonts-style display-7">
-                                        העבודה מתבצעת מתוך הקפדה על רמת מקצועיות גבוהה, למידה מתמשכת והכנה מדויקת לכל מפגש. כל תהליך נבנה באופן אישי, תוך התאמה לצרכים הייחודיים של המטופל ולשלב ההתפתחותי שבו הוא נמצא</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-3 item features-without-image">
-                            <div class="item-wrapper">
-                                <div class="icon-wrapper">
-                                    <div class="icon-wrap card-wrap">
-<span class="card-wrap card-icons mbr-iconfont mobi-mbri-target mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
-
-                                    </div>
-                                </div>
-                                <h4 class="item-title mbr-fonts-style display-5">תהליך ממוקד תוצאה</h4>
-                                <div class="text-wrap">
-                                    <p class="item-text mbr-fonts-style display-7">
-                                         זיהוי מדויק של הצורך הרגשי מאפשר בניית תהליך ממוקד, יעיל ובר־יישום. העבודה שואפת ליצירת שינוי מדיד במציאות היומיומית, ולא להישאר ברמת השיח בלבד</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-3 item features-without-image">
-                            <div class="item-wrapper">
-                                <div class="icon-wrapper">
-                                    <div class="icon-wrap card-wrap">
-<span class="card-wrap card-icons mbr-iconfont mobi-mbri-users mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
-
-                                    </div>
-                                </div>
-                                <h4 class="item-title mbr-fonts-style display-5">יצירת חיבור ותשתית טיפולית</h4>
-                                <div class="text-wrap">
-                                    <p class="item-text mbr-fonts-style display-7">
-                                        יצירת סביבה בטוחה, מכילה ונטולת שיפוטיות מהווה בסיס לעבודה טיפולית משמעותית. החיבור נבנה מתוך הקשבה,<br>רגישות והבנה עמוקה של עולמו הרגשי של המטופל</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="list01 guidem5 cid-v9ghf1IyG4" id="list01-94">
-    
-
-    
-    
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-8">
-                <div class="title-wrapper">
-                    <h2 class="mbr-section-title mbr-fonts-style gradient-title display-2"><strong>שאלות נפוצות</strong></h2>
-                    <p class="mbr-text mbr-fonts-style display-5">הנה לכם כל השאלות הכי נפוצות שאני שומעת ביום יום<br></p>
-                </div>
-                <div id="bootstrap-accordion_5" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
-                    <div class="card little-radius">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_5" aria-expanded="false" aria-controls="collapse1">
-                                <h4 class="panel-title-edit mbr-fonts-style display-7">מה ההבדל בין טיפול פסיכולוגי לטיפול אנאלפי</h4>
-                                <div class="icon-wrapper">
-                                    <span class="sign mobi-mbri mobi-mbri-plus mbr-iconfont"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="collapse1_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
-                            <div class="panel-body">
-                                <p class="panel-text mbr-fonts-style display-4">&nbsp;טיפול פסיכולוגי מתבסס על המודע והתהליך יכול לקחת שנים, לעומת זאת בטיפול רגשי<br>אנאלפי משתמשים בתת מודע ועובדים בטכניקות שמובילות לשינוי מהיר וממוקד</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card little-radius">
-                        <div class="card-header" role="tab" id="headingTwo">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_5" aria-expanded="false" aria-controls="collapse2">
-                                <h4 class="panel-title-edit mbr-fonts-style display-7">למי  מתאים הטיפול</h4>
-                                <div class="icon-wrapper">
-                                    <span class="sign mobi-mbri mobi-mbri-plus mbr-iconfont"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="collapse2_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
-                            <div class="panel-body">
-                                <p class="panel-text mbr-fonts-style display-4">התהליך מתאים לילדים החל מגיל חמש (גן חובה)
-<br>האימון מתאים במיוחד לטיפול בילדים עם חרדות ופחדים הערכה עצמית נמוכה, ביטחון עצמי ירוד, קשיים חברתיים, קשיים בתוך המערך המשפחתי, קשיי הסתגלות למסגרות, בעיות במערכות יחסים, קשיים לימודיים הנובעים מבעיות רגשיות, וקשיים רגשיים הנובעים  קשב וריכוז ועוד</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card little-radius">
-                        <div class="card-header" role="tab" id="headingThree">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_5" aria-expanded="false" aria-controls="collapse3">
-                                <h4 class="panel-title-edit mbr-fonts-style display-7">מהם היתרונות  המרכזיים של אימון אנאלפי</h4>
-                                <div class="icon-wrapper">
-                                    <span class="sign mobi-mbri mobi-mbri-plus mbr-iconfont"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="collapse3_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
-                            <div class="panel-body">
-                                <p class="panel-text mbr-fonts-style display-4">אימון אנלפי עוזר להפוך בלבול ולחץ לתמונה כלכלית ברורה ובטוחה זה תהליך שמחזיר שליטה, שקט נפשי וביטחון בהחלטות הכלכליות שלך</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card little-radius">
-                        <div class="card-header" role="tab" id="headingFour">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_5" aria-expanded="false" aria-controls="collapse4">
-                                <h4 class="panel-title-edit mbr-fonts-style display-7">האם ההורים נוכחים במפגשים</h4>
-                                <div class="icon-wrapper">
-                                    <span class="sign mobi-mbri mobi-mbri-plus mbr-iconfont"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="collapse4_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
-                            <div class="panel-body">
-                                <p class="panel-text mbr-fonts-style display-4">
-                                    /לא, למעט במפגש הראשון בו ההורים מקבלים הסבר על התהליך. כמובן שההורים שותפים במהלך הטיפול ומוזמנים לקבל מענה באופן רציף
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card little-radius">
-                        <div class="card-header" role="tab" id="headingFive">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_5" aria-expanded="false" aria-controls="collapse5">
-                                <h4 class="panel-title-edit mbr-fonts-style display-7">מה מתבצע במהלך התהליך</h4>
-                                <div class="icon-wrapper">
-                                    <span class="sign mobi-mbri mobi-mbri-plus mbr-iconfont"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="collapse5_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
-                            <div class="panel-body">
-                                <p class="panel-text mbr-fonts-style display-4">התהליך הינו קצר יחסית (כ-10 מפגשים) והוא מותאם באופן
-<br>אישי ושונה מילד לילד
-<br> המפגשים מתנהלים באופן מאוד חוויתי ומהנה בעזרת שלל אביזרים כמו קצף, צבעים, צבעי גואש, דפים ענקיים, בצק, בובות, פלסטלינה, פנסים, בלונים, תחפושות, משחקי קופסא ייעודיים, ספרים ועוד ועוד שעוזרים לילדים להתחבר לאינטראקציה ולהתגייס כל כולם לקידום התהליך. כך תהליך
-<br>מתחיל בפגישה שלי אתכם ההורים, שבו אנו מבררים ומאבחנים את הסימפטומים ואת הקושי שחווה הילד/ה. לאחר מכן, אנו יוצאים לדרך בעבודה פרטנית שלי ביחד עם הילד כשלכל אורך התהליך אני שומרת אתכם על קשר טלפוני רציף  .פעם, לפי הצורך, מתקיימות עוד פגישות בינינוומידי</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card little-radius">
-                        <div class="card-header" role="tab" id="headingSix">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse6_5" aria-expanded="false" aria-controls="collapse6">
-                                <h4 class="panel-title-edit mbr-fonts-style display-7">האם אפשר לקבל 2-3 טיפולים ולא סדרת מפגשים</h4>
-                                <div class="icon-wrapper">
-                                    <span class="sign mobi-mbri mobi-mbri-plus mbr-iconfont"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="collapse6_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
-                            <div class="panel-body">
-                                <p class="panel-text mbr-fonts-style display-4">:זה מאוד בעייתי משתי סיבות
-<br>ליצירת שינוי נדרש תהליך אליו הילד/ה מחויב/ת
-<br>את ההשפעה ניתן לראות רק בטווח של כמה חודשים ולא מיד כך שזה לא מקצועי לעשות מעט מפגשים</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="form2 cid-urLk2xNT4u" id="form02-7j">
-    
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 md-pb">
-                <div class="card col-12">
-                    <div class="card-wrapper">
-                        <a class="iconfont-wrapper" href="#" target="_blank">
-                            <span class="icon-bg icon1"></span>
-                            <span class="p-2 mbr-iconfont mobi-mbri-map-pin mobi-mbri"></span>
-                        </a>
-                        <div class="card-box my-auto">
-                            <h3 class="card-title mbr-fonts-style display-7"><strong>מיקום</strong></h3>
-
-                            <h5 class="card-text mbr-fonts-style display-7"><strong>באר שבע</strong></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="card col-12">
-                    <div class="card-wrapper">
-                        <a class="iconfont-wrapper" href="#" target="_blank">
-                            <span class="icon-bg icon2"></span>
-                            <span class="p-2 mbr-iconfont mobi-mbri-letter mobi-mbri"></span>
-                        </a>
-                        <div class="card-box my-auto">
-                            <h3 class="card-title mbr-fonts-style display-7"><strong>אימייל</strong></h3>
-                            <h5 class="card-text mbr-fonts-style display-7"><a href="mailto:efratshechternlp@gmail.com" class="text-success"><strong>efratshechternlp@gmail.com</strong></a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="card col-12">
-                    <div class="card-wrapper">
-                        <a class="iconfont-wrapper" href="#" target="_blank">
-                            <span class="icon-bg icon3"></span>
-                            <span class="p-2 mbr-iconfont mobi-mbri-phone mobi-mbri"></span>
-                        </a>
-                        <div class="card-box my-auto">
-                            <h3 class="card-title mbr-fonts-style display-7"><strong>מספר טלפון</strong></h3>
-                            <h5 class="card-text mbr-fonts-style display-7"><a href="tel:+972 534401616" class="text-success"><strong>053-440-1616</strong></a>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 mx-auto mbr-form" data-form-type="formoid">
-<!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" dir="rtl" style="text-align:right;" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="PQn8/L8Hlt1pf93nQ+4tDiPCOz3bxQ0GYkpPktIroRA5dIwH9akEog/G3qbLsJXHzAxrPuGL3bmv/oq53zWAt54HWHOhP7ebQu3wXWRB57Tx1uqgGtV0Ax/whLxu597d.I9kTdi3zapgFVl7bxVF0sV3VNSse48ZjLWW6xDE0SilfW3IXKxkHUYlUhZkZTBNOnvYDzAnu9e6/fzgj2qtTK/oLPfuN3pPbsMYHeu7LEihSUpzBpq3XJj+HaWheM7lp">
-
-  <div class="row">
-    <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">הפרטיים הועברו בהצלחה</div>
-    <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-      יש תקלה... נסה שוב
-    </div>
-  </div>
-
-  <div class="dragArea row">
-
-    <div class="col-12">
-      <h5 class="main-sub-title mbr-fonts-style mb-3 display-4" style="text-align:right;">
-        צור קשר
-      </h5>
-    </div>
-
-    <div class="col-12">
-      <h4 class="mbr-section-title mbr-fonts-style mb-3 display-2">אפשר להתחיל בצעד קטן</h4>
-    </div>
-
-    <div class="col-12">
-      <h5 class="mbr-section-subtitle mbr-fonts-style mb-4 display-7">השאירו פרטים לשיחה אישית<strong> לגמרי בחינם</strong>, ונבדוק יחד מה נכון לכם או לילדכם בשלב הזה.</h5>
-    </div>
-
-    <div data-for="name" class="col-12 form-group mb-3">
-      <label for="name-form02-7j" class="form-control-label mbr-fonts-style display-7">
-        שם מלא
-      </label>
-      <input type="text" name="name" placeholder="שם מלא" data-form-field="name" class="form-control display-7" style="text-align:right;" id="name-form02-7j">
-    </div>
-
-    <div data-for="phone" class="col-12 form-group mb-3">
-      <label for="phone-form02-7j" class="form-control-label mbr-fonts-style display-7">
-        טלפון
-      </label>
-      <input type="tel" name="phone" placeholder="טלפון" data-form-field="phone" class="form-control display-7" style="text-align:right;" id="phone-form02-7j">
-    </div>
-
-    <div data-for="select" class="col-12 form-group mb-3">
-      <label for="select-form02-7j" class="form-control-label mbr-fonts-style display-7">
-סיבת הפנייה      </label>
-      <select name="select" data-form-field="select" class="form-control form-select display-7" style="text-align:right;" id="select-form02-7j">
-        <option value="טיפול רגשי לילדים">טיפול רגשי לילדים</option>
-        <option value="סדנאות">סדנאות</option>
-        <option value="אחר">אחר</option>
-      </select>
-    </div>
-
-    <div class="col-12 form-group mb-4">
-      <div data-for="אני מסכים/מסכימה לתנאים ולהגבלות ולמדיניות הפרטיות ומאשר יצירת קשר מצד האתר" class="form-check">
-        <input type="checkbox" value="Yes" name="אני מסכים/מסכימה לתנאים ולהגבלות ולמדיניות הפרטיות ומאשר יצירת קשר מצד האתר" data-form-field="אני מסכים/מסכימה לתנאים ולהגבלות ולמדיניות הפרטיות ומאשר יצירת קשר מצד האתר" required="" class="form-check-input display-7" style="float:right; margin-left:8px;" id="אני מסכים/מסכימה לתנאים ולהגבלות ולמדיניות הפרטיות ומאשר יצירת קשר מצד האתר-form02-7j">
-        <label class="form-check-label display-7" style="display:block;">
-          אני מסכים/מסכימה לתנאים ולהגבלות ולמדיניות הפרטיות ומאשר יצירת קשר מצד האתר
-        </label>
-      </div>
-    </div>
-
-    <div class="col-12 mbr-section-btn">
-      <button type="submit" class="w-100 btn btn-success" style="text-align:center;">
-   שליחה
+        <span class="visually-hidden">תפריט</span>
       </button>
     </div>
+  </header>
 
+  <!-- Mobile navigation: native modal <dialog> (focus trap, inert page, Escape) -->
+  <dialog id="mobile-menu" class="mobile-nav" data-mobile-nav aria-label="תפריט">
+    <div class="mobile-nav__panel">
+      <button class="mobile-nav__close" type="button" data-menu-close>
+        <svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M5.5 5.5l13 13" pathLength="1"/><path d="M18.5 5.5l-13 13" pathLength="1"/></svg>
+
+        <span class="visually-hidden">סגירת התפריט</span>
+      </button>
+      <nav aria-label="ניווט ראשי">
+        <ul class="mobile-nav__list" role="list">
+          <li style="--i: 0"><a class="mobile-nav__link" href="index.html">דף הבית</a></li>
+          <li style="--i: 1"><a class="mobile-nav__link" href="about.html">אודות</a></li>
+          <li style="--i: 2"><a class="mobile-nav__link" href="emotional-therapy.html">טיפול רגשי</a></li>
+          <li style="--i: 3"><a class="mobile-nav__link" href="nlp.html">NLP</a></li>
+          <li style="--i: 4"><a class="mobile-nav__link" href="workshops.html">סדנאות</a></li>
+          <li style="--i: 5"><a class="mobile-nav__link" href="testimonials.html">המלצות</a></li>
+          <li style="--i: 6"><a class="mobile-nav__link" href="blog.html">בלוג</a></li>
+          <li style="--i: 7"><a class="mobile-nav__link" href="faq.html">שאלות נפוצות</a></li>
+          <li style="--i: 8"><a class="mobile-nav__link" href="contact.html">צור קשר</a></li>
+        </ul>
+      </nav>
+      <p class="mobile-nav__contact"><a href="tel:+972534401616" class="ltr">053-440-1616</a></p>
+    </div>
+  </dialog>
+
+
+  <!-- =====================================================================
+       HOMEPAGE — design v2 (2026-10-03). Night and cream chapters alternate:
+         1 hero (a short 3D climb to the summit)  ·  2 about  ·  3 how NLP works  ·  4 who it helps  ·
+         5 services · 6 testimonials · 7 the process · 8 blog · 9 FAQ · contact (grounds alternate night / cream)
+       The hero is the journey (owner request 2026-10-04): a figure climbs from the night valley
+       to the summit in real-time 3D. Then thinking · language · behaviour are shown through
+       Mind/Brain, Story Book and Growth, with the Perspective Prism as the change of viewpoint.
+       All copy is verbatim from conten from efrat/conten.txt (section noted per block) or
+       functional UI listed in content-approval.md. Two-tone headlines split approved text.
+       ===================================================================== -->
+  <main id="main" tabindex="-1">
+
+    <!-- ─── 1 · Hero — a short climb in real-time 3D (three.js, src/js/three/mountain-scene.js):
+         a cartoon boy walks up from the night valley to the sunlit summit and raises his arms as the
+         parent scrolls about two screens (scene: src/js/motion/scenes/hero.js). The canvas fills the stage
+         behind the copy (model z-index 0, copy 1). Without WebGL / with reduced motion: the
+         Growth object (upward = growth) on the night ground. conten.txt §1, §2 -->
+    <section class="hero ground-night" data-tone="dark" data-scene="hero" aria-labelledby="hero-title">
+      <div class="hero__stage">
+        <div class="hero__model" data-hero-model>
+          <img class="hero__fallback" src="./assets/obj-growth-600-K-9o9kYm.webp"
+               srcset="./assets/obj-growth-600-K-9o9kYm.webp 600w, ./assets/obj-growth-1200-D191C2BH.webp 1200w"
+               sizes="(max-width: 1023px) 70vw, 560px" width="1200" height="896" alt="" fetchpriority="high">
+        </div>
+
+        <div class="hero__copy container">
+          <p class="eyebrow-line hero__eyebrow">אפרת שכטר · באר שבע</p>
+          <h1 id="hero-title" class="headline headline--xl">
+            <span class="headline__line"><span class="ltr">NLP</span>, טיפול רגשי והנחיית סדנאות</span>
+            <span class="headline__accent">לילדים ובני נוער</span>
+          </h1>
+          <p class="hero__lead">מומחית לטיפול רגשי בשיטת <span class="ltr">NLP</span> ולהנחיית סדנאות חוסן ומיומנויות חברתיות לילדים ולבני נוער.</p>
+          <div class="hero__actions">
+            <a class="button button--accent has-arrow" href="#contact"><span class="button__label">צור קשר</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+            <a class="button button--ghost has-arrow" href="#services"><span class="button__label">טיפול וסדנאות</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+          </div>
+          <p class="hero__trust">
+            <a href="tel:+972534401616"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M6.5 3.5h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2l1.3-2 4 1.5v3a2 2 0 0 1-2 2A15.5 15.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z" pathLength="1"/></svg>
+<span class="ltr">053-440-1616</span></a>
+            <span><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11Z" pathLength="1"/><path d="M12 7.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" pathLength="1"/></svg>
+<span>באר שבע</span></span>
+          </p>
+        </div>
+
+
+        <!-- Hurdle labels: one per cube on the trail (mountain-scene.js HURDLES), placed every frame
+             by hero.js. Decorative (the same topics are listed in "who it helps"). -->
+        <ul class="hurdles" aria-hidden="true" data-hurdles>
+          <li>פחדים</li>
+          <li>ביישנות</li>
+          <li>כעסים</li>
+          <li>חרדה</li>
+          <li>קשיים חברתיים</li>
+        </ul>
+
+        <!-- The summit beat: when the child reaches the top, the call to action appears beside them
+             (src/js/motion/scenes/hero.js). Without motion it sits under the hero copy. -->
+        <div class="journey container" data-journey>
+          <div class="journey__beat journey__beat--summit" data-beat="0.86 2">
+            <p class="journey__summit">כל ילד יכול להגיע <span class="journey__summit-accent">לפסגה שלו</span></p>
+            <div class="hero__actions">
+              <a class="button button--accent has-arrow" href="#contact"><span class="button__label">צור קשר</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+              <a class="button button--ghost has-arrow" href="#about"><span class="button__label">אודות</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+            </div>
+          </div>
+        </div>
+
+        <p class="hero__cue" aria-hidden="true"><span></span></p>
+      </div>
+    </section>
+
+    <!-- ─── 2 · About — the arch portrait with the Fountain Pen (Efrat's own story).
+         conten.txt §2 -->
+    <section class="about section ground-cream" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__visual">
+          <div class="about__arch" data-reveal="clip" data-reveal-from="bottom">
+            <img src="./assets/efrat-cutout-waist-600-2UT5FeEl.webp"
+                 srcset="./assets/efrat-cutout-waist-600-2UT5FeEl.webp 600w, ./assets/efrat-cutout-waist-1000-DcdW155X.webp 1000w"
+                 sizes="(min-width: 1024px) 30vw, 80vw" width="600" height="684" alt="אפרת שכטר" loading="lazy" decoding="async">
+          </div>
+          <p class="about__tag"><span>אפרת שכטר</span><span class="ltr">NLP</span></p>
+        </div>
+
+        <div class="about__text">
+          <p class="eyebrow-line">אודות</p>
+          <h2 id="about-title" class="headline">
+            <span class="headline__line">אודות</span>
+            <span class="headline__accent">אפרת שכטר</span>
+          </h2>
+          <p class="about__lead" data-reveal="fade">מומחית לטיפול רגשי בשיטת <span class="ltr">NLP</span> ולהנחיית סדנאות חוסן ומיומנויות חברתיות לילדים ולבני נוער.</p>
+          <p class="about__story" data-reveal="fade">לאורך חיי התמודדתי עם אתגרים ומשברים שדרשו ממני לפתח חוסן פנימי, חשיבה חיובית והתמדה. הדרך האישית שעברתי, יחד עם ההכשרה המקצועית, הובילה אותי למקום שבו אני נמצאת היום: ללוות ילדים ובני נוער בתהליכים רגשיים וחברתיים, ולתת להורים שקט נפשי בידיעה שילדיהם בידיים מקצועיות וקשובות.</p>
+
+          <h3 class="about__sub">הגישה הטיפולית</h3>
+          <ol class="approach" role="list" data-reveal-group>
+            <li class="approach__item" data-reveal="slide"><span class="approach__index ltr">01</span><span>יצירת סביבה בטוחה, עטופה, אמפתית ומכילה שבה הילד מרגיש בנוח להיפתח.</span></li>
+            <li class="approach__item" data-reveal="slide"><span class="approach__index ltr">02</span><span>מתן כלים פרקטיים ומעצימים המותאמים אישית לעולם התוכן של הילד/ה.</span></li>
+            <li class="approach__item" data-reveal="slide"><span class="approach__index ltr">03</span><span>חיזוק הדימוי העצמי, החוסן הנפשי והיכולת להתמודד עם אתגרי החיים.</span></li>
+          </ol>
+          <a class="button button--dark has-arrow" href="about.html"><span class="button__label">אודות</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── 3 · How NLP works — three lacquered 3D rings (thinking · language · behaviour) spin
+         inside a flowing orbit and align as the section reaches the middle of the screen; the
+         chosen card lights its ring (src/js/motion/scenes/nlp.js, three/nlp/rings-scene.js).
+         Without WebGL / motion: the orbit with an "NLP" core and the three cards. -->
+    <section class="nlp section ground-night" data-tone="dark" data-scene="nlp" id="nlp" aria-labelledby="nlp-title">
+      <div class="container">
+        <div class="sec-head sec-head--center nlp__head">
+          <div class="sec-head__main">
+            <h2 id="nlp-title" class="headline headline--center">
+              <span class="headline__line">מהו טיפול</span>
+              <span class="headline__accent"><span class="ltr">NLP</span>?</span>
+            </h2>
+          </div>
+          <p class="nlp__lead"><span class="ltr" lang="en">Neuro-Linguistic Programming</span> (ניתוב לשוני פיזיולוגי): גישה טיפולית ממוקדת המאפשרת להשפיע לחיוב על דפוסי חשיבה, שפה והתנהגות.</p>
+        </div>
+        <div class="nlp-orbit" aria-hidden="true">
+          <svg class="nlp-orbit__ring" viewBox="0 0 100 100">
+            <defs><linearGradient id="nlpOrbit" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#c0176f"/><stop offset="0.5" stop-color="#2ac5fb"/><stop offset="1" stop-color="#e8b923"/></linearGradient></defs>
+            <circle cx="50" cy="50" r="44" />
+          </svg>
+          <p class="nlp-orbit__core ltr">NLP</p>
+          <div class="nlp-orbit__3d" data-nlp-3d></div>
+            <span class="nlp-node" style="--c: #c0176f; --x: 50%; --y: 5%" data-nlp-node="0" aria-hidden="true">דפוסי חשיבה</span>
+            <span class="nlp-node" style="--c: #2ac5fb; --x: 89%; --y: 73%" data-nlp-node="1" aria-hidden="true">שפה</span>
+            <span class="nlp-node" style="--c: #e8b923; --x: 11%; --y: 73%" data-nlp-node="2" aria-hidden="true">התנהגות</span>
+        </div>
+        <ul class="nlp-cards" role="list">
+          <li class="nlp-card" style="--c: #c0176f" data-nlp-card="0">
+            <span class="nlp-card__ring" aria-hidden="true"></span>
+            <h3 class="nlp-card__title">דפוסי חשיבה</h3>
+            <p class="nlp-card__text">המחשבות האוטומטיות שמובילות לפחד, לכעס או לביטחון.</p>
+          </li>
+          <li class="nlp-card" style="--c: #2ac5fb" data-nlp-card="1">
+            <span class="nlp-card__ring" aria-hidden="true"></span>
+            <h3 class="nlp-card__title">שפה</h3>
+            <p class="nlp-card__text">המילים שהילד אומר לעצמו ולאחרים.</p>
+          </li>
+          <li class="nlp-card" style="--c: #e8b923" data-nlp-card="2">
+            <span class="nlp-card__ring" aria-hidden="true"></span>
+            <h3 class="nlp-card__title">התנהגות</h3>
+            <p class="nlp-card__text">התגובות בפועל, בכיתה, בחברה ובבית.</p>
+          </li>
+        </ul>
+        <p class="nlp__more-wrap"><a class="arrow-link has-arrow" href="nlp.html"><span class="arrow-link__text">מהו טיפול <span class="ltr">NLP</span>?</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a></p>
+      </div>
+    </section>
+
+    <!-- ─── 4 · Who it helps — conten.txt §3 (TYPO-001 kept verbatim) -->
+    <section class="who section ground-cream" aria-labelledby="who-title">
+      <div class="container">
+        <div class="who__head">
+          <p class="eyebrow-line">טיפול רגשי פרטני (<span class="ltr">NLP</span> לילדים ולנוער)</p>
+          <h2 id="who-title" class="headline">
+            <span class="headline__line">למי הטיפול</span>
+            <span class="headline__accent">הפרטני מתאים?</span>
+          </h2>
+          <p class="who__intro">ילדים ובני נוער המתמודדים עם:</p>
+        </div>
+        <ul class="tiles" role="list" data-reveal-group>
+          <li class="tile" data-reveal="slide"><div class="tile__top"><span class="tile__icon" data-icon="shield"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M12 3 5 6v5c0 4.4 3 8.3 7 9.5 4-1.2 7-5.1 7-9.5V6l-7-3Z" pathLength="1"/><path d="m9 12 2 2 4-4" pathLength="1"/></svg>
+</span><span class="tile__index ltr">01</span></div><p class="tile__title">חוסר ביטחון עצמי, דימוי עצמי נמוך וביישנות.</p></li>
+          <li class="tile" data-reveal="slide"><div class="tile__top"><span class="tile__icon" data-icon="storm"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M7 15a4 4 0 1 1 .9-7.9A5 5 0 0 1 17.6 8 3.5 3.5 0 1 1 17 15H7Z" pathLength="1"/><path d="m12 13-2 4h3l-2 4" pathLength="1"/></svg>
+</span><span class="tile__index ltr">02</span></div><p class="tile__title">קשיים וויסות רגשי, התקפי זעם, כעסים ופחדים.</p></li>
+          <li class="tile" data-reveal="slide"><div class="tile__top"><span class="tile__icon" data-icon="wave"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M3 9c2-2 4-2 6 0s4 2 6 0 4-2 6 0" pathLength="1"/><path d="M3 15c2-2 4-2 6 0s4 2 6 0 4-2 6 0" pathLength="1"/></svg>
+</span><span class="tile__index ltr">03</span></div><p class="tile__title">חרדות ואתגרים רגשיים שונים.</p></li>
+          <li class="tile" data-reveal="slide"><div class="tile__top"><span class="tile__icon" data-icon="focus"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><circle cx="12" cy="12" r="8" pathLength="1"/><circle cx="12" cy="12" r="3.5" pathLength="1"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3" pathLength="1"/></svg>
+</span><span class="tile__index ltr">04</span></div><p class="tile__title">הפרעות קשב וריכוז (<span class="ltr">ADHD</span>).</p></li>
+          <li class="tile" data-reveal="slide"><div class="tile__top"><span class="tile__icon" data-icon="people"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><circle cx="9" cy="8" r="3" pathLength="1"/><circle cx="17" cy="9.5" r="2.4" pathLength="1"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0" pathLength="1"/><path d="M14.5 15.2A4.5 4.5 0 0 1 20.5 19" pathLength="1"/></svg>
+</span><span class="tile__index ltr">05</span></div><p class="tile__title">קשיים חברתיים ויצירת קשרים.</p></li>
+        </ul>
+        <div class="cta-strip">
+          <p class="cta-strip__text">טיפול רגשי פרטני (<span class="ltr">NLP</span> לילדים ולנוער)</p>
+          <div class="cta-strip__actions">
+            <a class="button button--accent has-arrow" href="emotional-therapy.html"><span class="button__label">לפרטים נוספים</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+            <a class="button button--ghost" href="#contact"><span class="button__label">צור קשר</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── 5 · Services — the four approved services as cards with their object.
+         The Story Book floats in 3D (CSS) as the section scrolls. conten.txt §3, §4 -->
+    <section class="services section ground-night" data-tone="dark" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="services__head">
+          <p class="eyebrow-line">טיפול וסדנאות</p>
+          <h2 id="services-title" class="headline">
+            <span class="headline__line">טיפול רגשי פרטני</span>
+            <span class="headline__accent">וסדנאות ומענים קבוצתיים</span>
+          </h2>
+        </div>
+        <ul class="services__grid" role="list" data-reveal-group>
+          <li class="card card--glass card--link services__card" data-reveal="slide">
+            <div class="card__media"><img src="./assets/clinic-room-800-B2HJrck3.webp" width="800" height="600" alt="" loading="lazy" decoding="async"></div>
+            <span class="card__index ltr">01</span>
+            <h3 class="card__title"><a href="emotional-therapy.html">טיפול רגשי פרטני (<span class="ltr">NLP</span> לילדים ולנוער)</a></h3>
+            <p class="card__text">תהליך קצר ממוקד ותוצאתי המקנה כלים לכל החיים.</p>
+            <span class="chip">ילדים ובני נוער</span>
+            <span class="card__more has-arrow" aria-hidden="true"><span>לפרטים נוספים</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</span>
+          </li>
+          <li class="card card--glass card--link services__card" data-reveal="slide">
+            <div class="card__media"><img src="./assets/render-story-book-600-B3MXZtDW.webp" width="600" height="448" alt="" loading="lazy" decoding="async"></div>
+            <span class="card__index ltr">02</span>
+            <h3 class="card__title"><a href="workshop-social-skills.html">סדנת כישורים חברתיים (<span class="ltr">NLP</span>)</a></h3>
+            <p class="card__text">שיפור מיומנויות חברתיות, העצמת הילדים והקניית כלים ליצירת קשרים חברתיים מתמשכים בקלות וללא מאמץ.</p>
+            <span class="chip">ילדים/ות בני 5–11</span>
+            <span class="card__more has-arrow" aria-hidden="true"><span>לפרטים נוספים</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</span>
+          </li>
+          <li class="card card--glass card--link services__card" data-reveal="slide">
+            <div class="card__media"><img src="./assets/render-growth-600-Cu-fbDI9.webp" width="600" height="448" alt="" loading="lazy" decoding="async"></div>
+            <span class="card__index ltr">03</span>
+            <h3 class="card__title"><a href="workshop-resilience.html">סדנת חוסן נפשי</a></h3>
+            <p class="card__text">הקניית כלים להתמודדות חיובית עם אתגרים, שליטה במצבי לחץ, התאוששות מאתגרים רגשיים וחיזוק החוסן האישי במצבי שגרה וחירום.</p>
+            <span class="chip">ילדים ובני נוער בגילאי 7–18</span>
+            <span class="card__more has-arrow" aria-hidden="true"><span>לפרטים נוספים</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</span>
+          </li>
+          <li class="card card--glass card--link services__card" data-reveal="slide">
+            <div class="card__media" data-pen3d><img src="./assets/render-fountain-pen-600-BjrmwPGy.webp" width="600" height="448" alt="" loading="lazy" decoding="async"></div>
+            <span class="card__index ltr">04</span>
+            <h3 class="card__title"><a href="workshop-first-grade-preparation.html">סדנת הכנה לכיתה א'</a></h3>
+            <p class="card__text">חיזוק מיומנויות למידה מוקדמות ופיתוח חוסן רגשי לקראת המעבר המשמעותי מגן הילדים למסגרת הבית-ספרית.</p>
+            <span class="chip">ילדים/ות בגילאי 5–7 העולים לכיתה א'</span>
+            <span class="card__more has-arrow" aria-hidden="true"><span>לפרטים נוספים</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ─── 6b · Testimonials — the real reviews from Efrat's current site (efratshechternlp.com/nlp.html),
+         wording kept; only spacing and punctuation cleaned. Layout like the Ella Ozan site:
+         heading row with arrows, a swipeable row of equal cards (src/js/ui/carousel.js). -->
+    <section class="reviews section ground-cream" id="testimonials" aria-labelledby="reviews-title">
+      <div class="container">
+        <div class="sec-head">
+          <div class="sec-head__main">
+            <h2 id="reviews-title" class="headline">
+              <span class="headline__line">מה אומרים</span>
+              <span class="headline__accent">ההורים והמטופלים</span>
+            </h2>
+          </div>
+          <div class="reviews__nav" data-carousel-nav>
+            <button class="reviews__arrow" type="button" data-carousel-prev aria-label="ההמלצה הקודמת"><svg class="arrow arrow--back" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</button>
+            <button class="reviews__arrow" type="button" data-carousel-next aria-label="ההמלצה הבאה"><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</button>
+          </div>
+        </div>
+        <div class="reviews__viewport" data-carousel tabindex="0" role="region" aria-label="המלצות">
+          <ul class="reviews__track" role="list">
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">נ</span><p class="review__name">נועם י.</p><p class="review__tag">טיפול רגשי</p></div>
+              <blockquote class="review__quote"><p>אני מעריכה מאוד את הידע המקצועי והשירות האדיב שקיבלתי בטיפול. תודה רבה על המאמץ והזמן עבורי. דרך אגב, רק לשמוע את הקול שלך, זה מרגיע מאוד.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">מ</span><p class="review__name">מאור כ.</p><p class="review__tag">טיפול רגשי</p></div>
+              <blockquote class="review__quote"><p>אם היו אומרים לי שבעשרה מפגשים הילד בן 10 ישתנה כל כך... נעלמו החרדות, הלילות הפכו להיות לילות של שינה רצופה! לא הייתי מאמין, אבל זה פשוט עבד.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">ר</span><p class="review__name">רחל ק.</p><p class="review__tag">סדנת כישורים חברתיים</p></div>
+              <blockquote class="review__quote"><p>הבן שלי השתתף בסדנת כישורים חברתיים. תמיד היו לו בעיות בתקשורת עם בני גילו, הוא לא מצליח להחזיק חברויות לאורך זמן ובקושי נפגש עם חברים אחה"צ. כשראיתי את הפרסום חשבתי לעצמי: מה יכול להיות? ואז הילד פשוט פרח ממפגש למפגש. הוא מצא לו חברים חדשים עם אותם קשיים כמו שלו וזה מאוד הרגיע אותו. הוא נהנה מאוד מהסדנה ורכש כלים חשובים מאוד בתקשורת וברכישת חברות. ממליצה בחום לכל הילדים עם קשיים בתקשורת.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">ב</span><p class="review__name">בתאל ר.</p><p class="review__tag">סדנת חוסן</p></div>
+              <blockquote class="review__quote"><p>הבת שלי השתתפה בסדנת חוסן. האמת, לא האמנתי שבתוך 5 מפגשים היא תקבל כל כך הרבה ערך ותהפוך מילדה חרדתית ורגישה, שבוכה מכל דבר ומתעצבנת בקלות, לילדה רגועה יותר. ועוד יותר חשוב לי כאמא: היא פשוט שמחה יותר, והבית הפך להיות נעים יותר.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">ק</span><p class="review__name">קלודין א.</p><p class="review__tag">טיפול רגשי</p></div>
+              <blockquote class="review__quote"><p>אני מאוד סקפטית, אבל הילד שלי הפך להיות פשוט אחר. היו לו המון התקפי זעם והוא היה מאוד אימפולסיבי, ולאחר כמה מפגשים כבר הרגשנו בשינוי לטובה. אני מודה לך מאוד.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">ד</span><p class="review__name">דנה ל.</p><p class="review__tag">סדנת כישורים חברתיים</p></div>
+              <blockquote class="review__quote"><p>רשמתי את הילדה שלי לסדנת כישורים חברתיים בקבוצה של ילדות בנות 9–10. הילדה שלי לא פופולרית בכיתה ותמיד מרגישה שדוחים אותה, והסדנה הזו העצימה אותה. היא למדה להתעלם מילדות מציקות, להצטרף לשיחה וליצור חברות אמיתית, ועל הדרך גם הכירה 2 חברות חדשות. תודה רבה לך, תמשיכי לעשות חיל!</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">נ</span><p class="review__name">נועה ז.</p><p class="review__tag">טיפול רגשי</p></div>
+              <blockquote class="review__quote"><p>הייתי אצל הרבה מטפלות ומאמנות בעבר, אבל את משהו אחר, משהו מיוחד. התחברתי אלייך כבר ברגע הראשון, הטכניקות שהעברת גרמו לי להתקדם מאוד מהר לעבר המטרה שלי. למדתי מה זה דמיון מודרך ולקחתי את זה ככלי לחיים שלי. תודה על הכול.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">א</span><p class="review__name">אלעד ח.</p><p class="review__tag">סדנת כישורים חברתיים</p></div>
+              <blockquote class="review__quote"><p>הבן שלי השתתף בסדנת מיומנויות חברתיות אצל אפרת. הוא התאהב בה מהמפגש הראשון ופשוט לא רצה לחזור הביתה. הילד היה עם התקפי זעם ברמה שלא יכולתי לשבת איתו 10 דקות בלי להתפוצץ, ולאחר הסדנה הוא למד לשלוט בכעסים שלו ולמד להתאפק! ממליץ בחום על השתתפות בסדנה.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">א</span><p class="review__name">אביטל ש.</p><p class="review__tag">טיפול רגשי</p></div>
+              <blockquote class="review__quote"><p>אני מאוד מרוצה מהשיפור המתמיד שאני רואה בתהליך שעשית עבור הבת שלי. תודה על המומחיות והתמיכה המקצועית! הבת שלי כבר לא מפחדת להיכנס לבית.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">ד</span><p class="review__name">דפנה ר.</p><p class="review__tag">טיפול רגשי</p></div>
+              <blockquote class="review__quote"><p>ברצוני להודות לך אפרת, האלופה. בגיל ההתבגרות צריך רק מישהו אחד שיקשיב ויהיה שם בשבילי, אז תודה לך על הטיפול המדהים. התהליך היה מרתק ומועיל מאוד. ממליצה בחום.</p></blockquote>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── 6 · The process — the Fountain Pen in the middle, two steps on each side (01–02 on the
+         reading side, 03–04 on the other). Desktop: the section pins for four scroll beats; on each
+         one the pen turns to point at the next step, which opens (src/js/motion/scenes/process.js).
+         Phones / reduced motion: the pen above, the four steps stacked, all readable. -->
+    <section class="process section ground-night" data-tone="dark" data-scene="process" id="process" aria-labelledby="process-title">
+      <div class="container process__inner">
+        <div class="sec-head sec-head--center process__head">
+          <div class="sec-head__main">
+            <h2 id="process-title" class="headline headline--center">
+              <span class="headline__line">איך נראה התהליך?</span>
+              <span class="headline__accent">צעד אחר צעד</span>
+            </h2>
+          </div>
+        </div>
+        <div class="process__stage">
+          <div class="process__visual" aria-hidden="true">
+            <div class="process__object" data-process-object>
+              <!-- Brand object stage — the only way to place one of the five objects.
+     Read the brand-object-art-direction skill first: every placement must communicate an idea.
+     Usage:
+       <!- - @include partials/object.html id="growth" size="md" alt=""
+             stage-attrs="data-reveal='scale' data-tilt-area" body-attrs="data-breathe data-tilt" - ->
+     id:   perspective-prism · story-book · fountain-pen · growth (mind-brain is not used, owner decision 2026-10-04)
+     size: sm 280 · md 420 · lg 600 CSS px (sources are 1200px: never larger)
+     alt:  empty (decorative) unless the object carries meaning in context
+     class: extra classes on the stage (page composition hooks)
+     stage-attrs: data-reveal='scale' · data-parallax='0.18' · data-tilt-area · data-scroll-progress
+     body-attrs:  data-breathe · data-breathe-delay='-2s' · data-tilt · data-tilt-max='5'
+     loading / priority / sizes: image loading hints (lead object above the fold:
+       loading="eager" priority="high") -->
+<figure class="object-stage object-stage--lg " data-object="fountain-pen" >
+  <div class="object-stage__light" aria-hidden="true"></div>
+  <div class="object-stage__body" >
+    <img src="./assets/obj-fountain-pen-600-B2MJvhdh.webp"
+         srcset="./assets/obj-fountain-pen-600-B2MJvhdh.webp 600w, ./assets/obj-fountain-pen-1200-DTsx27Iq.webp 1200w"
+         sizes="(max-width: 1023px) 70vw, 420px" width="1200" height="896" alt=""
+         loading="lazy" fetchpriority="auto" decoding="async">
+    <div class="object-stage__sheen" aria-hidden="true"></div>
   </div>
+  <div class="object-stage__shadow" aria-hidden="true"></div>
+</figure>
+
+            </div>
+          </div>
+          <ol class="steps" role="list">
+            <li class="step" data-step>
+              <span class="step__index ltr">01</span>
+              <div class="step__body"><h3 class="step__title">פגישת היכרות עם ההורים</h3><p class="step__text">המפגש הראשון הוא איתכם. נכיר, נבין מה הילד או הילדה חווים ומה מעסיק אתכם, ונגדיר יחד מטרות ברורות לתהליך.</p></div>
+            </li>
+            <li class="step" data-step>
+              <span class="step__index ltr">02</span>
+              <div class="step__body"><h3 class="step__title">תוכנית מותאמת אישית</h3><p class="step__text">על בסיס ההיכרות אני בונה תהליך מדויק לעולם התוכן של הילד. לא פתרון מדף, אלא דרך שמתאימה דווקא לו.</p></div>
+            </li>
+            <li class="step" data-step>
+              <span class="step__index ltr">03</span>
+              <div class="step__body"><h3 class="step__title">מפגשים חווייתיים עם הילד</h3><p class="step__text">כעשרה מפגשים פרטניים של משחק, יצירה, דמיון מודרך וכלים מעולם ה־<span class="ltr">NLP</span>, כך שהילד מתגייס לתהליך ונהנה ממנו.</p></div>
+            </li>
+            <li class="step" data-step>
+              <span class="step__index ltr">04</span>
+              <div class="step__body"><h3 class="step__title">ליווי צמוד וכלים לחיים</h3><p class="step__text">לאורך כל הדרך אנחנו בקשר רציף. בסיום, הילד יוצא עם כלים שנשארים איתו גם מחוץ לחדר הטיפולים.</p></div>
+            </li>
+          </ol>
+        </div>
+        <div class="cta-strip">
+            <p class="cta-strip__text">השיחה הראשונה ללא עלות</p>
+            <div class="cta-strip__actions">
+              <a class="button button--accent has-arrow" href="#contact"><span class="button__label">לתיאום שיחת התאמה</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- ─── 7b · From the blog — three articles (written in Efrat's voice, approved in
+         principle 2026-10-04; full articles on the blog pages). -->
+    <section class="section ground-cream" aria-labelledby="articles-title">
+      <div class="container">
+        <div class="sec-head">
+          <div class="sec-head__main">
+            <h2 id="articles-title" class="headline">
+              <span class="headline__line">מהבלוג</span>
+              <span class="headline__accent">כלים להורים</span>
+            </h2>
+          </div>
+          <div class="sec-head__side">
+            <a class="arrow-link has-arrow" href="blog.html"><span class="arrow-link__text">לכל המאמרים</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+          </div>
+        </div>
+        <ul class="articles" role="list" data-reveal-group>
+          <li class="article-card" data-reveal="slide">
+            <div class="article-card__media"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20500'%20role='img'%20aria-label=''%3e%3c!--%20Article%20illustration:%20the%20first%20school%20morning%20—%20a%20little%20backpack%20on%20the%20path%20to%20an%20arched%20door,%20the%20sun%20rising%20behind%20it.%20Brand%20palette;%20no%20people.%20--%3e%3cdefs%3e%3clinearGradient%20id='sky'%20x1='0'%20y1='0'%20x2='0'%20y2='1'%3e%3cstop%20offset='0'%20stop-color='%2314304a'/%3e%3cstop%20offset='0.55'%20stop-color='%233a3fa8'/%3e%3cstop%20offset='1'%20stop-color='%23f7508f'/%3e%3c/linearGradient%3e%3cradialGradient%20id='sun'%20cx='0.5'%20cy='0.5'%20r='0.5'%3e%3cstop%20offset='0'%20stop-color='%23fff4d6'/%3e%3cstop%20offset='0.45'%20stop-color='%23ffd28a'/%3e%3cstop%20offset='1'%20stop-color='%23ffd28a'%20stop-opacity='0'/%3e%3c/radialGradient%3e%3clinearGradient%20id='ground'%20x1='0'%20y1='0'%20x2='0'%20y2='1'%3e%3cstop%20offset='0'%20stop-color='%23f8f4eb'/%3e%3cstop%20offset='1'%20stop-color='%23ede6d9'/%3e%3c/linearGradient%3e%3clinearGradient%20id='wall'%20x1='0'%20y1='0'%20x2='1'%20y2='0'%3e%3cstop%20offset='0'%20stop-color='%232236ae'/%3e%3cstop%20offset='1'%20stop-color='%2314304a'/%3e%3c/linearGradient%3e%3clinearGradient%20id='bag'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3e%3cstop%20offset='0'%20stop-color='%23f7508f'/%3e%3cstop%20offset='1'%20stop-color='%23c0176f'/%3e%3c/linearGradient%3e%3cfilter%20id='soft'%20x='-20%25'%20y='-20%25'%20width='140%25'%20height='140%25'%3e%3cfeGaussianBlur%20stdDeviation='10'/%3e%3c/filter%3e%3c/defs%3e%3crect%20width='800'%20height='500'%20fill='url(%23sky)'/%3e%3ccircle%20cx='400'%20cy='250'%20r='190'%20fill='url(%23sun)'/%3e%3c!--%20the%20school:%20a%20calm%20arch%20with%20a%20warm%20doorway%20--%3e%3cpath%20d='M250%20330%20V190%20a150%20150%200%200%201%20300%200%20V330%20Z'%20fill='url(%23wall)'/%3e%3cpath%20d='M352%20330%20V250%20a48%2048%200%200%201%2096%200%20V330%20Z'%20fill='%23ffd28a'/%3e%3cpath%20d='M352%20330%20V250%20a48%2048%200%200%201%2096%200%20V330%20Z'%20fill='%23fff4d6'%20opacity='0.45'/%3e%3cg%20fill='%232ac5fb'%20opacity='0.9'%3e%3crect%20x='283'%20y='215'%20width='40'%20height='40'%20rx='8'/%3e%3crect%20x='477'%20y='215'%20width='40'%20height='40'%20rx='8'/%3e%3c/g%3e%3crect%20x='283'%20y='234'%20width='40'%20height='3'%20fill='%2314304a'%20opacity='0.5'/%3e%3crect%20x='477'%20y='234'%20width='40'%20height='3'%20fill='%2314304a'%20opacity='0.5'/%3e%3c!--%20the%20ground%20and%20the%20path%20leading%20to%20the%20door%20--%3e%3cpath%20d='M0%20330%20H800%20V500%20H0%20Z'%20fill='url(%23ground)'/%3e%3cpath%20d='M352%20330%20L448%20330%20L560%20500%20L240%20500%20Z'%20fill='%23ede6d9'/%3e%3cg%20stroke='%23c0176f'%20stroke-width='6'%20stroke-linecap='round'%20stroke-dasharray='2%2022'%20opacity='0.7'%3e%3cpath%20d='M400%20340%20L400%20495'/%3e%3c/g%3e%3c!--%20the%20backpack,%20waiting%20at%20the%20start%20of%20the%20path%20--%3e%3cellipse%20cx='590'%20cy='452'%20rx='70'%20ry='12'%20fill='%2314304a'%20opacity='0.18'%20filter='url(%23soft)'/%3e%3cg%20transform='translate(540%20330)'%3e%3cpath%20d='M30%2030%20a20%2020%200%200%201%2040%200'%20fill='none'%20stroke='%2314304a'%20stroke-width='8'%20stroke-linecap='round'/%3e%3crect%20x='0'%20y='26'%20width='100'%20height='98'%20rx='26'%20fill='url(%23bag)'/%3e%3crect%20x='16'%20y='70'%20width='68'%20height='40'%20rx='12'%20fill='%23ffffff'%20opacity='0.22'/%3e%3crect%20x='44'%20y='76'%20width='12'%20height='8'%20rx='3'%20fill='%23ffd28a'/%3e%3ccircle%20cx='80'%20cy='44'%20r='6'%20fill='%23ffd28a'/%3e%3c/g%3e%3c!--%20birds%20of%20a%20new%20morning%20--%3e%3cg%20fill='none'%20stroke='%23f8f4eb'%20stroke-width='3'%20stroke-linecap='round'%20opacity='0.8'%3e%3cpath%20d='M150%20120%20q10%20-10%2020%200%20q10%20-10%2020%200'/%3e%3cpath%20d='M640%2090%20q8%20-8%2016%200%20q8%20-8%2016%200'/%3e%3cpath%20d='M600%20140%20q6%20-6%2012%200%20q6%20-6%2012%200'/%3e%3c/g%3e%3c/svg%3e" width="800" height="500" alt="" loading="lazy" decoding="async"></div>
+            <div class="article-card__body">
+              <p class="article-card__tag">הסתגלות ובית ספר</p>
+              <h3 class="article-card__title"><a href="blog-first-grade.html">הילד לא רוצה ללכת לבית הספר ביום הראשון: מה עושים?</a></h3>
+              <p class="article-card__teaser">בכי בשער, בטן שכואבת בבוקר, "אני לא הולך". מה עומד מאחורי הסירוב, ואיך עוזרים לילד לעבור את הבוקר הראשון בביטחון.</p>
+              <p class="article-card__meta"><span>5 דקות קריאה</span><span class="article-card__more has-arrow" aria-hidden="true"><span>לקריאה</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</span></p>
+            </div>
+          </li>
+          <li class="article-card" data-reveal="slide">
+            <div class="article-card__media"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20500'%20role='img'%20aria-label=''%3e%3c!--%20Article%20illustration:%20from%20the%20storm%20to%20calm%20—%20a%20thundercloud%20on%20one%20side,%20the%20clearing%20sky%20and%20a%20rainbow%20bridge%20on%20the%20other.%20Brand%20palette;%20no%20people.%20--%3e%3cdefs%3e%3clinearGradient%20id='bg'%20x1='0'%20y1='0'%20x2='1'%20y2='0'%3e%3cstop%20offset='0'%20stop-color='%230d1736'/%3e%3cstop%20offset='0.5'%20stop-color='%232236ae'/%3e%3cstop%20offset='1'%20stop-color='%23cfe6f7'/%3e%3c/linearGradient%3e%3clinearGradient%20id='cloud'%20x1='0'%20y1='0'%20x2='0'%20y2='1'%3e%3cstop%20offset='0'%20stop-color='%234a4f7a'/%3e%3cstop%20offset='1'%20stop-color='%231d2340'/%3e%3c/linearGradient%3e%3cradialGradient%20id='sun'%20cx='0.5'%20cy='0.5'%20r='0.5'%3e%3cstop%20offset='0'%20stop-color='%23fff4d6'/%3e%3cstop%20offset='0.5'%20stop-color='%23ffd28a'/%3e%3cstop%20offset='1'%20stop-color='%23ffd28a'%20stop-opacity='0'/%3e%3c/radialGradient%3e%3c/defs%3e%3crect%20width='800'%20height='500'%20fill='url(%23bg)'/%3e%3c!--%20calm%20side:%20the%20sun%20--%3e%3ccircle%20cx='640'%20cy='160'%20r='150'%20fill='url(%23sun)'/%3e%3ccircle%20cx='640'%20cy='160'%20r='52'%20fill='%23fff4d6'/%3e%3c!--%20the%20rainbow%20bridge%20from%20storm%20to%20calm%20--%3e%3cg%20fill='none'%20stroke-linecap='round'%20stroke-width='16'%20opacity='0.9'%3e%3cpath%20d='M220%20470%20A240%20240%200%200%201%20700%20470'%20stroke='%23c0176f'/%3e%3cpath%20d='M244%20470%20A216%20216%200%200%201%20676%20470'%20stroke='%23f7508f'/%3e%3cpath%20d='M268%20470%20A192%20192%200%200%201%20652%20470'%20stroke='%23ffd28a'/%3e%3cpath%20d='M292%20470%20A168%20168%200%200%201%20628%20470'%20stroke='%232ac5fb'/%3e%3c/g%3e%3c!--%20the%20storm%20cloud%20with%20lightning%20and%20rain%20--%3e%3cg%3e%3cpath%20d='M90%20230%20a60%2060%200%200%201%2040%20-100%20a80%2080%200%200%201%20150%20-10%20a60%2060%200%200%201%2060%20110%20Z'%20fill='url(%23cloud)'/%3e%3cpath%20d='M190%20240%20l-28%2060%20h30%20l-22%2064%20l62%20-86%20h-32%20l24%20-38%20Z'%20fill='%23ffd28a'/%3e%3cg%20stroke='%232ac5fb'%20stroke-width='5'%20stroke-linecap='round'%20opacity='0.75'%3e%3cpath%20d='M120%20260%20l-10%2026'/%3e%3cpath%20d='M260%20262%20l-10%2026'/%3e%3cpath%20d='M300%20250%20l-10%2026'/%3e%3cpath%20d='M140%20300%20l-10%2026'/%3e%3cpath%20d='M280%20300%20l-10%2026'/%3e%3c/g%3e%3c/g%3e%3c!--%20a%20calm,%20soft%20cloud%20on%20the%20clear%20side%20--%3e%3cpath%20d='M520%20330%20a34%2034%200%200%201%2030%20-56%20a46%2046%200%200%201%2086%20-4%20a34%2034%200%200%201%2030%2060%20Z'%20fill='%23f8f4eb'%20opacity='0.95'/%3e%3c!--%20small%20sparkles%20of%20relief%20--%3e%3cg%20fill='%23fff4d6'%3e%3cpath%20d='M470%20110%20l6%2014%20l14%206%20l-14%206%20l-6%2014%20l-6%20-14%20l-14%20-6%20l14%20-6%20Z'/%3e%3cpath%20d='M740%20300%20l4%209%20l9%204%20l-9%204%20l-4%209%20l-4%20-9%20l-9%20-4%20l9%20-4%20Z'/%3e%3c/g%3e%3c/svg%3e" width="800" height="500" alt="" loading="lazy" decoding="async"></div>
+            <div class="article-card__body">
+              <p class="article-card__tag">ויסות רגשי</p>
+              <h3 class="article-card__title"><a href="blog-emotional-regulation.html">התקפי זעם: מה קורה לילד ברגע הסערה, ואיך עוזרים לו לרדת ממנה</a></h3>
+              <p class="article-card__teaser">צעקות, דלתות נטרקות ותחושה שאין לכם דרך להגיע אליו. מה קורה בגוף ובראש של ילד בהתקף, ומה באמת עוזר באותו רגע ואחריו.</p>
+              <p class="article-card__meta"><span>6 דקות קריאה</span><span class="article-card__more has-arrow" aria-hidden="true"><span>לקריאה</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</span></p>
+            </div>
+          </li>
+          <li class="article-card" data-reveal="slide">
+            <div class="article-card__media"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20500'%20role='img'%20aria-label=''%3e%3c!--%20Article%20illustration:%20finding%20a%20place%20in%20the%20group%20—%20three%20big%20speech%20bubbles%20in%20a%20lively%20conversation%20and%20one%20small,%20shy%20bubble%20at%20the%20edge,%20with%20a%20dotted%20path%20inviting%20it%20in.%20Brand%20palette;%20no%20people.%20--%3e%3cdefs%3e%3clinearGradient%20id='bg'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3e%3cstop%20offset='0'%20stop-color='%23f8f4eb'/%3e%3cstop%20offset='1'%20stop-color='%23ede6d9'/%3e%3c/linearGradient%3e%3clinearGradient%20id='b1'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3e%3cstop%20offset='0'%20stop-color='%233a4fd0'/%3e%3cstop%20offset='1'%20stop-color='%232236ae'/%3e%3c/linearGradient%3e%3clinearGradient%20id='b2'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3e%3cstop%20offset='0'%20stop-color='%232ac5fb'/%3e%3cstop%20offset='1'%20stop-color='%231d68c8'/%3e%3c/linearGradient%3e%3clinearGradient%20id='b3'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3e%3cstop%20offset='0'%20stop-color='%2314304a'/%3e%3cstop%20offset='1'%20stop-color='%230d1736'/%3e%3c/linearGradient%3e%3clinearGradient%20id='shy'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3e%3cstop%20offset='0'%20stop-color='%23f7508f'/%3e%3cstop%20offset='1'%20stop-color='%23c0176f'/%3e%3c/linearGradient%3e%3cfilter%20id='sh'%20x='-30%25'%20y='-30%25'%20width='160%25'%20height='160%25'%3e%3cfeDropShadow%20dx='0'%20dy='12'%20stdDeviation='12'%20flood-color='%2314304a'%20flood-opacity='0.25'/%3e%3c/filter%3e%3c/defs%3e%3crect%20width='800'%20height='500'%20fill='url(%23bg)'/%3e%3ccircle%20cx='330'%20cy='230'%20r='210'%20fill='%232236ae'%20opacity='0.06'/%3e%3c!--%20the%20group%20--%3e%3cg%20filter='url(%23sh)'%3e%3cpath%20d='M150%20120%20h200%20a30%2030%200%200%201%2030%2030%20v80%20a30%2030%200%200%201%20-30%2030%20h-150%20l-34%2030%20v-30%20h-16%20a30%2030%200%200%201%20-30%20-30%20v-80%20a30%2030%200%200%201%2030%20-30%20Z'%20fill='url(%23b1)'/%3e%3cpath%20d='M330%20240%20h200%20a30%2030%200%200%201%2030%2030%20v70%20a30%2030%200%200%201%20-30%2030%20h-16%20v30%20l-34%20-30%20h-150%20a30%2030%200%200%201%20-30%20-30%20v-70%20a30%2030%200%200%201%2030%20-30%20Z'%20fill='url(%23b2)'/%3e%3cpath%20d='M120%20300%20h150%20a26%2026%200%200%201%2026%2026%20v60%20a26%2026%200%200%201%20-26%2026%20h-110%20l-28%2026%20v-26%20h-12%20a26%2026%200%200%201%20-26%20-26%20v-60%20a26%2026%200%200%201%2026%20-26%20Z'%20fill='url(%23b3)'/%3e%3c/g%3e%3c!--%20the%20conversation%20inside%20the%20bubbles%20--%3e%3cg%20fill='%23f8f4eb'%20opacity='0.9'%3e%3crect%20x='170'%20y='160'%20width='160'%20height='12'%20rx='6'/%3e%3crect%20x='170'%20y='190'%20width='110'%20height='12'%20rx='6'/%3e%3crect%20x='350'%20y='280'%20width='160'%20height='12'%20rx='6'/%3e%3crect%20x='350'%20y='310'%20width='120'%20height='12'%20rx='6'/%3e%3crect%20x='135'%20y='335'%20width='120'%20height='10'%20rx='5'/%3e%3crect%20x='135'%20y='360'%20width='80'%20height='10'%20rx='5'/%3e%3c/g%3e%3c!--%20the%20shy%20one,%20at%20the%20edge,%20and%20the%20dotted%20path%20that%20invites%20it%20in%20--%3e%3cpath%20d='M600%20150%20C%20560%20170,%20560%20220,%20560%20240'%20fill='none'%20stroke='%23c0176f'%20stroke-width='5'%20stroke-linecap='round'%20stroke-dasharray='1%2016'%20opacity='0.8'/%3e%3cg%20filter='url(%23sh)'%20transform='translate(600%2090)'%3e%3cpath%20d='M0%200%20h90%20a22%2022%200%200%201%2022%2022%20v34%20a22%2022%200%200%201%20-22%2022%20h-56%20l-22%2020%20v-20%20h-12%20a22%2022%200%200%201%20-22%20-22%20v-34%20a22%2022%200%200%201%2022%20-22%20Z'%20fill='url(%23shy)'/%3e%3ccircle%20cx='30'%20cy='39'%20r='6'%20fill='%23ffffff'/%3e%3ccircle%20cx='52'%20cy='39'%20r='6'%20fill='%23ffffff'%20opacity='0.75'/%3e%3ccircle%20cx='74'%20cy='39'%20r='6'%20fill='%23ffffff'%20opacity='0.5'/%3e%3c/g%3e%3c!--%20a%20small%20sprout:%20courage%20growing%20--%3e%3cg%20transform='translate(690%20330)'%3e%3cpath%20d='M0%2080%20V30'%20stroke='%232236ae'%20stroke-width='5'%20stroke-linecap='round'/%3e%3cpath%20d='M0%2040%20c0%20-26%2022%20-40%2046%20-40%20c0%2026%20-22%2040%20-46%2040%20Z'%20fill='%232ac5fb'/%3e%3cpath%20d='M0%2052%20c0%20-20%20-18%20-30%20-36%20-30%20c0%2020%2018%2030%2036%2030%20Z'%20fill='%23f7508f'/%3e%3c/g%3e%3c/svg%3e" width="800" height="500" alt="" loading="lazy" decoding="async"></div>
+            <div class="article-card__body">
+              <p class="article-card__tag">כישורים חברתיים</p>
+              <h3 class="article-card__title"><a href="blog-social-skills.html">ביישנות או חרדה חברתית? איך מבחינים ומתי כדאי לפנות</a></h3>
+              <p class="article-card__teaser">יש ילדים שצריכים רק עוד קצת זמן להיפתח, ויש כאלה שהחברה כבר מכאיבה להם. סימנים שכדאי להכיר, ודרכים לעזור לילד להרגיש שייך.</p>
+              <p class="article-card__meta"><span>5 דקות קריאה</span><span class="article-card__more has-arrow" aria-hidden="true"><span>לקריאה</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</span></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ─── 7c · FAQ — split block like the Ella Ozan site: heading and actions on one side, the
+         accordion on the other. Questions from Efrat's current site, answers rewritten with her
+         approval (2026-10-04). -->
+    <section class="faq section ground-cream faq--joined" id="faq" aria-labelledby="faq-title">
+      <div class="container faq__grid">
+        <div class="faq__head">
+          <h2 id="faq-title" class="headline">
+            <span class="headline__line">יש לכם שאלות?</span>
+            <span class="headline__accent">ריכזתי תשובות</span>
+          </h2>
+          <p class="faq__lead">לא מצאתם את מה שחיפשתם? אפשר לשאול אותי ישירות.</p>
+          <a class="button button--accent has-arrow" href="https://wa.me/972534401616" target="_blank" rel="noopener"><span class="button__label">שאלה בוואטסאפ</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+        </div>
+        <div class="faq__list">
+          <details class="disclosure faq__item" open>
+            <summary class="disclosure__summary"><span class="disclosure__title">מה ההבדל בין טיפול פסיכולוגי לטיפול <span class="ltr">NLP</span>?</span><span class="disclosure__icon" aria-hidden="true"></span></summary>
+            <div class="disclosure__panel"><p>טיפול פסיכולוגי מתמקד לרוב בשיחה ובהבנת העבר, והתהליך יכול להימשך זמן רב. טיפול רגשי בשיטת <span class="ltr">NLP</span> עובד עם דפוסי החשיבה, השפה וההתנהגות של הילד כאן ועכשיו, בטכניקות חווייתיות שמובילות לשינוי ממוקד, בדרך כלל בתהליך קצר יחסית.</p></div>
+          </details>
+          <details class="disclosure faq__item">
+            <summary class="disclosure__summary"><span class="disclosure__title">למי מתאים הטיפול?</span><span class="disclosure__icon" aria-hidden="true"></span></summary>
+            <div class="disclosure__panel"><p>לילדים מגיל חמש (גן חובה) ולבני נוער: חרדות ופחדים, ביטחון עצמי ודימוי עצמי נמוכים, קשיים חברתיים, קשיי הסתגלות למסגרות, התקפי זעם, קשיים בתוך המשפחה, וקשיים רגשיים שקשורים לקשב וריכוז.</p></div>
+          </details>
+          <details class="disclosure faq__item">
+            <summary class="disclosure__summary"><span class="disclosure__title">האם ההורים נוכחים במפגשים?</span><span class="disclosure__icon" aria-hidden="true"></span></summary>
+            <div class="disclosure__panel"><p>לא, למעט המפגש הראשון, שבו אתם מקבלים הסבר על התהליך. לאורך כל הדרך אתם שותפים מלאים: אני שומרת איתכם על קשר רציף, ונקבע פגישות הורים לפי הצורך.</p></div>
+          </details>
+          <details class="disclosure faq__item">
+            <summary class="disclosure__summary"><span class="disclosure__title">כמה זמן נמשך התהליך, ומה קורה במפגשים?</span><span class="disclosure__icon" aria-hidden="true"></span></summary>
+            <div class="disclosure__panel"><p>התהליך קצר יחסית, כעשרה מפגשים, ומותאם אישית לכל ילד. המפגשים חווייתיים ומהנים, עם צבעים, בצק, בובות, פנסים, בלונים, תחפושות, משחקי קופסה וספרים, שעוזרים לילד להתחבר ולהתגייס לתהליך.</p></div>
+          </details>
+          <details class="disclosure faq__item">
+            <summary class="disclosure__summary"><span class="disclosure__title">אפשר להסתפק בשניים־שלושה מפגשים?</span><span class="disclosure__icon" aria-hidden="true"></span></summary>
+            <div class="disclosure__panel"><p>בדרך כלל לא. שינוי אמיתי צריך תהליך שהילד מחויב אליו, וההשפעה ניכרת לאורך כמה שבועות ולא מיד. לכן אני ממליצה על תהליך מלא ולא על מפגשים בודדים.</p></div>
+          </details>
+          <details class="disclosure faq__item">
+            <summary class="disclosure__summary"><span class="disclosure__title">איך יודעים שהגיע הזמן לפנות?</span><span class="disclosure__icon" aria-hidden="true"></span></summary>
+            <div class="disclosure__panel"><p>כשקושי רגשי או חברתי חוזר שוב ושוב, משפיע על השינה, על הלמידה או על האווירה בבית, או כשהילד עצמו אומר שקשה לו. שיחת ההתאמה הראשונה היא ללא עלות, ובה נבדוק יחד אם התהליך מתאים לכם.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── 8 · Contact — shared contact band (partials/contact-band.html) -->
+    <!-- Contact band (redesign 2026-10-04) — closes every page. One contained panel, never wider than
+     the content column: on the inline-start side the heading, a short invitation and the contact
+     channels as compact rows; on the other side the message form card. Phones: heading, channels
+     (2×2), then the form.
+     The form is sent with Web3Forms by email to Efrat (src/js/ui/lead-form.js); the site
+     stores nothing. conten.txt §1 · labels: content-approval.md UI-009, UI-012.
+       <!- - @include partials/contact-band.html - -> -->
+    <section class="contact section ground-night" data-tone="dark" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact__panel">
+          <div class="contact__info">
+            <p class="eyebrow-line">אפרת שכטר · באר שבע</p>
+            <h2 id="contact-title" class="headline">
+              <span class="headline__line">אפשר להתחיל</span>
+              <span class="headline__accent">בצעד קטן</span>
+            </h2>
+            <p class="contact__lead">השאירו פרטים לשיחת התאמה ללא עלות, ונבדוק יחד מה נכון לכם ולילד שלכם בשלב הזה.</p>
+            <ul class="contact__channels" role="list">
+              <li><a class="contact__channel" href="tel:+972534401616"><span class="contact__icon"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M6.5 3.5h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2l1.3-2 4 1.5v3a2 2 0 0 1-2 2A15.5 15.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z" pathLength="1"/></svg>
+</span><span class="contact__label">טלפון</span><span class="contact__value ltr">053-440-1616</span></a></li>
+              <li><a class="contact__channel" href="https://wa.me/972534401616" rel="noopener"><span class="contact__icon"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4A2.5 2.5 0 0 1 4 13.5v-7Z" pathLength="1"/><path d="M8.5 10h7" pathLength="1"/></svg>
+</span><span class="contact__label">וואטסאפ</span><span class="contact__value ltr">053-440-1616</span></a></li>
+              <li><a class="contact__channel" href="mailto:efratshechternlp@gmail.com"><span class="contact__icon"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M3.5 6.5h17v11h-17z" pathLength="1"/><path d="M3.5 6.5l8.5 7 8.5-7" pathLength="1"/></svg>
+</span><span class="contact__label">דוא"ל</span><span class="contact__value ltr">efratshechternlp@gmail.com</span></a></li>
+              <li><span class="contact__channel"><span class="contact__icon"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11Z" pathLength="1"/><path d="M12 7.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" pathLength="1"/></svg>
+</span><span class="contact__label">מיקום הקליניקה</span><span class="contact__value">באר שבע</span></span></li>
+            </ul>
+          </div>
+
+          <!-- Contact form. Sent with Web3Forms (owner decision 2026-10-04): the details arrive by email to
+     Efrat (efratshechternlp@gmail.com); the site stores nothing. JS: src/js/ui/lead-form.js.
+     Without JS the form posts to Web3Forms directly. The access key is public by design.
+     Labels and the note are functional UI (content-approval.md UI-012). -->
+<form class="wa-form card" action="https://api.web3forms.com/submit" method="post" data-lead-form="contact" novalidate>
+  <h3 class="wa-form__title">השאירו פרטים</h3>
+  <input type="hidden" name="access_key" value="ebebace4-2308-4f70-9f92-e4b3a958e0bb">
+  <input type="hidden" name="subject" value="פנייה חדשה מהאתר">
+  <input type="hidden" name="from_name" value="אתר אפרת שכטר">
+  <input type="checkbox" name="botcheck" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <div class="wa-form__row">
+    <div class="field">
+      <label class="field__label" for="lf-name">שם<span class="field__required" aria-hidden="true">*</span></label>
+      <input class="field__control" id="lf-name" name="name" type="text" autocomplete="name" required aria-describedby="lf-name-error">
+      <p class="field__error" id="lf-name-error"></p>
+    </div>
+    <div class="field">
+      <label class="field__label" for="lf-phone">טלפון<span class="field__required" aria-hidden="true">*</span></label>
+      <input class="field__control" id="lf-phone" name="phone" type="tel" dir="ltr" autocomplete="tel" required aria-describedby="lf-phone-error">
+      <p class="field__error" id="lf-phone-error"></p>
+    </div>
+  </div>
+  <div class="field">
+    <label class="field__label" for="lf-topic">נושא</label>
+    <select class="field__control" id="lf-topic" name="topic">
+      <option value="טיפול רגשי פרטני (NLP לילדים ולנוער)">טיפול רגשי פרטני (NLP לילדים ולנוער)</option>
+      <option value="סדנת כישורים חברתיים (NLP)">סדנת כישורים חברתיים (NLP)</option>
+      <option value="סדנת חוסן נפשי">סדנת חוסן נפשי</option>
+      <option value="סדנת הכנה לכיתה א'">סדנת הכנה לכיתה א'</option>
+    </select>
+  </div>
+  <div class="field">
+    <label class="field__label" for="lf-message">הודעה (לא חובה)</label>
+    <textarea class="field__control" id="lf-message" name="message" rows="3"></textarea>
+  </div>
+  <button class="button button--accent has-arrow wa-form__submit" type="submit"><span class="button__label">שליחה</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</button>
+  <p class="wa-form__status" role="status" aria-live="polite" data-form-status></p>
+  <p class="wa-form__note">הפרטים נשלחים ישירות אליי ומשמשים רק כדי לחזור אליכם. <a href="privacy.html">מדיניות פרטיות</a></p>
 </form>
-</div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="share3 cid-tXn7KeO6HN" id="share3-6s">
-    
-     
-    
-    
-    
-
-    <div class="container">
-        <div class="media-container-row">
-            <div class="col-12">
-                <h3 class="mbr-section-title align-center mb-3 mbr-fonts-style display-2">
-                    <strong>חפשו אותי</strong></h3>
-                <div class="social-list align-center">
-                   
-                    <a class="iconfont-wrapper bg-facebook m-2 " target="_blank" href="https://www.facebook.com/profile.php?id=100061710695909">
-                            <span class="socicon-facebook socicon"></span>
-                        </a>
-
-                        <a class="iconfont-wrapper bg-instagram m-2" href="https://www.instagram.com/efrat_shechternlp/" target="_blank">
-                            <span class="socicon-instagram socicon"></span>
-                        </a>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="footer2 voyagem4_footer2 cid-v9jobMbCpa" once="footer" id="footer2-9p">
-
-	
-
-	
-    <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1600 40" style="enable-background:new 0 0 1600 40;" preserveAspectRatio="none">
-        <style type="text/css">
-            .st0 
-        </style>
-        <path class="st0" d="M-1,15.7c200.1,0,200.7,13.8,400.9,13.8C600,29.5,600.4,9.3,800.5,9.3S998.8,36.8,1199,36.8
-	s201.9-21.1,402-21.1v24.1L-1,40V15.7z"></path>
-    </svg>
-<div class="container">
-    <div class="divider"></div>
-    <div class="row">
-
-        <!-- לוגו -->
-        <div class="col-lg-12 col-sm-10 offset-sm-1 offset-lg-0 col-12 logo__footer">
-            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="אפרת שכטר" loading="lazy" class="lazyload" data-src="assets/images/transparent-background-4.png">
-            
-        </div>
-
-        <!-- תפריט -->
-<div class="col-md-9 col-12 footer__menu">
-    <ul class="menu__items mbr-list">
-
-        
-
-        
-
-        
-
-        
-
-        
-
-    <li class="item mbr-fonts-style display-4">
-            <a href="nlp.html#testimonials02-4u">המלצות</a>
-        </li><li class="item mbr-fonts-style display-4">
-            <a href="workshops.html#header03-77" class="text-primary">&nbsp;סדנאות</a>
-        </li><li class="item mbr-fonts-style display-4">
-            <a href="nlp.html#header2-6c">&nbsp;? NLP מה זה&nbsp;</a>
-        </li><li class="item mbr-fonts-style display-4">
-            <a href="nlp.html#list01-90">שאלות נפוצות</a>
-        </li><li class="item mbr-fonts-style display-4">
-            <a href="about.html#header2-98" class="text-primary">אודות&nbsp;</a>
-        </li><li class="item mbr-fonts-style display-4">
-            <a href="usingtheweb.html" class="text-primary">&nbsp;תנאי שימוש</a>
-        </li><li class="item mbr-fonts-style display-4">
-            <a href="privacy.html" class="text-primary">&nbsp;מדיניות פרטיות</a>
-        </li></ul>
-</div>
-
-
-        <!-- רשתות חברתיות -->
-<div class="col-md-3 col-12 footer__social">
-
-    
-
-    
-
-    
-
-<a class="iconfont-wrapper" href="https://www.facebook.com" target="_blank">
-        <span class="p-2 mbr-iconfont socicon-facebook socicon"></span>
-    </a><a class="iconfont-wrapper" href="https://www.tiktok.com/@userefratshecnlpkids" target="_blank">
-        <span class="p-2 mbr-iconfont socicon-tiktok socicon"></span>
-    </a><a class="iconfont-wrapper" href="https://www.instagram.com/efrat_shechternlp/" target="_blank">
-        <span class="p-2 mbr-iconfont socicon-instagram socicon"></span>
-    </a></div>
-
-    </div>
-</div>
-
-<!-- זכויות -->
-<div class="footer__copyright">
-    <div class="container">
-        <div class="row align-items-center">
-
-            <div class="col-lg-7 col-12">
-                <p class="copyright mbr-fonts-style display-4">
-                    <strong>© כל הזכויות שמורות לאפרת שכטר</strong>
-                </p>
-            </div>
-
-            <div class="col-lg-5 col-12 footer__ink">
-                <p class="ink mbr-fonts-style display-4">
-                    <strong>האתר נבנה על ידי עמית שכטר · <a href="tel:+972537155757" class="text-primary">053-715-5757</a></strong>
-                </p>
-            </div>
 
         </div>
+      </div>
+    </section>
+
+
+  </main>
+
+    <!-- =====================================================
+       FOOTER. Contact details are approved content (conten from efrat/conten.txt §1).
+       Page labels are functional UI (content-approval.md UI-002). No marketing copy.
+       ===================================================== -->
+  <footer class="site-footer" data-tone="dark">
+    <div class="container site-footer__inner">
+      <div class="site-footer__brand">
+        <img class="site-footer__logo" src="./assets/logo-3d-320-B-pEPhUU.webp"
+             srcset="./assets/logo-3d-320-B-pEPhUU.webp 320w, ./assets/logo-3d-640-DD_PvjOa.webp 640w"
+             sizes="160px" width="320" height="265" alt="אפרת שכטר" loading="lazy">
+        <p class="site-footer__name">אפרת שכטר – NLP, טיפול רגשי והנחיית סדנאות לילדים ובני נוער</p>
+      </div>
+
+      <address class="site-footer__contact">
+        <a href="tel:+972534401616"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M6.5 3.5h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2l1.3-2 4 1.5v3a2 2 0 0 1-2 2A15.5 15.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z" pathLength="1"/></svg>
+<span class="ltr">053-440-1616</span></a>
+        <a href="https://wa.me/972534401616" rel="noopener"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4A2.5 2.5 0 0 1 4 13.5v-7Z" pathLength="1"/><path d="M8.5 10h7" pathLength="1"/></svg>
+<span>וואטסאפ</span></a>
+        <a href="mailto:efratshechternlp@gmail.com"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M3.5 6.5h17v11h-17z" pathLength="1"/><path d="M3.5 6.5l8.5 7 8.5-7" pathLength="1"/></svg>
+<span class="ltr">efratshechternlp@gmail.com</span></a>
+        <span><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11Z" pathLength="1"/><path d="M12 7.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" pathLength="1"/></svg>
+<span>באר שבע</span></span>
+      </address>
+
+      <nav class="site-footer__nav" aria-label="מפת האתר">
+        <ul role="list">
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="emotional-therapy.html">טיפול רגשי</a></li>
+          <li><a href="nlp.html">NLP</a></li>
+          <li><a href="testimonials.html">המלצות</a></li>
+        </ul>
+        <ul role="list">
+          <li><a href="workshops.html">סדנאות</a></li>
+          <li><a href="workshop-social-skills.html">סדנת כישורים חברתיים</a></li>
+          <li><a href="workshop-resilience.html">סדנת חוסן נפשי</a></li>
+          <li><a href="workshop-first-grade-preparation.html">סדנת הכנה לכיתה א'</a></li>
+        </ul>
+        <ul role="list">
+          <li><a href="blog.html">בלוג</a></li>
+          <li><a href="faq.html">שאלות נפוצות</a></li>
+          <li><a href="contact.html">צור קשר</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-footer__base">
+        <nav aria-label="מידע משפטי ונגישות">
+          <ul class="site-footer__legal" role="list">
+            <li><a href="privacy.html">מדיניות פרטיות</a></li>
+            <li><a href="terms.html">תנאי שימוש</a></li>
+            <li><a href="accessibility.html">הצהרת נגישות</a></li>
+            <li><button type="button" class="consent-reset">הגדרות פרטיות</button></li>
+          </ul>
+        </nav>
+        <p class="site-footer__copy type-meta">© אפרת שכטר</p>
+        <p class="site-footer__credit type-meta">האתר נבנה על ידי <a href="https://thebwas.com" target="_blank" rel="noopener">עמית שכטר – בניית אתרים<span class="visually-hidden"> (נפתח בחלון חדש)</span></a></p>
+      </div>
     </div>
-</div>
-</section>
+  </footer>
+
+    <!-- First-visit notice: terms, privacy and the analytics choice (like the Ella Ozan site, owner
+       request 2026-10-04). Shown until the visitor chooses (src/js/ui/consent.js, localStorage
+       "es-consent" = all | essential). GA4 loads only after "אני מאשר/ת". -->
+  <div class="site-notice" id="siteNotice" role="region" aria-label="תנאי שימוש ומדיניות פרטיות" hidden>
+    <span class="site-notice__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+    <div class="site-notice__body">
+      <p class="site-notice__title">רגע לפני שממשיכים</p>
+      <p class="site-notice__text">השימוש באתר כפוף ל<a href="terms.html">תנאי השימוש</a> ול<a href="privacy.html">מדיניות הפרטיות</a>. באישור, האתר ישתמש גם ב-<span class="ltr">Google Analytics</span> כדי למדוד באופן סטטיסטי איך משתמשים בו.</p>
+    </div>
+    <div class="site-notice__actions">
+      <button type="button" class="button button--accent site-notice__ok" id="siteNoticeOk"><span class="button__label">אני מאשר/ת</span></button>
+      <button type="button" class="site-notice__no" id="siteNoticeNo">ללא סטטיסטיקה</button>
+    </div>
+  </div>
+
+  <!-- Reading progress (replaces the hidden page scrollbar, owner request 2026-10-04): a thin
+       magenta bar at the top edge. CSS scroll timeline; src/js/ui/progress.js is the fallback. -->
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <!-- Floating WhatsApp circle on every page (owner request 2026-10-04, like the Ella Ozan site). -->
+  <a href="https://wa.me/972534401616" class="whatsapp-float" target="_blank" rel="noopener" aria-label="שליחת הודעת וואטסאפ לאפרת שכטר (נפתח בחלון חדש)">
+    <span class="whatsapp-float__pulse" aria-hidden="true"></span>
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.02 3C8.84 3 3 8.83 3 16c0 2.29.6 4.53 1.74 6.5L3 29l6.67-1.7A12.98 12.98 0 0 0 16.02 29C23.2 29 29 23.17 29 16S23.2 3 16.02 3Zm0 23.76c-1.96 0-3.88-.53-5.56-1.52l-.4-.24-3.96 1.01 1.06-3.86-.26-.4A10.74 10.74 0 0 1 5.24 16c0-5.94 4.84-10.77 10.78-10.77 5.93 0 10.75 4.83 10.75 10.77 0 5.93-4.82 10.76-10.75 10.76Zm5.9-8.06c-.32-.16-1.91-.94-2.2-1.05-.3-.11-.51-.16-.73.16-.21.32-.83 1.05-1.02 1.26-.19.22-.37.24-.7.08-.32-.16-1.36-.5-2.59-1.6-.96-.85-1.6-1.9-1.8-2.22-.18-.32-.02-.5.15-.66.14-.14.32-.37.48-.56.16-.19.21-.32.32-.54.1-.21.05-.4-.03-.56-.08-.16-.72-1.74-.99-2.38-.26-.62-.53-.54-.73-.55h-.62c-.21 0-.56.08-.86.4-.3.32-1.13 1.1-1.13 2.69 0 1.58 1.16 3.12 1.32 3.33.16.21 2.28 3.48 5.52 4.88.77.33 1.37.53 1.84.68.77.24 1.48.21 2.03.13.62-.09 1.91-.78 2.18-1.54.27-.75.27-1.4.19-1.54-.08-.13-.29-.21-.62-.37Z"/></svg>
+  </a>
+
+  <!-- Accessibility menu (built in-house, no third-party overlay). Logic: src/js/ui/a11y.js,
+       styles: src/css/components/a11y.css, early apply: the inline script in partials/head.html (localStorage "es-a11y"). Ported from the Ella Ozan site (owner request 2026-10-04). -->
+  <div class="a11y" id="a11y">
+    <button type="button" class="a11y__toggle" id="a11yToggle" aria-expanded="false" aria-controls="a11yPanel" aria-label="תפריט נגישות">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4" r="2"/><path d="M4 8.5c2.7.9 5.3 1.3 8 1.3s5.3-.4 8-1.3M12 9.8V15m0 0-3.2 6.5M12 15l3.2 6.5"/></svg>
+    </button>
+    <div class="a11y__panel" id="a11yPanel" role="dialog" aria-modal="false" aria-labelledby="a11yTitle" hidden>
+      <div class="a11y__head">
+        <p class="a11y__title" id="a11yTitle">תפריט נגישות</p>
+        <button type="button" class="a11y__close" id="a11yClose" aria-label="סגירת תפריט הנגישות"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+
+      <div class="a11y__size" role="group" aria-labelledby="a11ySizeLabel">
+        <span class="a11y__size-label" id="a11ySizeLabel">גודל טקסט</span>
+        <button type="button" class="a11y__step" data-a11y-zoom="-1" aria-label="הקטנת טקסט">א−</button>
+        <output class="a11y__size-value" id="a11yZoomValue" aria-live="polite">100%</output>
+        <button type="button" class="a11y__step" data-a11y-zoom="1" aria-label="הגדלת טקסט">א+</button>
+      </div>
+
+      <div class="a11y__grid">
+        <button type="button" class="a11y__opt" data-a11y="contrast" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v18a9 9 0 0 0 0-18Z" class="fill"/></svg><span>ניגודיות גבוהה</span></button>
+        <button type="button" class="a11y__opt" data-a11y="gray" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s6 6.4 6 10.5a6 6 0 0 1-12 0C6 9.4 12 3 12 3Z"/></svg><span>גווני אפור</span></button>
+        <button type="button" class="a11y__opt" data-a11y="links" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg><span>הדגשת קישורים</span></button>
+        <button type="button" class="a11y__opt" data-a11y="headings" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5v14M13 5v14M5 12h8M17 9l2-1v11"/></svg><span>הדגשת כותרות</span></button>
+        <button type="button" class="a11y__opt" data-a11y="font" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19 10 5l6 14M6.5 14h7M17 19h4"/></svg><span>גופן קריא</span></button>
+        <button type="button" class="a11y__opt" data-a11y="spacing" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span>ריווח טקסט</span></button>
+        <button type="button" class="a11y__opt" data-a11y="motion" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg><span>עצירת אנימציות</span></button>
+        <button type="button" class="a11y__opt" data-a11y="cursor" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l14 7-6 2-2 6Z"/></svg><span>סמן עכבר גדול</span></button>
+      </div>
+
+      <div class="a11y__foot">
+        <button type="button" class="a11y__reset" id="a11yReset">איפוס הגדרות</button>
+        <a class="a11y__statement" href="accessibility.html">הצהרת נגישות</a>
+      </div>
+    </div>
+  </div>
 
 
-<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/parallax/jarallax.js"></script>
-  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>
-  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>
-  <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/ytplayer/index.js"></script>
-  <script src="assets/chatbutton/floating-wpp.js"></script>
-  <script src="assets/chatbutton/script.js"></script>
-      <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
-  <script src="assets/formstyler/jquery.formstyler.min.js"></script>
-  <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>
-  <script src="assets/theme/js/script.js"></script>
-  <script src="assets/formoid.min.js"></script>
-  
-  <script src="https://cdn.enable.co.il/licenses/enable-L25197m6h825pgny-0324-57204/init.js"></script>z
-  
-<div id="cookie-dialog" style="display: none;"><div id="cookiesdirective" style="background-color:rgba(255,255,255,1)"><div style="position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: rgb(0, 0, 0); opacity: 0; z-index: 9999;"></div><div style="position: fixed; top: 0; right: 0; bottom: 0; left: 0; display: flex; align-items: center; z-index: 10000"><div class="cookie-wrapper" style="font-family: sans-serif;position: relative; width: 100%; max-width: 500px; margin-right: auto; margin-left: auto; padding: 1rem; text-align: center; border-radius: .3rem; box-shadow: 0 10px 40px 0 rgba(0,0,0,0.2); color:#1b386e; background:rgb(255, 255, 255);"><div class="mbr-text"><p class="display-7 accept-text">Cookies אנו משתמשים בקובצי 
-על מנת להעניק לך את חוויית הגלישה הטובה ביותר, בהתאם ל מדיניות הפרטיות ול
-תנאי השימוש</p></div><div class="mbr-section-btn"><a class="btn btn-sm btn-primary" style="margin:0; background-color:#ffffff!important;color:#000000!important" id="impliedsubmit">מאשר</a></div></div></div></div></div>
-  <input name="cookieData" type="hidden" data-cookie-cookiesalerttype="1" data-cookie-customdialogselector="#cookie-dialog" data-cookie-colortext="#1b386e" data-cookie-colorbg="rgb(255, 255, 255)" data-cookie-opacityoverlay="0" data-cookie-bgopacity="100" data-cookie-textbutton="מאשר" data-cookie-rejecttext="REJECT" data-cookie-colorbutton="#ffffff" data-cookie-rejectcolor="#ffffff" data-cookie-colorlink="#1b386e" data-cookie-underlinelink="true" data-cookie-text="Cookies אנו משתמשים בקובצי 
-על מנת להעניק לך את חוויית הגלישה הטובה ביותר, בהתאם ל מדיניות הפרטיות ול
-תנאי השימוש">
-   <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
-    <input name="animation" type="hidden">
-  
-<div id="chatbutton-wa" data-phone="+972534401616" data-showpopup="true" data-headertitle="👋 דברו איתי בווואצפ" data-popupmessage="הי👋
-
-מוזמנים לכתוב לי ונתאם לכם פגישה 🔥
-
-" data-placeholder="לכתוב כאן" data-position="left" data-headercolor="#39847a" data-backgroundcolor="#e5ddd5" data-autoopentimeout="0" data-size="65px"><div class="floating-wpp-button" style="width: 65px; height: 65px;"><div class="floating-wpp-button-image"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 800 800" width="65" height="65"><defs><clipPath id="_clipPath_A3g8G5hPEGG2L0B6hFCxamU4cc8rfqzQ"><rect width="800" height="800"></rect></clipPath></defs><g clip-path="url(#_clipPath_A3g8G5hPEGG2L0B6hFCxamU4cc8rfqzQ)"><g><path d=" M 787.59 800 L 12.41 800 C 5.556 800 0 793.332 0 785.108 L 0 14.892 C 0 6.667 5.556 0 12.41 0 L 787.59 0 C 794.444 0 800 6.667 800 14.892 L 800 785.108 C 800 793.332 794.444 800 787.59 800 Z " fill="rgb(37,211,102)"></path></g><g><path d=" M 508.558 450.429 C 502.67 447.483 473.723 433.24 468.325 431.273 C 462.929 429.308 459.003 428.328 455.078 434.22 C 451.153 440.114 439.869 453.377 436.434 457.307 C 433 461.236 429.565 461.729 423.677 458.78 C 417.79 455.834 398.818 449.617 376.328 429.556 C 358.825 413.943 347.008 394.663 343.574 388.768 C 340.139 382.873 343.207 379.687 346.155 376.752 C 348.804 374.113 352.044 369.874 354.987 366.436 C 357.931 362.999 358.912 360.541 360.875 356.614 C 362.837 352.683 361.857 349.246 360.383 346.299 C 358.912 343.352 347.136 314.369 342.231 302.579 C 337.451 291.099 332.597 292.654 328.983 292.472 C 325.552 292.301 321.622 292.265 317.698 292.265 C 313.773 292.265 307.394 293.739 301.996 299.632 C 296.6 305.527 281.389 319.772 281.389 348.752 C 281.389 377.735 302.487 405.731 305.431 409.661 C 308.376 413.592 346.949 473.062 406.015 498.566 C 420.062 504.634 431.03 508.256 439.581 510.969 C 453.685 515.451 466.521 514.818 476.666 513.302 C 487.978 511.613 511.502 499.06 516.409 485.307 C 521.315 471.55 521.315 459.762 519.842 457.307 C 518.371 454.851 514.446 453.377 508.558 450.429 Z  M 401.126 597.117 L 401.047 597.117 C 365.902 597.104 331.431 587.661 301.36 569.817 L 294.208 565.572 L 220.08 585.017 L 239.866 512.743 L 235.21 505.332 C 215.604 474.149 205.248 438.108 205.264 401.1 C 205.307 293.113 293.17 205.257 401.204 205.257 C 453.518 205.275 502.693 225.674 539.673 262.696 C 576.651 299.716 597.004 348.925 596.983 401.258 C 596.939 509.254 509.078 597.117 401.126 597.117 Z  M 567.816 234.565 C 523.327 190.024 464.161 165.484 401.124 165.458 C 271.24 165.458 165.529 271.161 165.477 401.085 C 165.46 442.617 176.311 483.154 196.932 518.892 L 163.502 641 L 288.421 608.232 C 322.839 627.005 361.591 636.901 401.03 636.913 L 401.126 636.913 L 401.127 636.913 C 530.998 636.913 636.717 531.2 636.77 401.274 C 636.794 338.309 612.306 279.105 567.816 234.565" fill-rule="evenodd" fill="rgb(255,255,255)"></path></g></g></svg></div></div></div>
- <script>"use strict";if("loading"in HTMLImageElement.prototype){document.querySelectorAll('img[loading="lazy"]').forEach(e=>{e.src=e.dataset.src;if(e.getAttribute("style")){e.setAttribute("data-temp-style",e.getAttribute("style"))};if(e.getAttribute("data-aspectratio")){e.style.paddingTop=100*e.getAttribute("data-aspectratio")+"%";e.style.height=0;}e.onload=function(){if(e.getAttribute("data-temp-style")){e.setAttribute("style", e.getAttribute("data-temp-style"))}else{e.removeAttribute("style")};e.removeAttribute("data-temp-style")}})}else{const e=document.createElement("script");e.src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js";document.body.appendChild(e)}</script>
+
 </body>
 </html>
