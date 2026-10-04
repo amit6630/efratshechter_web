@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f8f4eb">
+  <meta name="theme-color" content="#0d2238">
+  <!-- deep blue under everything: no white flash between pages (owner request 2026-10-04) -->
+  <style>html{background:#0d2238}</style>
   <!-- favicon: the logo's head mark, cropped from logo/transparent-background-1.png by npm run images -->
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
@@ -36,14 +38,14 @@
       }
     })();
   </script>
-
+
 
   <title>שאלות נפוצות | אפרת שכטר | NLP וטיפול רגשי לילדים</title>
   <meta name="description" content="תשובות לשאלות נפוצות על טיפול רגשי בשיטת NLP לילדים ונוער ועל הסדנאות: למי זה מתאים, כמה מפגשים, מעורבות הורים והרשמה.">
   <script type="module" crossorigin src="./assets/preload-helper-krx2PB7c.js"></script>
-  <script type="module" crossorigin src="./assets/page-g20aCi7y.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/page-BIX1hU7P.css">
-  <link rel="stylesheet" crossorigin href="./assets/service-D9OM2J98.css">
+  <script type="module" crossorigin src="./assets/page-DBNBqvpg.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/page-BGiXYAZp.css">
+  <link rel="stylesheet" crossorigin href="./assets/service-DqmVv90M.css">
   <link rel="canonical" href="https://efratshechternlp.com/faq.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="he_IL">
@@ -86,8 +88,29 @@
         <ul class="site-nav__list" role="list">
           <li><a class="site-nav__link" href="about.html">אודות</a></li>
           <li><a class="site-nav__link" href="emotional-therapy.html">טיפול רגשי</a></li>
-          <li><a class="site-nav__link" href="nlp.html">NLP</a></li>
-          <li><a class="site-nav__link" href="workshops.html">סדנאות</a></li>
+          <li><a class="site-nav__link" href="nlp.html"><span class="ltr">NLP</span></a></li>
+          <!-- Workshops: the link opens the hub; the arrow button (or hover / focus) opens the three
+               workshops (src/js/ui/subnav.js). Owner request 2026-10-04: reach every workshop from the menu. -->
+          <li class="site-nav__item--sub" data-subnav>
+            <a class="site-nav__link" href="workshops.html" data-subnav-parent>סדנאות</a>
+            <button class="site-nav__toggle" type="button" aria-expanded="false" aria-controls="subnav-workshops" data-subnav-toggle>
+              <svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>
+              <span class="visually-hidden">הצגת הסדנאות</span>
+            </button>
+            <div class="subnav" id="subnav-workshops">
+              <ul class="subnav__list" role="list">
+                <li><a class="subnav__link" href="workshop-social-skills.html"><span class="subnav__icon"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><circle cx="9" cy="8" r="3" pathLength="1"/><circle cx="17" cy="9.5" r="2.4" pathLength="1"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0" pathLength="1"/><path d="M14.5 15.2A4.5 4.5 0 0 1 20.5 19" pathLength="1"/></svg>
+</span><span class="subnav__title">סדנת כישורים חברתיים</span><span class="subnav__meta">גילאי <span class="ltr">5–11</span></span></a></li>
+                <li><a class="subnav__link" href="workshop-resilience.html"><span class="subnav__icon"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M12 3 5 6v5c0 4.4 3 8.3 7 9.5 4-1.2 7-5.1 7-9.5V6l-7-3Z" pathLength="1"/><path d="m9 12 2 2 4-4" pathLength="1"/></svg>
+</span><span class="subnav__title">סדנת חוסן נפשי</span><span class="subnav__meta">גילאי <span class="ltr">7–18</span></span></a></li>
+                <li><a class="subnav__link" href="workshop-first-grade-preparation.html"><span class="subnav__icon"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M12 6c-2-1.5-5-2-8-1.5v13c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5v-13c-3-.5-6 0-8 1.5Z" pathLength="1"/><path d="M12 6v13" pathLength="1"/></svg>
+</span><span class="subnav__title">סדנת הכנה לכיתה א'</span><span class="subnav__meta">גילאי <span class="ltr">5–7</span></span></a></li>
+              </ul>
+              <a class="subnav__all has-arrow" href="workshops.html"><span>לכל הסדנאות</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+            </div>
+          </li>
+          <li><a class="site-nav__link" href="testimonials.html">המלצות</a></li>
           <li><a class="site-nav__link" href="blog.html">בלוג</a></li>
           <li><a class="site-nav__link" href="faq.html">שאלות נפוצות</a></li>
         </ul>
@@ -116,15 +139,27 @@
           <li style="--i: 0"><a class="mobile-nav__link" href="index.html">דף הבית</a></li>
           <li style="--i: 1"><a class="mobile-nav__link" href="about.html">אודות</a></li>
           <li style="--i: 2"><a class="mobile-nav__link" href="emotional-therapy.html">טיפול רגשי</a></li>
-          <li style="--i: 3"><a class="mobile-nav__link" href="nlp.html">NLP</a></li>
-          <li style="--i: 4"><a class="mobile-nav__link" href="workshops.html">סדנאות</a></li>
+          <li style="--i: 3"><a class="mobile-nav__link" href="nlp.html"><span class="ltr">NLP</span></a></li>
+          <li style="--i: 4">
+            <a class="mobile-nav__link" href="workshops.html">סדנאות</a>
+            <ul class="mobile-nav__sub" role="list">
+              <li><a href="workshop-social-skills.html">סדנת כישורים חברתיים <span class="ltr">5–11</span></a></li>
+              <li><a href="workshop-resilience.html">סדנת חוסן נפשי <span class="ltr">7–18</span></a></li>
+              <li><a href="workshop-first-grade-preparation.html">סדנת הכנה לכיתה א' <span class="ltr">5–7</span></a></li>
+            </ul>
+          </li>
           <li style="--i: 5"><a class="mobile-nav__link" href="testimonials.html">המלצות</a></li>
           <li style="--i: 6"><a class="mobile-nav__link" href="blog.html">בלוג</a></li>
           <li style="--i: 7"><a class="mobile-nav__link" href="faq.html">שאלות נפוצות</a></li>
           <li style="--i: 8"><a class="mobile-nav__link" href="contact.html">צור קשר</a></li>
         </ul>
       </nav>
-      <p class="mobile-nav__contact"><a href="tel:+972534401616" class="ltr">053-440-1616</a></p>
+      <div class="mobile-nav__actions">
+        <a class="button button--accent" href="tel:+972534401616"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M6.5 3.5h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2l1.3-2 4 1.5v3a2 2 0 0 1-2 2A15.5 15.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z" pathLength="1"/></svg>
+<span class="button__label ltr">053-440-1616</span></a>
+        <a class="button button--ghost" href="https://wa.me/972534401616" rel="noopener"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4A2.5 2.5 0 0 1 4 13.5v-7Z" pathLength="1"/><path d="M8.5 10h7" pathLength="1"/></svg>
+<span class="button__label">וואטסאפ</span></a>
+      </div>
     </div>
   </dialog>
 
@@ -282,7 +317,7 @@
   <div class="field">
     <label class="field__label" for="lf-topic">נושא</label>
     <select class="field__control" id="lf-topic" name="topic">
-      <option value="טיפול רגשי פרטני (NLP לילדים ולנוער)">טיפול רגשי פרטני (NLP לילדים ולנוער)</option>
+      <option value="טיפול רגשי פרטני (NLP לילדים ולנוער)">טיפול רגשי פרטני</option>
       <option value="סדנת כישורים חברתיים (NLP)">סדנת כישורים חברתיים (NLP)</option>
       <option value="סדנת חוסן נפשי">סדנת חוסן נפשי</option>
       <option value="סדנת הכנה לכיתה א'">סדנת הכנה לכיתה א'</option>
@@ -291,6 +326,14 @@
   <div class="field">
     <label class="field__label" for="lf-message">הודעה (לא חובה)</label>
     <textarea class="field__control" id="lf-message" name="message" rows="3"></textarea>
+  </div>
+  <div class="field field--check">
+    <label class="check" for="lf-consent">
+      <input class="check__input" id="lf-consent" name="consent" type="checkbox" value="כן" required aria-describedby="lf-consent-error">
+      <span class="check__box" aria-hidden="true"></span>
+      <span class="check__label">אני מסכים/ה ל<a href="terms.html" target="_blank">תנאי השימוש</a> ול<a href="privacy.html" target="_blank">מדיניות הפרטיות</a>, ומאשר/ת יצירת קשר מצד האתר<span class="field__required" aria-hidden="true">*</span></span>
+    </label>
+    <p class="field__error" id="lf-consent-error"></p>
   </div>
   <button class="button button--accent has-arrow wa-form__submit" type="submit"><span class="button__label">שליחה</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
 </button>
@@ -311,38 +354,56 @@
        ===================================================== -->
   <footer class="site-footer" data-tone="dark">
     <div class="container site-footer__inner">
+      <!-- lead strip: the next step is always one tap away (owner request 2026-10-04) -->
+      <div class="site-footer__cta">
+        <p class="site-footer__cta-text">רוצים לדבר על הילד שלכם? <span>שיחת ההתאמה הראשונה ללא עלות.</span></p>
+        <div class="site-footer__cta-actions">
+          <a class="button button--accent" href="tel:+972534401616"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M6.5 3.5h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2l1.3-2 4 1.5v3a2 2 0 0 1-2 2A15.5 15.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z" pathLength="1"/></svg>
+<span class="button__label ltr">053-440-1616</span></a>
+          <a class="button button--ghost" href="https://wa.me/972534401616" target="_blank" rel="noopener"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4A2.5 2.5 0 0 1 4 13.5v-7Z" pathLength="1"/><path d="M8.5 10h7" pathLength="1"/></svg>
+<span class="button__label">וואטסאפ</span></a>
+        </div>
+      </div>
+
       <div class="site-footer__brand">
         <img class="site-footer__logo" src="./assets/logo-3d-320-B-pEPhUU.webp"
              srcset="./assets/logo-3d-320-B-pEPhUU.webp 320w, ./assets/logo-3d-640-DD_PvjOa.webp 640w"
-             sizes="160px" width="320" height="265" alt="אפרת שכטר" loading="lazy">
-        <p class="site-footer__name">אפרת שכטר – NLP, טיפול רגשי והנחיית סדנאות לילדים ובני נוער</p>
+             sizes="140px" width="320" height="265" alt="אפרת שכטר" loading="lazy">
+        <p class="site-footer__name">אפרת שכטר – <span class="ltr">NLP</span>, טיפול רגשי והנחיית סדנאות לילדים ובני נוער</p>
       </div>
 
-      <address class="site-footer__contact">
-        <a href="tel:+972534401616"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M6.5 3.5h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2l1.3-2 4 1.5v3a2 2 0 0 1-2 2A15.5 15.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z" pathLength="1"/></svg>
+      <div class="site-footer__col site-footer__col--contact">
+        <p class="site-footer__heading">יצירת קשר</p>
+        <address class="site-footer__contact">
+          <a href="tel:+972534401616"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M6.5 3.5h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2l1.3-2 4 1.5v3a2 2 0 0 1-2 2A15.5 15.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z" pathLength="1"/></svg>
 <span class="ltr">053-440-1616</span></a>
-        <a href="https://wa.me/972534401616" rel="noopener"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4A2.5 2.5 0 0 1 4 13.5v-7Z" pathLength="1"/><path d="M8.5 10h7" pathLength="1"/></svg>
+          <a href="https://wa.me/972534401616" target="_blank" rel="noopener"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4A2.5 2.5 0 0 1 4 13.5v-7Z" pathLength="1"/><path d="M8.5 10h7" pathLength="1"/></svg>
 <span>וואטסאפ</span></a>
-        <a href="mailto:efratshechternlp@gmail.com"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M3.5 6.5h17v11h-17z" pathLength="1"/><path d="M3.5 6.5l8.5 7 8.5-7" pathLength="1"/></svg>
+          <a href="mailto:efratshechternlp@gmail.com"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M3.5 6.5h17v11h-17z" pathLength="1"/><path d="M3.5 6.5l8.5 7 8.5-7" pathLength="1"/></svg>
 <span class="ltr">efratshechternlp@gmail.com</span></a>
-        <span><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11Z" pathLength="1"/><path d="M12 7.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" pathLength="1"/></svg>
-<span>באר שבע</span></span>
-      </address>
+          <span><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11Z" pathLength="1"/><path d="M12 7.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" pathLength="1"/></svg>
+<span>באר שבע והדרום</span></span>
+        </address>
+        <p class="site-footer__hours">א׳–ה׳ · <span class="ltr">09:00–19:00</span></p>
+      </div>
 
-      <nav class="site-footer__nav" aria-label="מפת האתר">
-        <ul role="list">
-          <li><a href="about.html">אודות</a></li>
-          <li><a href="emotional-therapy.html">טיפול רגשי</a></li>
-          <li><a href="nlp.html">NLP</a></li>
-          <li><a href="testimonials.html">המלצות</a></li>
-        </ul>
-        <ul role="list">
-          <li><a href="workshops.html">סדנאות</a></li>
+      <nav class="site-footer__col" aria-label="טיפול וסדנאות">
+        <p class="site-footer__heading">טיפול וסדנאות</p>
+        <ul class="site-footer__links" role="list">
+          <li><a href="emotional-therapy.html">טיפול רגשי פרטני</a></li>
+          <li><a href="nlp.html">מהו <span class="ltr">NLP</span></a></li>
+          <li><a href="workshops.html">כל הסדנאות</a></li>
           <li><a href="workshop-social-skills.html">סדנת כישורים חברתיים</a></li>
           <li><a href="workshop-resilience.html">סדנת חוסן נפשי</a></li>
           <li><a href="workshop-first-grade-preparation.html">סדנת הכנה לכיתה א'</a></li>
         </ul>
-        <ul role="list">
+      </nav>
+
+      <nav class="site-footer__col" aria-label="עוד באתר">
+        <p class="site-footer__heading">עוד באתר</p>
+        <ul class="site-footer__links" role="list">
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="testimonials.html">המלצות</a></li>
           <li><a href="blog.html">בלוג</a></li>
           <li><a href="faq.html">שאלות נפוצות</a></li>
           <li><a href="contact.html">צור קשר</a></li>
