@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl" data-motion="calm">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d2238">
+  <!-- deep blue under everything: no white flash between pages (owner request 2026-10-04) -->
+  <style>html{background:#0d2238}</style>
+  <!-- favicon: the logo's head mark, cropped from logo/transparent-background-1.png by npm run images -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Before first paint. Keep in sync with applyEnvClasses() in src/js/page.js.
+       Reveal targets are hidden only while motion is allowed; if the page script never
+       boots (blocked/failed JS), content is shown again after 4s. -->
+  <script>
+    (function () {
+      var h = document.documentElement;
+      h.classList.add('js');
+      // a skipped page transition (e.g. into the 404 page) rejects these promises on both
+      // the outgoing (pageswap) and incoming (pagereveal) page: not an error
+      var quiet = function (e) {
+        var vt = e.viewTransition;
+        if (vt) [vt.ready, vt.finished, vt.updateCallbackDone].forEach(function (p) { if (p) p.catch(function () {}); });
+      };
+      window.addEventListener('pageswap', quiet);
+      window.addEventListener('pagereveal', quiet);
+      // accessibility menu preferences (src/js/ui/a11y.js), applied before first paint
+      try {
+        var a = JSON.parse(localStorage.getItem('es-a11y') || '{}') || {}, z = [1, 1.1, 1.2, 1.35, 1.5][a.zoom || 0] || 1;
+        ['contrast', 'gray', 'links', 'headings', 'font', 'spacing', 'motion', 'cursor'].forEach(function (k) { if (a[k]) h.classList.add('a11y-' + k); });
+        if (z !== 1) { h.classList.add('a11y-zoom'); h.style.setProperty('--a11y-zoom', z); }
+      } catch (e) {}
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && !h.classList.contains('a11y-motion')) {
+        h.classList.add('motion-ok');
+        setTimeout(function () { if (!h.dataset.motionBooted) h.classList.remove('motion-ok'); }, 4000);
+      }
+    })();
+  </script>
+
+
+  <title>אפרת שכטר – כרטיס ביקור דיגיטלי</title>
+  <meta name="description" content="כרטיס הביקור הדיגיטלי של אפרת שכטר: טיפול רגשי ו-NLP לילדים ונוער והנחיית סדנאות, באר שבע והדרום. חיוג, וואטסאפ, אימייל ושמירת איש קשר.">
+  <!-- a personal card to share, not a search landing page -->
+  <meta name="robots" content="noindex, follow">
+  <script type="module" crossorigin src="./assets/card-Bc6TJYm1.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/site-LKIxnLiM.js">
+  <link rel="stylesheet" crossorigin href="./assets/site-BmNd1GQ4.css">
+  <link rel="stylesheet" crossorigin href="./assets/card-D0G01GnF.css">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="he_IL">
+  <meta property="og:site_name" content="אפרת שכטר">
+  <meta property="og:title" content="אפרת שכטר – כרטיס ביקור דיגיטלי">
+  <meta property="og:description" content="כרטיס הביקור הדיגיטלי של אפרת שכטר: טיפול רגשי ו-NLP לילדים ונוער והנחיית סדנאות, באר שבע והדרום. חיוג, וואטסאפ, אימייל ושמירת איש קשר.">
+  <meta property="og:image" content="https://efratshechternlp.com/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="אפרת שכטר – טיפול רגשי ואימון NLP לילדים ונוער בבאר שבע">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://efratshechternlp.com/og-image.jpg">
+</head>
+<body class="card-page">
+  <!-- Digital business card (owner request 2026-10-05, in the spirit of thebwas.com/card.html,
+       in Efrat's brand). Facts: conten.txt, the site's approved copy and owner-supplied details.
+       Script: src/js/card.js (vCard download, share). -->
+  <main id="main" class="vcard">
+    <header class="vcard__cover" aria-hidden="true">
+      <span class="vcard__stars"></span>
+      <img class="vcard__logo" src="./assets/logo-3d-320-B-pEPhUU.webp" width="320" height="265" alt="">
+    </header>
+
+    <div class="vcard__photo">
+      <img src="./assets/efrat-cutout-waist-600-2UT5FeEl.webp" srcset="./assets/efrat-cutout-waist-600-2UT5FeEl.webp 600w, ./assets/efrat-cutout-waist-1000-DcdW155X.webp 1000w" sizes="150px" width="600" height="684" alt="אפרת שכטר" fetchpriority="high">
+    </div>
+
+    <h1 class="vcard__name">אפרת שכטר</h1>
+    <p class="vcard__role">טיפול רגשי ו-<span class="ltr">NLP</span> לילדים ונוער · באר שבע והדרום</p>
+    <p class="vcard__bio">מומחית לטיפול רגשי בשיטת <span class="ltr">NLP</span> ולהנחיית סדנאות חוסן ומיומנויות חברתיות לילדים ולבני נוער.</p>
+
+    <nav class="vcard__actions" aria-label="יצירת קשר">
+      <a class="vcard__action" href="tel:+972534401616"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M6.5 3.5h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2l1.3-2 4 1.5v3a2 2 0 0 1-2 2A15.5 15.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z" pathLength="1"/></svg>
+<span>חיוג</span></a>
+      <a class="vcard__action vcard__action--main" href="https://wa.me/972534401616" target="_blank" rel="noopener"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4A2.5 2.5 0 0 1 4 13.5v-7Z" pathLength="1"/><path d="M8.5 10h7" pathLength="1"/></svg>
+<span>וואטסאפ</span></a>
+      <a class="vcard__action" href="mailto:efratshechternlp@gmail.com"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M3.5 6.5h17v11h-17z" pathLength="1"/><path d="M3.5 6.5l8.5 7 8.5-7" pathLength="1"/></svg>
+<span>אימייל</span></a>
+      <a class="vcard__action" href="index.html"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><circle cx="12" cy="12" r="8.5" pathLength="1"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z" pathLength="1"/></svg>
+<span>לאתר</span></a>
+    </nav>
+
+    <button class="vcard__save" type="button" data-vcard-save>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10" cy="8" r="3.5"/><path d="M3.5 19c.8-3.4 3.4-5.5 6.5-5.5s5.7 2.1 6.5 5.5M18.5 8v6M15.5 11h6"/></svg>
+      <span>שמירת איש קשר</span>
+    </button>
+
+    <section class="vcard__block" aria-labelledby="vc-services">
+      <h2 id="vc-services" class="vcard__heading">איך אני יכולה לעזור</h2>
+      <ul class="vcard__list" role="list">
+        <li><a href="emotional-therapy.html"><span>טיפול רגשי פרטני לילדים ונוער</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a></li>
+        <li><a href="workshop-social-skills.html"><span>סדנת כישורים חברתיים <small>גילאי <span class="ltr">5–11</span></small></span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a></li>
+        <li><a href="workshop-resilience.html"><span>סדנת חוסן נפשי <small>גילאי <span class="ltr">7–18</span></small></span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a></li>
+        <li><a href="workshop-first-grade-preparation.html"><span>סדנת הכנה לכיתה א' <small>גילאי <span class="ltr">5–7</span></small></span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a></li>
+      </ul>
+    </section>
+
+    <section class="vcard__block" aria-labelledby="vc-details">
+      <h2 id="vc-details" class="vcard__heading">פרטים</h2>
+      <dl class="vcard__details">
+        <div><dt>טלפון</dt><dd><a class="ltr" href="tel:+972534401616">053-440-1616</a></dd></div>
+        <div><dt>אימייל</dt><dd><a class="ltr" href="mailto:efratshechternlp@gmail.com">efratshechternlp@gmail.com</a></dd></div>
+        <div><dt>קליניקה</dt><dd>באר שבע · עומר, להבים, מיתר ובני שמעון</dd></div>
+        <div><dt>שעות</dt><dd>א׳–ה׳ · <span class="ltr">09:00–19:00</span></dd></div>
+      </dl>
+    </section>
+
+    <button class="vcard__share" type="button" data-vcard-share>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="18" cy="5.5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="18.5" r="2.5"/><path d="m8.2 10.8 7.6-4.1M8.2 13.2l7.6 4.1"/></svg>
+      <span>שיתוף הכרטיס</span>
+    </button>
+    <p class="vcard__status" role="status" aria-live="polite" data-vcard-status></p>
+
+    <footer class="vcard__foot">
+      <a href="index.html">efratshechternlp.com</a>
+      <span>האתר נבנה על ידי <a href="https://thebwas.com" target="_blank" rel="noopener">עמית שכטר – בניית אתרים<span class="visually-hidden"> (נפתח בחלון חדש)</span></a></span>
+    </footer>
+  </main>
+</body>
+</html>
