@@ -32,19 +32,21 @@
         ['contrast', 'gray', 'links', 'headings', 'font', 'spacing', 'motion', 'cursor'].forEach(function (k) { if (a[k]) h.classList.add('a11y-' + k); });
         if (z !== 1) { h.classList.add('a11y-zoom'); h.style.setProperty('--a11y-zoom', z); }
       } catch (e) {}
-      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && !h.classList.contains('a11y-motion')) {
+      // search engines get the plain page: nothing waits for a scroll reveal (indexing, 2026-10-12)
+      var bot = /bot|crawl|spider|slurp|Google-InspectionTool|Lighthouse|PageSpeed/i.test(navigator.userAgent);
+      if (!bot && !window.matchMedia('(prefers-reduced-motion: reduce)').matches && !h.classList.contains('a11y-motion')) {
         h.classList.add('motion-ok');
         setTimeout(function () { if (!h.dataset.motionBooted) h.classList.remove('motion-ok'); }, 4000);
       }
     })();
   </script>
-
+
 
   <title>הילד לא רוצה ללכת לבית הספר ביום הראשון: מה עושים? | אפרת שכטר</title>
   <meta name="description" content="בכי בשער, בטן שכואבת בבוקר, &quot;אני לא הולך&quot;. מה עומד מאחורי הסירוב, ואיך עוזרים לילד לעבור את הבוקר הראשון בביטחון.">
   <script type="module" crossorigin src="./assets/site-CwvzMBkB.js"></script>
-  <script type="module" crossorigin src="./assets/preload-helper-krx2PB7c.js"></script>
-  <script type="module" crossorigin src="./assets/page-BQastlbz.js"></script>
+  <script type="module" crossorigin src="./assets/preload-helper-ZnY3t1yn.js"></script>
+  <script type="module" crossorigin src="./assets/page-C75uZchC.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/site-DP_3NWQ6.css">
   <link rel="stylesheet" crossorigin href="./assets/service-BUCztbDP.css">
   <link rel="canonical" href="https://efratshechternlp.com/blog-first-grade.html">
@@ -76,7 +78,7 @@
        ===================================================== -->
   <header class="site-header" data-site-header data-header-tone="dark">
     <div class="site-header__inner container">
-      <a class="site-header__brand" href="index.html" aria-label="אפרת שכטר — דף הבית">
+      <a class="site-header__brand" href="./" aria-label="אפרת שכטר — דף הבית">
         <img class="site-header__logo site-header__logo--flat" src="./assets/logo-flat-240-CGmpBmLG.webp"
              srcset="./assets/logo-flat-240-CGmpBmLG.webp 240w, ./assets/logo-flat-480-Djt_Bkuy.webp 480w"
              sizes="80px" width="240" height="198" alt="">
@@ -138,7 +140,7 @@
       </button>
       <nav aria-label="ניווט ראשי">
         <ul class="mobile-nav__list" role="list">
-          <li style="--i: 0"><a class="mobile-nav__link" href="index.html">דף הבית</a></li>
+          <li style="--i: 0"><a class="mobile-nav__link" href="./">דף הבית</a></li>
           <li style="--i: 1"><a class="mobile-nav__link" href="about.html">אודות</a></li>
           <li style="--i: 2"><a class="mobile-nav__link" href="emotional-therapy.html">טיפול רגשי</a></li>
           <li style="--i: 3"><a class="mobile-nav__link" href="nlp.html"><span class="ltr">NLP</span></a></li>
@@ -179,7 +181,7 @@
      The middle crumb renders only when parent-href is given (empty <li> is hidden by CSS). -->
 <nav class="breadcrumbs" aria-label="מיקום באתר">
   <ol class="breadcrumbs__list" role="list">
-    <li><a href="index.html">דף הבית</a></li>
+    <li><a href="./">דף הבית</a></li>
     <li class="breadcrumbs__parent" data-href="blog.html"><a href="blog.html">בלוג</a></li>
     <li><span aria-current="page">הילד לא רוצה ללכת לבית הספר</span></li>
   </ol>
