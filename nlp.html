@@ -44,10 +44,10 @@
 
   <title>טיפול ואימון NLP לילדים בבאר שבע והדרום | אפרת שכטר</title>
   <meta name="description" content="מהו NLP (ניתוב לשוני פיזיולוגי) ואיך הוא עובד עם ילדים ובני נוער: משחק, אגדות ודמיון מודרך, תהליך קצר וממוקד. אפרת שכטר, באר שבע.">
-  <script type="module" crossorigin src="./assets/site-CwvzMBkB.js"></script>
+  <script type="module" crossorigin src="./assets/site-CVGAmo_B.js"></script>
   <script type="module" crossorigin src="./assets/preload-helper-ZnY3t1yn.js"></script>
-  <script type="module" crossorigin src="./assets/page-C75uZchC.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/site-DP_3NWQ6.css">
+  <script type="module" crossorigin src="./assets/page-B_Amjcmt.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/site-Bv_xOfdL.css">
   <link rel="stylesheet" crossorigin href="./assets/service-BUCztbDP.css">
   <link rel="canonical" href="https://efratshechternlp.com/nlp.html">
   <meta property="og:type" content="website">
@@ -145,8 +145,15 @@
           <li style="--i: 2"><a class="mobile-nav__link" href="emotional-therapy.html">טיפול רגשי</a></li>
           <li style="--i: 3"><a class="mobile-nav__link" href="nlp.html"><span class="ltr">NLP</span></a></li>
           <li style="--i: 4">
-            <a class="mobile-nav__link" href="workshops.html">סדנאות</a>
-            <ul class="mobile-nav__sub" role="list">
+            <!-- the three workshops fold under an arrow, so the menu fits one screen (owner 2026-10-16) -->
+            <div class="mobile-nav__row">
+              <a class="mobile-nav__link" href="workshops.html">סדנאות</a>
+              <button class="mobile-nav__toggle" type="button" aria-expanded="false" aria-controls="mnav-workshops" data-mnav-toggle>
+                <svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>
+                <span class="visually-hidden">הצגת הסדנאות</span>
+              </button>
+            </div>
+            <ul class="mobile-nav__sub" id="mnav-workshops" role="list" hidden>
               <li><a href="workshop-social-skills.html">סדנת כישורים חברתיים <span class="ltr">5–11</span></a></li>
               <li><a href="workshop-resilience.html">סדנת חוסן נפשי <span class="ltr">7–18</span></a></li>
               <li><a href="workshop-first-grade-preparation.html">סדנת הכנה לכיתה א' <span class="ltr">5–7</span></a></li>
