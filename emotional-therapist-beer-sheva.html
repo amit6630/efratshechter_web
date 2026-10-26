@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl" data-motion="inner">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d2238">
+  <!-- deep blue under everything: no white flash between pages (owner request 2026-10-04) -->
+  <style>html{background:#0d2238}</style>
+  <!-- favicon: the logo's head mark, cropped from logo/transparent-background-1.png by npm run images -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Before first paint. Keep in sync with applyEnvClasses() in src/js/page.js.
+       Reveal targets are hidden only while motion is allowed; if the page script never
+       boots (blocked/failed JS), content is shown again after 4s. -->
+  <script>
+    (function () {
+      var h = document.documentElement;
+      h.classList.add('js');
+      // a skipped page transition (e.g. into the 404 page) rejects these promises on both
+      // the outgoing (pageswap) and incoming (pagereveal) page: not an error
+      var quiet = function (e) {
+        var vt = e.viewTransition;
+        if (vt) [vt.ready, vt.finished, vt.updateCallbackDone].forEach(function (p) { if (p) p.catch(function () {}); });
+      };
+      window.addEventListener('pageswap', quiet);
+      window.addEventListener('pagereveal', quiet);
+      // accessibility menu preferences (src/js/ui/a11y.js), applied before first paint
+      try {
+        var a = JSON.parse(localStorage.getItem('es-a11y') || '{}') || {}, z = [1, 1.1, 1.2, 1.35, 1.5][a.zoom || 0] || 1;
+        ['contrast', 'gray', 'links', 'headings', 'font', 'spacing', 'motion', 'cursor'].forEach(function (k) { if (a[k]) h.classList.add('a11y-' + k); });
+        if (z !== 1) { h.classList.add('a11y-zoom'); h.style.setProperty('--a11y-zoom', z); }
+      } catch (e) {}
+      // search engines get the plain page: nothing waits for a scroll reveal (indexing, 2026-10-12)
+      var bot = /bot|crawl|spider|slurp|Google-InspectionTool|Lighthouse|PageSpeed/i.test(navigator.userAgent);
+      if (!bot && !window.matchMedia('(prefers-reduced-motion: reduce)').matches && !h.classList.contains('a11y-motion')) {
+        h.classList.add('motion-ok');
+        setTimeout(function () { if (!h.dataset.motionBooted) h.classList.remove('motion-ok'); }, 4000);
+      }
+    })();
+  </script>
+
+
+  <title>מטפלת רגשית בבאר שבע לילדים ונוער | אפרת שכטר</title>
+  <meta name="description" content="מחפשים מטפלת רגשית או מטפל רגשי לילד בבאר שבע? טיפול רגשי ו-NLP לילדים ולנוער בקליניקה נגישה בקומת קרקע. שיחת התאמה ראשונה ללא עלות.">
+  <script type="module" crossorigin src="./assets/site-C3llli87.js"></script>
+  <script type="module" crossorigin src="./assets/preload-helper-ZnY3t1yn.js"></script>
+  <script type="module" crossorigin src="./assets/page-B_Amjcmt.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/site-C6WEBczX.css">
+  <link rel="stylesheet" crossorigin href="./assets/service-BZR9mWf-.css">
+  <link rel="canonical" href="https://efratshechternlp.com/emotional-therapist-beer-sheva.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="he_IL">
+  <meta property="og:site_name" content="אפרת שכטר">
+  <meta property="og:title" content="מטפלת רגשית בבאר שבע לילדים ונוער | אפרת שכטר">
+  <meta property="og:description" content="מחפשים מטפלת רגשית או מטפל רגשי לילד בבאר שבע? טיפול רגשי ו-NLP לילדים ולנוער בקליניקה נגישה בקומת קרקע. שיחת התאמה ראשונה ללא עלות.">
+  <meta property="og:url" content="https://efratshechternlp.com/emotional-therapist-beer-sheva.html">
+  <meta property="og:image" content="https://efratshechternlp.com/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="אפרת שכטר – טיפול רגשי ואימון NLP לילדים ונוער בבאר שבע">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://efratshechternlp.com/og-image.jpg">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"דף הבית","item":"https://efratshechternlp.com/"},{"@type":"ListItem","position":2,"name":"מטפלת רגשית בבאר שבע","item":"https://efratshechternlp.com/emotional-therapist-beer-sheva.html"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","name":"מטפלת רגשית בבאר שבע לילדים ונוער","description":"מחפשים מטפלת רגשית או מטפל רגשי לילד בבאר שבע? טיפול רגשי ו-NLP לילדים ולנוער בקליניקה נגישה בקומת קרקע. שיחת התאמה ראשונה ללא עלות.","url":"https://efratshechternlp.com/emotional-therapist-beer-sheva.html","provider":{"@type":"ProfessionalService","name":"אפרת שכטר – NLP, טיפול רגשי והנחיית סדנאות לילדים ובני נוער","telephone":"+972-53-440-1616","url":"https://efratshechternlp.com/"},"areaServed":[{"@type":"City","name":"באר שבע"},{"@type":"City","name":"עומר"},{"@type":"City","name":"להבים"},{"@type":"City","name":"מיתר"},{"@type":"AdministrativeArea","name":"מועצה אזורית בני שמעון"}],"audience":{"@type":"PeopleAudience","audienceType":"ילדים, בני נוער והורים"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"מה עושה מטפלת רגשית לילדים?","acceptedAnswer":{"@type":"Answer","text":"עוזרת לילד להבין מה קורה לו ולמצוא כלים להתמודד: עם פחדים, כעסים, ביישנות, קשיים חברתיים או הצד הרגשי של קשב וריכוז. אצלי זה נעשה בשיטת NLP, דרך משחק, דמיון מודרך וסיפורים, בתהליך קצר וממוקד ובשיתוף ההורים."}},{"@type":"Question","name":"מה ההבדל בין טיפול פסיכולוגי לטיפול NLP","acceptedAnswer":{"@type":"Answer","text":"טיפול פסיכולוגי מתמקד לרוב בשיחה ובהבנת העבר, והתהליך יכול להימשך זמן רב. טיפול רגשי בשיטת NLP עובד עם דפוסי החשיבה, השפה וההתנהגות כאן ועכשיו, בטכניקות חווייתיות שמובילות לשינוי ממוקד, בדרך כלל בתהליך קצר יחסית."}},{"@type":"Question","name":"איפה מתקיימים המפגשים, והאם הקליניקה נגישה?","acceptedAnswer":{"@type":"Answer","text":"בקליניקה בבאר שבע: חדר זכוכית מואר בגינה, עם פינת משחק ויצירה. הקליניקה בקומת קרקע, ללא מדרגות, ונגישה במלואה."}},{"@type":"Question","name":"מאילו אזורים מגיעים אליי?","acceptedAnswer":{"@type":"Answer","text":"מבאר שבע ומהיישובים שסביבה: עומר, להבים, מיתר והמועצה האזורית בני שמעון."}},{"@type":"Question","name":"איך מתחילים?","acceptedAnswer":{"@type":"Answer","text":"שיחת התאמה קצרה ללא עלות. אחריה נקבע פגישת היכרות עם ההורים, ומשם יוצאים לדרך."}}]}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+
+    <!-- =====================================================
+       HEADER & NAVIGATION (structure only — final art direction comes with the homepage)
+       Logo at inline-start (right in RTL), primary nav, contact CTA at inline-end.
+       Hides on scroll down / returns on scroll up (src/js/ui/header.js).
+       Active page: aria-current="page" set by src/js/ui/header.js + magenta thread segment.
+       Below 1024px the inline nav is replaced by the mobile dialog (src/js/ui/mobile-nav.js).
+       Labels: functional UI copy (content-approval.md UI-002).
+       ===================================================== -->
+  <header class="site-header" data-site-header data-header-tone="dark">
+    <div class="site-header__inner container">
+      <a class="site-header__brand" href="./" aria-label="אפרת שכטר — דף הבית">
+        <img class="site-header__logo site-header__logo--flat" src="./assets/logo-flat-240-CGmpBmLG.webp"
+             srcset="./assets/logo-flat-240-CGmpBmLG.webp 240w, ./assets/logo-flat-480-Djt_Bkuy.webp 480w"
+             sizes="80px" width="240" height="198" alt="">
+        <img class="site-header__logo site-header__logo--3d" src="./assets/logo-3d-320-B-pEPhUU.webp"
+             srcset="./assets/logo-3d-320-B-pEPhUU.webp 320w, ./assets/logo-3d-640-DD_PvjOa.webp 640w"
+             sizes="80px" width="320" height="265" alt="">
+      </a>
+
+      <nav class="site-nav" aria-label="ניווט ראשי">
+        <ul class="site-nav__list" role="list">
+          <li><a class="site-nav__link" href="about.html">אודות</a></li>
+          <li><a class="site-nav__link" href="emotional-therapy.html">טיפול רגשי</a></li>
+          <li><a class="site-nav__link" href="nlp.html"><span class="ltr">NLP</span></a></li>
+          <!-- Workshops: the link opens the hub; the arrow button (or hover / focus) opens the three
+               workshops (src/js/ui/subnav.js). Owner request 2026-10-04: reach every workshop from the menu. -->
+          <li class="site-nav__item--sub" data-subnav>
+            <a class="site-nav__link" href="workshops.html" data-subnav-parent>סדנאות</a>
+            <button class="site-nav__toggle" type="button" aria-expanded="false" aria-controls="subnav-workshops" data-subnav-toggle>
+              <svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>
+              <span class="visually-hidden">הצגת הסדנאות</span>
+            </button>
+            <div class="subnav" id="subnav-workshops">
+              <ul class="subnav__list" role="list">
+                <li><a class="subnav__link" href="workshop-social-skills.html"><span class="subnav__icon"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><circle cx="9" cy="8" r="3" pathLength="1"/><circle cx="17" cy="9.5" r="2.4" pathLength="1"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0" pathLength="1"/><path d="M14.5 15.2A4.5 4.5 0 0 1 20.5 19" pathLength="1"/></svg>
+</span><span class="subnav__title">סדנת כישורים חברתיים</span><span class="subnav__meta">גילאי <span class="ltr">5–11</span></span></a></li>
+                <li><a class="subnav__link" href="workshop-resilience.html"><span class="subnav__icon"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M12 3 5 6v5c0 4.4 3 8.3 7 9.5 4-1.2 7-5.1 7-9.5V6l-7-3Z" pathLength="1"/><path d="m9 12 2 2 4-4" pathLength="1"/></svg>
+</span><span class="subnav__title">סדנת חוסן נפשי</span><span class="subnav__meta">גילאי <span class="ltr">7–18</span></span></a></li>
+                <li><a class="subnav__link" href="workshop-first-grade-preparation.html"><span class="subnav__icon"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M12 6c-2-1.5-5-2-8-1.5v13c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5v-13c-3-.5-6 0-8 1.5Z" pathLength="1"/><path d="M12 6v13" pathLength="1"/></svg>
+</span><span class="subnav__title">סדנת הכנה לכיתה א'</span><span class="subnav__meta">גילאי <span class="ltr">5–7</span></span></a></li>
+              </ul>
+              <a class="subnav__all has-arrow" href="workshops.html"><span>לכל הסדנאות</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+            </div>
+          </li>
+          <li><a class="site-nav__link" href="testimonials.html">המלצות</a></li>
+          <li><a class="site-nav__link" href="blog.html">בלוג</a></li>
+          <li><a class="site-nav__link" href="guides.html">מדריכים</a></li>
+          <li><a class="site-nav__link" href="faq.html">שאלות נפוצות</a></li>
+        </ul>
+      </nav>
+
+      <a class="site-header__cta" href="contact.html">צור קשר</a>
+
+      <button class="site-header__menu" type="button" data-menu-open aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M3.5 8h17" pathLength="1"/><path d="M3.5 16h17" pathLength="1"/></svg>
+
+        <span class="visually-hidden">תפריט</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile navigation: native modal <dialog> (focus trap, inert page, Escape) -->
+  <dialog id="mobile-menu" class="mobile-nav" data-mobile-nav aria-label="תפריט">
+    <div class="mobile-nav__panel">
+      <button class="mobile-nav__close" type="button" data-menu-close>
+        <svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M5.5 5.5l13 13" pathLength="1"/><path d="M18.5 5.5l-13 13" pathLength="1"/></svg>
+
+        <span class="visually-hidden">סגירת התפריט</span>
+      </button>
+      <nav aria-label="ניווט ראשי">
+        <ul class="mobile-nav__list" role="list">
+          <li style="--i: 0"><a class="mobile-nav__link" href="./">דף הבית</a></li>
+          <li style="--i: 1"><a class="mobile-nav__link" href="about.html">אודות</a></li>
+          <li style="--i: 2"><a class="mobile-nav__link" href="emotional-therapy.html">טיפול רגשי</a></li>
+          <li style="--i: 3"><a class="mobile-nav__link" href="nlp.html"><span class="ltr">NLP</span></a></li>
+          <li style="--i: 4">
+            <!-- the three workshops fold under an arrow, so the menu fits one screen (owner 2026-10-16) -->
+            <div class="mobile-nav__row">
+              <a class="mobile-nav__link" href="workshops.html">סדנאות</a>
+              <button class="mobile-nav__toggle" type="button" aria-expanded="false" aria-controls="mnav-workshops" data-mnav-toggle>
+                <svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>
+                <span class="visually-hidden">הצגת הסדנאות</span>
+              </button>
+            </div>
+            <ul class="mobile-nav__sub" id="mnav-workshops" role="list" hidden>
+              <li><a href="workshop-social-skills.html">סדנת כישורים חברתיים <span class="ltr">5–11</span></a></li>
+              <li><a href="workshop-resilience.html">סדנת חוסן נפשי <span class="ltr">7–18</span></a></li>
+              <li><a href="workshop-first-grade-preparation.html">סדנת הכנה לכיתה א' <span class="ltr">5–7</span></a></li>
+            </ul>
+          </li>
+          <li style="--i: 5"><a class="mobile-nav__link" href="testimonials.html">המלצות</a></li>
+          <li style="--i: 6"><a class="mobile-nav__link" href="blog.html">בלוג</a></li>
+          <li style="--i: 6"><a class="mobile-nav__link" href="guides.html">מדריכים</a></li>
+          <li style="--i: 7"><a class="mobile-nav__link" href="faq.html">שאלות נפוצות</a></li>
+          <li style="--i: 8"><a class="mobile-nav__link" href="contact.html">צור קשר</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-nav__actions">
+        <a class="button button--accent" href="tel:+972534401616"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M6.5 3.5h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2l1.3-2 4 1.5v3a2 2 0 0 1-2 2A15.5 15.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z" pathLength="1"/></svg>
+<span class="button__label ltr">053-440-1616</span></a>
+        <a class="button button--ghost" href="https://wa.me/972534401616" rel="noopener"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4A2.5 2.5 0 0 1 4 13.5v-7Z" pathLength="1"/><path d="M8.5 10h7" pathLength="1"/></svg>
+<span class="button__label">וואטסאפ</span></a>
+      </div>
+    </div>
+  </dialog>
+
+
+  <main id="main" tabindex="-1">
+    <!-- Local landing page (owner request 2026-10-26: reach searches for "מטפלת רגשית בבאר שבע" and
+         "מטפל רגשי"). Facts only from the site and the owner: services, ages, clinic, accessibility,
+         areas, hours, numbers, real testimonials. -->
+    <section class="page-hero ground-night" data-tone="dark" aria-labelledby="page-title">
+      <p class="page-hero__ghost" aria-hidden="true" data-parallax="0.3">באר שבע</p>
+      <div class="container page-hero__grid">
+        <div class="page-hero__text">
+          <!-- Breadcrumbs (functional UI, content-approval.md UI-002). Labels match pages.config.js.
+       <!- - @include partials/breadcrumbs.html label="אודות" - ->
+       <!- - @include partials/breadcrumbs.html parent-href="workshops.html" parent-label="סדנאות" label="…" - ->
+     The middle crumb renders only when parent-href is given (empty <li> is hidden by CSS). -->
+<nav class="breadcrumbs" aria-label="מיקום באתר">
+  <ol class="breadcrumbs__list" role="list">
+    <li><a href="./">דף הבית</a></li>
+    <li><span aria-current="page">מטפלת רגשית בבאר שבע</span></li>
+  </ol>
+</nav>
+
+          <h1 id="page-title" class="headline headline--xl">
+            <span class="headline__line">מטפלת רגשית</span>
+            <span class="headline__accent">בבאר שבע</span>
+          </h1>
+          <p class="page-hero__lead" data-reveal="fade">טיפול רגשי ו-<span class="ltr">NLP</span> לילדים ולבני נוער, בקליניקה חמה ונגישה בבאר שבע. מגיעים אליי גם מעומר, להבים, מיתר ובני שמעון.</p>
+          <ul class="hero-facts" role="list">
+            <li><span class="hero-facts__value">קומת קרקע</span><span class="hero-facts__label">ללא מדרגות, נגישה במלואה</span></li>
+            <li><span class="hero-facts__value">ללא עלות</span><span class="hero-facts__label">שיחת התאמה ראשונה</span></li>
+            <li><span class="hero-facts__value">א׳–ה׳</span><span class="hero-facts__label ltr">09:00–19:00</span></li>
+          </ul>
+          <div class="hero__actions">
+            <a class="button button--accent has-arrow" href="#contact"><span class="button__label">לתיאום שיחת התאמה</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+            <a class="button button--ghost has-arrow" href="emotional-therapy.html"><span class="button__label">על הטיפול הרגשי</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+          </div>
+        </div>
+        <div class="page-hero__visual">
+          <figure class="local-photo photo-frame"><img src="./assets/clinic-entrance-600-BzbDRUPT.webp" srcset="./assets/clinic-entrance-600-BzbDRUPT.webp 600w, ./assets/clinic-entrance-1000-Bfj1dLuW.webp 1000w" sizes="(max-width: 1023px) 70vw, 420px" width="600" height="800" alt="הכניסה לקליניקה של אפרת שכטר בבאר שבע, בגובה הקרקע וללא מדרגות" fetchpriority="high"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ground-cream" aria-labelledby="who-title">
+      <div class="container">
+        <div class="sec-head">
+          <div class="sec-head__main">
+            <h2 id="who-title" class="headline"><span class="headline__line">מחפשים מטפל רגשי</span><span class="headline__accent">לילד או לנער?</span></h2>
+          </div>
+          <p class="sec-head__side">אני מטפלת רגשית לילדים מגיל 5 ולבני נוער. אלה הקשיים שאיתם מגיעים אליי:</p>
+        </div>
+        <ul class="tiles" role="list" data-reveal-group>
+          <li class="tile" data-reveal="slide"><div class="tile__top"><span class="tile__icon" data-icon="shield"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M12 3 5 6v5c0 4.4 3 8.3 7 9.5 4-1.2 7-5.1 7-9.5V6l-7-3Z" pathLength="1"/><path d="m9 12 2 2 4-4" pathLength="1"/></svg>
+</span><span class="tile__index ltr">01</span></div><h3 class="tile__title">חוסר ביטחון עצמי, דימוי עצמי נמוך וביישנות.</h3><p class="tile__text">ילד שמוותר מראש, לא מצביע בכיתה או אומר "אני לא מצליח".</p></li>
+          <li class="tile" data-reveal="slide"><div class="tile__top"><span class="tile__icon" data-icon="storm"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M7 15a4 4 0 1 1 .9-7.9A5 5 0 0 1 17.6 8 3.5 3.5 0 1 1 17 15H7Z" pathLength="1"/><path d="m12 13-2 4h3l-2 4" pathLength="1"/></svg>
+</span><span class="tile__index ltr">02</span></div><h3 class="tile__title">קשיים וויסות רגשי, התקפי זעם, כעסים ופחדים.</h3><p class="tile__text">סערות שמגיעות מהר, קשה להירגע מהן, ומשאירות את כל הבית מותש.</p></li>
+          <li class="tile" data-reveal="slide"><div class="tile__top"><span class="tile__icon" data-icon="wave"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M3 9c2-2 4-2 6 0s4 2 6 0 4-2 6 0" pathLength="1"/><path d="M3 15c2-2 4-2 6 0s4 2 6 0 4-2 6 0" pathLength="1"/></svg>
+</span><span class="tile__index ltr">03</span></div><h3 class="tile__title">חרדות ואתגרים רגשיים שונים.</h3><p class="tile__text">דאגות שלא נגמרות, פחד מהחושך, מפרידה או ממצבים חדשים.</p></li>
+          <li class="tile" data-reveal="slide"><div class="tile__top"><span class="tile__icon" data-icon="focus"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><circle cx="12" cy="12" r="8" pathLength="1"/><circle cx="12" cy="12" r="3.5" pathLength="1"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3" pathLength="1"/></svg>
+</span><span class="tile__index ltr">04</span></div><h3 class="tile__title">הפרעות קשב וריכוז (<span class="ltr">ADHD</span>).</h3><p class="tile__text">התמודדות עם הצד הרגשי של הקשב: תסכול, אימפולסיביות ותחושת כישלון.</p></li>
+          <li class="tile" data-reveal="slide"><div class="tile__top"><span class="tile__icon" data-icon="people"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><circle cx="9" cy="8" r="3" pathLength="1"/><circle cx="17" cy="9.5" r="2.4" pathLength="1"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0" pathLength="1"/><path d="M14.5 15.2A4.5 4.5 0 0 1 20.5 19" pathLength="1"/></svg>
+</span><span class="tile__index ltr">05</span></div><h3 class="tile__title">קשיים חברתיים ויצירת קשרים.</h3><p class="tile__text">קושי להצטרף, לשמור על חברויות או להרגיש שייך בכיתה.</p></li>
+        </ul>
+        <div class="cta-strip">
+          <p class="cta-strip__text">מזהים את הילד שלכם באחד מהם? בואו נדבר.</p>
+          <div class="cta-strip__actions">
+            <a class="button button--accent has-arrow" href="#contact"><span class="button__label">לתיאום שיחת התאמה</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+            <a class="button button--ghost" href="tel:+972534401616"><span class="button__label ltr">053-440-1616</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ground-night" data-tone="dark" aria-labelledby="clinic-title">
+      <div class="container">
+        <div class="sec-head">
+          <div class="sec-head__main">
+            <h2 id="clinic-title" class="headline"><span class="headline__line">הקליניקה</span><span class="headline__accent">בבאר שבע</span></h2>
+          </div>
+          <p class="sec-head__side">חדר זכוכית מואר בגינה, עם פינת משחק, ספרים ויצירה. מקום שילדים אוהבים להגיע אליו.</p>
+        </div>
+        <div class="clinic-gallery">
+          <figure class="clinic-gallery__main photo-frame" data-reveal="clip"><img src="./assets/clinic-room-800-B2HJrck3.webp" srcset="./assets/clinic-room-800-B2HJrck3.webp 800w, ./assets/clinic-room-1400-De4chJ4v.webp 1400w" sizes="(min-width: 1024px) 55vw, 92vw" width="1400" height="1050" alt="חדר הטיפולים בקליניקה" loading="lazy" decoding="async"></figure>
+          <figure class="clinic-gallery__side photo-frame" data-reveal="clip"><img src="./assets/clinic-corner-800-Df2wXM6W.webp" width="800" height="1067" alt="כורסאות ושולחן עגול בחדר הטיפולים" loading="lazy" decoding="async"></figure>
+          <figure class="clinic-gallery__side photo-frame" data-reveal="clip"><img src="./assets/clinic-outside-800-BUvgtGgv.webp" width="800" height="600" alt="הקליניקה מבחוץ, חדר זכוכית בגינה" loading="lazy" decoding="async"></figure>
+        </div>
+        <ul class="area-chips" role="list" aria-label="נגישות ואזורי שירות">
+          <li>קומת קרקע, ללא מדרגות, נגישה במלואה</li>
+          <li>באר שבע</li><li>עומר</li><li>להבים</li><li>מיתר</li><li>בני שמעון</li>
+          <li>א׳–ה׳ · <span class="ltr">09:00–19:00</span></li>
+        </ul>
+        <!-- Practice in numbers (Efrat 2026-10-08; numbers supplied by Efrat). Count up once on view
+     (src/js/ui/countup.js); the final number is in the HTML, so it reads without JS or motion. -->
+<ul class="stats local-stats" role="list">
+  <li class="stats__item"><span class="stats__value"><span class="ltr" data-count="500">500</span></span><span class="stats__label">הורים בקהילה</span></li>
+  <li class="stats__item"><span class="stats__value"><span class="ltr" data-count="300">300</span></span><span class="stats__label">ליווים פרטניים</span></li>
+  <li class="stats__item"><span class="stats__value"><span class="ltr" data-count="40">40</span></span><span class="stats__label">קבוצות וסדנאות</span></li>
+</ul>
+
+      </div>
+    </section>
+
+    <section class="reviews section ground-cream" id="testimonials" aria-labelledby="reviews-title">
+      <div class="container">
+        <div class="sec-head">
+          <div class="sec-head__main">
+            <h2 id="reviews-title" class="headline">
+              <span class="headline__line">מה אומרים</span>
+              <span class="headline__accent">ההורים והמטופלים</span>
+            </h2>
+          </div>
+          <div class="reviews__nav" data-carousel-nav>
+            <button class="reviews__arrow" type="button" data-carousel-prev aria-label="ההמלצה הקודמת"><svg class="arrow arrow--back" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</button>
+            <button class="reviews__arrow" type="button" data-carousel-next aria-label="ההמלצה הבאה"><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</button>
+          </div>
+        </div>
+        <div class="reviews__viewport" data-carousel tabindex="0" role="region" aria-label="המלצות">
+          <ul class="reviews__track" role="list">
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">נ</span><p class="review__name">נועם י.</p><p class="review__tag">טיפול רגשי</p></div>
+              <blockquote class="review__quote"><p>אני מעריכה מאוד את הידע המקצועי והשירות האדיב שקיבלתי בטיפול. תודה רבה על המאמץ והזמן עבורי. דרך אגב, רק לשמוע את הקול שלך, זה מרגיע מאוד.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">מ</span><p class="review__name">מאור כ.</p><p class="review__tag">טיפול רגשי</p></div>
+              <blockquote class="review__quote"><p>אם היו אומרים לי שבעשרה מפגשים הילד בן 10 ישתנה כל כך... נעלמו החרדות, הלילות הפכו להיות לילות של שינה רצופה! לא הייתי מאמין, אבל זה פשוט עבד.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">ר</span><p class="review__name">רחל ק.</p><p class="review__tag">סדנת כישורים חברתיים</p></div>
+              <blockquote class="review__quote"><p>הבן שלי השתתף בסדנת כישורים חברתיים. תמיד היו לו בעיות בתקשורת עם בני גילו, הוא לא מצליח להחזיק חברויות לאורך זמן ובקושי נפגש עם חברים אחה"צ. כשראיתי את הפרסום חשבתי לעצמי: מה יכול להיות? ואז הילד פשוט פרח ממפגש למפגש. הוא מצא לו חברים חדשים עם אותם קשיים כמו שלו וזה מאוד הרגיע אותו. הוא נהנה מאוד מהסדנה ורכש כלים חשובים מאוד בתקשורת וברכישת חברות. ממליצה בחום לכל הילדים עם קשיים בתקשורת.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">ב</span><p class="review__name">בתאל ר.</p><p class="review__tag">סדנת חוסן</p></div>
+              <blockquote class="review__quote"><p>הבת שלי השתתפה בסדנת חוסן. האמת, לא האמנתי שבתוך 5 מפגשים היא תקבל כל כך הרבה ערך ותהפוך מילדה חרדתית ורגישה, שבוכה מכל דבר ומתעצבנת בקלות, לילדה רגועה יותר. ועוד יותר חשוב לי כאמא: היא פשוט שמחה יותר, והבית הפך להיות נעים יותר.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">ק</span><p class="review__name">קלודין א.</p><p class="review__tag">טיפול רגשי</p></div>
+              <blockquote class="review__quote"><p>אני מאוד סקפטית, אבל הילד שלי הפך להיות פשוט אחר. היו לו המון התקפי זעם והוא היה מאוד אימפולסיבי, ולאחר כמה מפגשים כבר הרגשנו בשינוי לטובה. אני מודה לך מאוד.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">ד</span><p class="review__name">דנה ל.</p><p class="review__tag">סדנת כישורים חברתיים</p></div>
+              <blockquote class="review__quote"><p>רשמתי את הילדה שלי לסדנת כישורים חברתיים בקבוצה של ילדות בנות 9–10. הילדה שלי לא פופולרית בכיתה ותמיד מרגישה שדוחים אותה, והסדנה הזו העצימה אותה. היא למדה להתעלם מילדות מציקות, להצטרף לשיחה וליצור חברות אמיתית, ועל הדרך גם הכירה 2 חברות חדשות. תודה רבה לך, תמשיכי לעשות חיל!</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">נ</span><p class="review__name">נועה ז.</p><p class="review__tag">טיפול רגשי</p></div>
+              <blockquote class="review__quote"><p>הייתי אצל הרבה מטפלות ומאמנות בעבר, אבל את משהו אחר, משהו מיוחד. התחברתי אלייך כבר ברגע הראשון, הטכניקות שהעברת גרמו לי להתקדם מאוד מהר לעבר המטרה שלי. למדתי מה זה דמיון מודרך ולקחתי את זה ככלי לחיים שלי. תודה על הכול.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">א</span><p class="review__name">אלעד ח.</p><p class="review__tag">סדנת כישורים חברתיים</p></div>
+              <blockquote class="review__quote"><p>הבן שלי השתתף בסדנת מיומנויות חברתיות אצל אפרת. הוא התאהב בה מהמפגש הראשון ופשוט לא רצה לחזור הביתה. הילד היה עם התקפי זעם ברמה שלא יכולתי לשבת איתו 10 דקות בלי להתפוצץ, ולאחר הסדנה הוא למד לשלוט בכעסים שלו ולמד להתאפק! ממליץ בחום על השתתפות בסדנה.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">א</span><p class="review__name">אביטל ש.</p><p class="review__tag">טיפול רגשי</p></div>
+              <blockquote class="review__quote"><p>אני מאוד מרוצה מהשיפור המתמיד שאני רואה בתהליך שעשית עבור הבת שלי. תודה על המומחיות והתמיכה המקצועית! הבת שלי כבר לא מפחדת להיכנס לבית.</p></blockquote>
+            </li>
+            <li class="review" data-review>
+              <div class="review__head"><span class="review__avatar" aria-hidden="true">ד</span><p class="review__name">דפנה ר.</p><p class="review__tag">טיפול רגשי</p></div>
+              <blockquote class="review__quote"><p>ברצוני להודות לך אפרת, האלופה. בגיל ההתבגרות צריך רק מישהו אחד שיקשיב ויהיה שם בשבילי, אז תודה לך על הטיפול המדהים. התהליך היה מרתק ומועיל מאוד. ממליצה בחום.</p></blockquote>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section ground-cream faq--joined" id="faq" aria-labelledby="faq-title">
+      <div class="container faq__grid">
+        <div class="faq__head">
+          <h2 id="faq-title" class="headline"><span class="headline__line">שאלות</span><span class="headline__accent">לפני שמתחילים</span></h2>
+          <p class="faq__lead">לא מצאתם תשובה? אפשר לשאול אותי ישירות.</p>
+          <a class="button button--accent has-arrow" href="https://wa.me/972534401616" target="_blank" rel="noopener"><span class="button__label">שאלה בוואטסאפ</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</a>
+        </div>
+        <div class="faq__list">
+          <details class="disclosure faq__item" open>
+            <summary class="disclosure__summary"><span class="disclosure__title">מה עושה מטפלת רגשית לילדים?</span><span class="disclosure__icon" aria-hidden="true"></span></summary>
+            <div class="disclosure__panel"><p>עוזרת לילד להבין מה קורה לו ולמצוא כלים להתמודד: עם פחדים, כעסים, ביישנות, קשיים חברתיים או הצד הרגשי של קשב וריכוז. אצלי זה נעשה בשיטת <span class="ltr">NLP</span>, דרך משחק, דמיון מודרך וסיפורים, בתהליך קצר וממוקד ובשיתוף ההורים.</p></div>
+          </details>
+          <details class="disclosure faq__item">
+            <summary class="disclosure__summary"><span class="disclosure__title">מה ההבדל בין טיפול פסיכולוגי לטיפול <span class="ltr">NLP</span>?</span><span class="disclosure__icon" aria-hidden="true"></span></summary>
+            <div class="disclosure__panel"><p>טיפול פסיכולוגי מתמקד לרוב בשיחה ובהבנת העבר, והתהליך יכול להימשך זמן רב. טיפול רגשי בשיטת <span class="ltr">NLP</span> עובד עם דפוסי החשיבה, השפה וההתנהגות כאן ועכשיו, בטכניקות חווייתיות שמובילות לשינוי ממוקד, בדרך כלל בתהליך קצר יחסית.</p></div>
+          </details>
+          <details class="disclosure faq__item">
+            <summary class="disclosure__summary"><span class="disclosure__title">איפה מתקיימים המפגשים, והאם הקליניקה נגישה?</span><span class="disclosure__icon" aria-hidden="true"></span></summary>
+            <div class="disclosure__panel"><p>בקליניקה בבאר שבע: חדר זכוכית מואר בגינה, עם פינת משחק ויצירה. הקליניקה בקומת קרקע, ללא מדרגות, ונגישה במלואה.</p></div>
+          </details>
+          <details class="disclosure faq__item">
+            <summary class="disclosure__summary"><span class="disclosure__title">מאילו אזורים מגיעים אליי?</span><span class="disclosure__icon" aria-hidden="true"></span></summary>
+            <div class="disclosure__panel"><p>מבאר שבע ומהיישובים שסביבה: עומר, להבים, מיתר והמועצה האזורית בני שמעון.</p></div>
+          </details>
+          <details class="disclosure faq__item">
+            <summary class="disclosure__summary"><span class="disclosure__title">איך מתחילים?</span><span class="disclosure__icon" aria-hidden="true"></span></summary>
+            <div class="disclosure__panel"><p>שיחת התאמה קצרה ללא עלות. אחריה נקבע פגישת היכרות עם ההורים, ומשם יוצאים לדרך.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact band (redesign 2026-10-04) — closes every page. One contained panel, never wider than
+     the content column: on the inline-start side the heading, a short invitation and the contact
+     channels as compact rows; on the other side the message form card. Phones: heading, channels
+     (2×2), then the form.
+     The form is sent with Web3Forms by email to Efrat (src/js/ui/lead-form.js); the site
+     stores nothing. conten.txt §1 · labels: content-approval.md UI-009, UI-012.
+       <!- - @include partials/contact-band.html - -> -->
+    <section class="contact section ground-night" data-tone="dark" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact__panel">
+          <div class="contact__info">
+            <p class="eyebrow-line">אפרת שכטר · באר שבע</p>
+            <h2 id="contact-title" class="headline">
+              <span class="headline__line">אפשר להתחיל</span>
+              <span class="headline__accent">בצעד קטן</span>
+            </h2>
+            <p class="contact__lead">השאירו פרטים לשיחת התאמה ללא עלות, ונבדוק יחד מה נכון לכם ולילד שלכם בשלב הזה.</p>
+            <ul class="contact__channels" role="list">
+              <li><a class="contact__channel" href="tel:+972534401616"><span class="contact__icon"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M6.5 3.5h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2l1.3-2 4 1.5v3a2 2 0 0 1-2 2A15.5 15.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z" pathLength="1"/></svg>
+</span><span class="contact__label">טלפון</span><span class="contact__value ltr">053-440-1616</span></a></li>
+              <li><a class="contact__channel" href="https://wa.me/972534401616" rel="noopener"><span class="contact__icon"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4A2.5 2.5 0 0 1 4 13.5v-7Z" pathLength="1"/><path d="M8.5 10h7" pathLength="1"/></svg>
+</span><span class="contact__label">וואטסאפ</span><span class="contact__value ltr">053-440-1616</span></a></li>
+              <li><a class="contact__channel" href="mailto:efratshechternlp@gmail.com"><span class="contact__icon"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M3.5 6.5h17v11h-17z" pathLength="1"/><path d="M3.5 6.5l8.5 7 8.5-7" pathLength="1"/></svg>
+</span><span class="contact__label">דוא"ל</span><span class="contact__value ltr">efratshechternlp@gmail.com</span></a></li>
+              <li><span class="contact__channel"><span class="contact__icon"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11Z" pathLength="1"/><path d="M12 7.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" pathLength="1"/></svg>
+</span><span class="contact__label">מיקום הקליניקה</span><span class="contact__value">באר שבע</span></span></li>
+            </ul>
+            <!-- Efrat's social profiles (links from her previous site). Usage: @include partials/social.html class="…" -->
+<ul class="social contact__social" role="list">
+  <li><a class="social__link" href="https://www.facebook.com/profile.php?id=100061710695909" target="_blank" rel="noopener" aria-label="פייסבוק (נפתח בחלון חדש)"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 8.5V6.8c0-.8.2-1.3 1.4-1.3H17V2.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.3v1.7H7.7v3.2h2.7V21H14v-9.3h2.7l.4-3.2H14Z" fill="currentColor"/></svg></a></li>
+  <li><a class="social__link" href="https://www.instagram.com/efrat_shechternlp/" target="_blank" rel="noopener" aria-label="אינסטגרם (נפתח בחלון חדש)"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg></a></li>
+  <li><a class="social__link" href="https://www.tiktok.com/@userefratshecnlpkids" target="_blank" rel="noopener" aria-label="טיקטוק (נפתח בחלון חדש)"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.6 3c.4 2.2 1.7 3.6 4 3.8v3.2c-1.5 0-2.8-.4-4-1.2v6.4c0 3.2-2.4 5.8-5.7 5.8A5.6 5.6 0 0 1 5.3 15.4c0-3.4 3-6 6.4-5.6v3.3c-1.6-.4-3.1.7-3.1 2.3 0 1.4 1 2.4 2.4 2.4s2.4-1 2.4-2.6V3h3.2Z" fill="currentColor"/></svg></a></li>
+  <!-- TODO (Efrat): WhatsApp community link, to be supplied -->
+</ul>
+
+          </div>
+
+          <!-- Contact form. Sent with Web3Forms (owner decision 2026-10-04): the details arrive by email to
+     Efrat (efratshechternlp@gmail.com); the site stores nothing. JS: src/js/ui/lead-form.js.
+     Without JS the form posts to Web3Forms directly. The access key is public by design.
+     Labels and the note are functional UI (content-approval.md UI-012). -->
+<form class="wa-form card" action="https://api.web3forms.com/submit" method="post" data-lead-form="contact" novalidate>
+  <h3 class="wa-form__title">השאירו פרטים</h3>
+  <input type="hidden" name="access_key" value="ebebace4-2308-4f70-9f92-e4b3a958e0bb">
+  <input type="hidden" name="subject" value="פנייה חדשה מהאתר">
+  <input type="hidden" name="from_name" value="אתר אפרת שכטר">
+  <input type="checkbox" name="botcheck" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <div class="wa-form__row">
+    <div class="field">
+      <label class="field__label" for="lf-name">שם<span class="field__required" aria-hidden="true">*</span></label>
+      <input class="field__control" id="lf-name" name="name" type="text" autocomplete="name" required aria-describedby="lf-name-error">
+      <p class="field__error" id="lf-name-error"></p>
+    </div>
+    <div class="field">
+      <label class="field__label" for="lf-phone">טלפון<span class="field__required" aria-hidden="true">*</span></label>
+      <input class="field__control" id="lf-phone" name="phone" type="tel" dir="ltr" autocomplete="tel" required aria-describedby="lf-phone-error">
+      <p class="field__error" id="lf-phone-error"></p>
+    </div>
+  </div>
+  <div class="field">
+    <label class="field__label" for="lf-topic">נושא</label>
+    <select class="field__control" id="lf-topic" name="topic">
+      <option value="טיפול רגשי פרטני (NLP לילדים ולנוער)">טיפול רגשי פרטני</option>
+      <option value="סדנת כישורים חברתיים (NLP)">סדנת כישורים חברתיים (NLP)</option>
+      <option value="סדנת חוסן נפשי">סדנת חוסן נפשי</option>
+      <option value="סדנת הכנה לכיתה א'">סדנת הכנה לכיתה א'</option>
+    </select>
+  </div>
+  <div class="field">
+    <label class="field__label" for="lf-message">הודעה (לא חובה)</label>
+    <textarea class="field__control" id="lf-message" name="message" rows="3"></textarea>
+  </div>
+  <div class="field field--check">
+    <label class="check" for="lf-consent">
+      <input class="check__input" id="lf-consent" name="consent" type="checkbox" value="כן" required aria-describedby="lf-consent-error">
+      <span class="check__box" aria-hidden="true"></span>
+      <span class="check__label">אני מסכים/ה ל<a href="terms.html" target="_blank" rel="noopener">תנאי השימוש</a> ול<a href="privacy.html" target="_blank" rel="noopener">מדיניות הפרטיות</a>, ומאשר/ת יצירת קשר מצד האתר<span class="field__required" aria-hidden="true">*</span></span>
+    </label>
+    <p class="field__error" id="lf-consent-error"></p>
+  </div>
+  <button class="button button--accent has-arrow wa-form__submit" type="submit"><span class="button__label">שליחה</span><svg class="arrow arrow--forward" width="28" height="14" viewBox="0 0 32 16" fill="none" aria-hidden="true" focusable="false"><path class="arrow__shaft" d="M1 8 H30" pathLength="1"/><path class="arrow__head" d="M23 1.5 L30 8 L23 14.5" pathLength="1"/></svg>
+</button>
+  <p class="wa-form__status" role="status" aria-live="polite" data-form-status></p>
+  <p class="wa-form__note">הפרטים נשלחים ישירות אליי ומשמשים רק כדי לחזור אליכם. <a href="privacy.html">מדיניות פרטיות</a></p>
+</form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+    <!-- =====================================================
+       FOOTER. Contact details are approved content (conten from efrat/conten.txt §1).
+       Page labels are functional UI (content-approval.md UI-002). No marketing copy.
+       ===================================================== -->
+  <footer class="site-footer" data-tone="dark">
+    <div class="container site-footer__inner">
+      <!-- lead strip: the next step is always one tap away (owner request 2026-10-04) -->
+      <div class="site-footer__cta">
+        <p class="site-footer__cta-text">רוצים לדבר על הילד שלכם? <span>שיחת ההתאמה הראשונה ללא עלות.</span></p>
+        <div class="site-footer__cta-actions">
+          <a class="button button--accent" href="tel:+972534401616"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M6.5 3.5h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2l1.3-2 4 1.5v3a2 2 0 0 1-2 2A15.5 15.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z" pathLength="1"/></svg>
+<span class="button__label ltr">053-440-1616</span></a>
+          <a class="button button--ghost" href="https://wa.me/972534401616" target="_blank" rel="noopener"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4A2.5 2.5 0 0 1 4 13.5v-7Z" pathLength="1"/><path d="M8.5 10h7" pathLength="1"/></svg>
+<span class="button__label">וואטסאפ</span></a>
+        </div>
+      </div>
+
+      <div class="site-footer__brand">
+        <img class="site-footer__logo" src="./assets/logo-3d-320-B-pEPhUU.webp"
+             srcset="./assets/logo-3d-320-B-pEPhUU.webp 320w, ./assets/logo-3d-640-DD_PvjOa.webp 640w"
+             sizes="140px" width="320" height="265" alt="אפרת שכטר" loading="lazy">
+        <p class="site-footer__name">אפרת שכטר – <span class="ltr">NLP</span>, טיפול רגשי והנחיית סדנאות לילדים ובני נוער</p>
+      </div>
+
+      <div class="site-footer__col site-footer__col--contact">
+        <p class="site-footer__heading">יצירת קשר</p>
+        <address class="site-footer__contact">
+          <a href="tel:+972534401616"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M6.5 3.5h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2l1.3-2 4 1.5v3a2 2 0 0 1-2 2A15.5 15.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z" pathLength="1"/></svg>
+<span class="ltr">053-440-1616</span></a>
+          <a href="https://wa.me/972534401616" target="_blank" rel="noopener"><svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4A2.5 2.5 0 0 1 4 13.5v-7Z" pathLength="1"/><path d="M8.5 10h7" pathLength="1"/></svg>
+<span>וואטסאפ</span></a>
+          <a href="mailto:efratshechternlp@gmail.com"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M3.5 6.5h17v11h-17z" pathLength="1"/><path d="M3.5 6.5l8.5 7 8.5-7" pathLength="1"/></svg>
+<span class="ltr">efratshechternlp@gmail.com</span></a>
+          <span><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" ><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11Z" pathLength="1"/><path d="M12 7.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" pathLength="1"/></svg>
+<span>באר שבע והדרום</span></span>
+        </address>
+        <p class="site-footer__hours">א׳–ה׳ · <span class="ltr">09:00–19:00</span></p>
+        <!-- Efrat's social profiles (links from her previous site). Usage: @include partials/social.html class="…" -->
+<ul class="social site-footer__social" role="list">
+  <li><a class="social__link" href="https://www.facebook.com/profile.php?id=100061710695909" target="_blank" rel="noopener" aria-label="פייסבוק (נפתח בחלון חדש)"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 8.5V6.8c0-.8.2-1.3 1.4-1.3H17V2.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.3v1.7H7.7v3.2h2.7V21H14v-9.3h2.7l.4-3.2H14Z" fill="currentColor"/></svg></a></li>
+  <li><a class="social__link" href="https://www.instagram.com/efrat_shechternlp/" target="_blank" rel="noopener" aria-label="אינסטגרם (נפתח בחלון חדש)"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg></a></li>
+  <li><a class="social__link" href="https://www.tiktok.com/@userefratshecnlpkids" target="_blank" rel="noopener" aria-label="טיקטוק (נפתח בחלון חדש)"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.6 3c.4 2.2 1.7 3.6 4 3.8v3.2c-1.5 0-2.8-.4-4-1.2v6.4c0 3.2-2.4 5.8-5.7 5.8A5.6 5.6 0 0 1 5.3 15.4c0-3.4 3-6 6.4-5.6v3.3c-1.6-.4-3.1.7-3.1 2.3 0 1.4 1 2.4 2.4 2.4s2.4-1 2.4-2.6V3h3.2Z" fill="currentColor"/></svg></a></li>
+  <!-- TODO (Efrat): WhatsApp community link, to be supplied -->
+</ul>
+
+      </div>
+
+      <nav class="site-footer__col" aria-label="טיפול וסדנאות">
+        <p class="site-footer__heading">טיפול וסדנאות</p>
+        <ul class="site-footer__links" role="list">
+          <li><a href="emotional-therapy.html">טיפול רגשי פרטני</a></li>
+          <li><a href="emotional-therapist-beer-sheva.html">מטפלת רגשית בבאר שבע</a></li>
+          <li><a href="nlp.html">מהו <span class="ltr">NLP</span></a></li>
+          <li><a href="workshops.html">כל הסדנאות</a></li>
+          <li><a href="workshop-social-skills.html">סדנת כישורים חברתיים</a></li>
+          <li><a href="workshop-resilience.html">סדנת חוסן נפשי</a></li>
+          <li><a href="workshop-first-grade-preparation.html">סדנת הכנה לכיתה א'</a></li>
+        </ul>
+      </nav>
+
+      <nav class="site-footer__col" aria-label="עוד באתר">
+        <p class="site-footer__heading">עוד באתר</p>
+        <ul class="site-footer__links" role="list">
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="testimonials.html">המלצות</a></li>
+          <li><a href="blog.html">בלוג</a></li>
+          <li><a href="guides.html">מדריכים להורים</a></li>
+          <li><a href="faq.html">שאלות נפוצות</a></li>
+          <li><a href="contact.html">צור קשר</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-footer__base">
+        <nav aria-label="מידע משפטי ונגישות">
+          <ul class="site-footer__legal" role="list">
+            <li><a href="privacy.html">מדיניות פרטיות</a></li>
+            <li><a href="terms.html">תנאי שימוש</a></li>
+            <li><a href="accessibility.html">הצהרת נגישות</a></li>
+            <li><a href="card.html">כרטיס ביקור דיגיטלי</a></li>
+            <li><button type="button" class="consent-reset">הגדרות פרטיות</button></li>
+          </ul>
+        </nav>
+        <p class="site-footer__copy type-meta">© אפרת שכטר</p>
+        <p class="site-footer__credit type-meta">האתר נבנה על ידי <a href="https://thebwas.com" target="_blank" rel="noopener">עמית שכטר – בניית אתרים<span class="visually-hidden"> (נפתח בחלון חדש)</span></a></p>
+      </div>
+    </div>
+  </footer>
+
+    <!-- First-visit notice: terms, privacy and the analytics choice (like the Ella Ozan site, owner
+       request 2026-10-04). Shown until the visitor chooses (src/js/ui/consent.js, localStorage
+       "es-consent" = all | essential). GA4 loads only after "אני מאשר/ת". -->
+  <div class="site-notice" id="siteNotice" role="region" aria-label="תנאי שימוש ומדיניות פרטיות" hidden>
+    <span class="site-notice__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+    <div class="site-notice__body">
+      <p class="site-notice__title">רגע לפני שממשיכים</p>
+      <p class="site-notice__text">השימוש באתר כפוף ל<a href="terms.html">תנאי השימוש</a> ול<a href="privacy.html">מדיניות הפרטיות</a>. באישור, האתר ישתמש גם ב-<span class="ltr">Google Analytics</span> כדי למדוד באופן סטטיסטי איך משתמשים בו.</p>
+    </div>
+    <div class="site-notice__actions">
+      <button type="button" class="button button--accent site-notice__ok" id="siteNoticeOk"><span class="button__label">אני מאשר/ת</span></button>
+      <button type="button" class="site-notice__no" id="siteNoticeNo">ללא סטטיסטיקה</button>
+    </div>
+  </div>
+
+  <!-- Reading progress (replaces the hidden page scrollbar, owner request 2026-10-04): a thin
+       magenta bar at the top edge. CSS scroll timeline; src/js/ui/progress.js is the fallback. -->
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <!-- Floating WhatsApp circle on every page (owner request 2026-10-04, like the Ella Ozan site). -->
+  <a href="https://wa.me/972534401616" class="whatsapp-float" target="_blank" rel="noopener" aria-label="שליחת הודעת וואטסאפ לאפרת שכטר (נפתח בחלון חדש)">
+    <span class="whatsapp-float__pulse" aria-hidden="true"></span>
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.02 3C8.84 3 3 8.83 3 16c0 2.29.6 4.53 1.74 6.5L3 29l6.67-1.7A12.98 12.98 0 0 0 16.02 29C23.2 29 29 23.17 29 16S23.2 3 16.02 3Zm0 23.76c-1.96 0-3.88-.53-5.56-1.52l-.4-.24-3.96 1.01 1.06-3.86-.26-.4A10.74 10.74 0 0 1 5.24 16c0-5.94 4.84-10.77 10.78-10.77 5.93 0 10.75 4.83 10.75 10.77 0 5.93-4.82 10.76-10.75 10.76Zm5.9-8.06c-.32-.16-1.91-.94-2.2-1.05-.3-.11-.51-.16-.73.16-.21.32-.83 1.05-1.02 1.26-.19.22-.37.24-.7.08-.32-.16-1.36-.5-2.59-1.6-.96-.85-1.6-1.9-1.8-2.22-.18-.32-.02-.5.15-.66.14-.14.32-.37.48-.56.16-.19.21-.32.32-.54.1-.21.05-.4-.03-.56-.08-.16-.72-1.74-.99-2.38-.26-.62-.53-.54-.73-.55h-.62c-.21 0-.56.08-.86.4-.3.32-1.13 1.1-1.13 2.69 0 1.58 1.16 3.12 1.32 3.33.16.21 2.28 3.48 5.52 4.88.77.33 1.37.53 1.84.68.77.24 1.48.21 2.03.13.62-.09 1.91-.78 2.18-1.54.27-.75.27-1.4.19-1.54-.08-.13-.29-.21-.62-.37Z"/></svg>
+  </a>
+
+  <!-- Accessibility menu (built in-house, no third-party overlay). Logic: src/js/ui/a11y.js,
+       styles: src/css/components/a11y.css, early apply: the inline script in partials/head.html (localStorage "es-a11y"). Ported from the Ella Ozan site (owner request 2026-10-04). -->
+  <div class="a11y" id="a11y">
+    <button type="button" class="a11y__toggle" id="a11yToggle" aria-expanded="false" aria-controls="a11yPanel" aria-label="תפריט נגישות">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4" r="2"/><path d="M4 8.5c2.7.9 5.3 1.3 8 1.3s5.3-.4 8-1.3M12 9.8V15m0 0-3.2 6.5M12 15l3.2 6.5"/></svg>
+    </button>
+    <div class="a11y__panel" id="a11yPanel" role="dialog" aria-modal="false" aria-labelledby="a11yTitle" hidden>
+      <div class="a11y__head">
+        <p class="a11y__title" id="a11yTitle">תפריט נגישות</p>
+        <button type="button" class="a11y__close" id="a11yClose" aria-label="סגירת תפריט הנגישות"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+
+      <div class="a11y__size" role="group" aria-labelledby="a11ySizeLabel">
+        <span class="a11y__size-label" id="a11ySizeLabel">גודל טקסט</span>
+        <button type="button" class="a11y__step" data-a11y-zoom="-1" aria-label="הקטנת טקסט">א−</button>
+        <output class="a11y__size-value" id="a11yZoomValue" aria-live="polite">100%</output>
+        <button type="button" class="a11y__step" data-a11y-zoom="1" aria-label="הגדלת טקסט">א+</button>
+      </div>
+
+      <div class="a11y__grid">
+        <button type="button" class="a11y__opt" data-a11y="contrast" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v18a9 9 0 0 0 0-18Z" class="fill"/></svg><span>ניגודיות גבוהה</span></button>
+        <button type="button" class="a11y__opt" data-a11y="gray" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s6 6.4 6 10.5a6 6 0 0 1-12 0C6 9.4 12 3 12 3Z"/></svg><span>גווני אפור</span></button>
+        <button type="button" class="a11y__opt" data-a11y="links" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg><span>הדגשת קישורים</span></button>
+        <button type="button" class="a11y__opt" data-a11y="headings" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5v14M13 5v14M5 12h8M17 9l2-1v11"/></svg><span>הדגשת כותרות</span></button>
+        <button type="button" class="a11y__opt" data-a11y="font" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19 10 5l6 14M6.5 14h7M17 19h4"/></svg><span>גופן קריא</span></button>
+        <button type="button" class="a11y__opt" data-a11y="spacing" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span>ריווח טקסט</span></button>
+        <button type="button" class="a11y__opt" data-a11y="motion" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg><span>עצירת אנימציות</span></button>
+        <button type="button" class="a11y__opt" data-a11y="cursor" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l14 7-6 2-2 6Z"/></svg><span>סמן עכבר גדול</span></button>
+      </div>
+
+      <div class="a11y__foot">
+        <button type="button" class="a11y__reset" id="a11yReset">איפוס הגדרות</button>
+        <a class="a11y__statement" href="accessibility.html">הצהרת נגישות</a>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
